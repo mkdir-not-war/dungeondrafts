@@ -1,0 +1,32 @@
+==== PUZZLE ELEMENTS ======
+1. musical trinket: resonates metallic pistons that rise for 1 turn as 1x1 blocks
+2. water level control of whole dungeon
+	> underwater gates can be lifted easily, or the pressure seals them tight
+	> powers water wheels
+	> floating platforms aligned elevation with static objects
+	> fast moving water under boardwalks can sweep knocked-off creatures away
+3. spotter role
+	> rolls 1d3 each round, tells the party what the number is
+	> determines... something
+		** which creatures are empowered?
+		** which tonal spires are... active?
+4. disrupter role
+
+===========================
+
+* different factions, each with negotiation check with leader - can get retainers to help!
+
+* at the end of the raid, checklist of what you did grants different rewards
+	> did you side with Faction A? Title. Faction B? Title.
+	> did you get a retainer from Faction A and keep them alive? Retainer.
+	> did you kill boss C with specific puzzle mechanic? Title.
+	> find and kill secret boss? Magic item.
+
+==========
+
+OUTLINE
+1) enter jungle dungeon overgrown temple, fight lizard men
+	* get the music trinket
+2) open PORTAL using music trinket to... somewhere. Other dimension?
+	** this way you can't burrow down from dungeon to lower, further in raid
+3) 
