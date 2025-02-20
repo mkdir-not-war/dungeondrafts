@@ -1,0 +1,38 @@
+=== WHAT IS THIS CLASS? ===
+
+* You perform RITUALS during combat. You have your own set of victory conditions.
+* Sometimes, you need to adapt your Ritual, switching halfway through as the conditions of the battle change!
+
+>> maybe instead of amassing Heroic Resource, or instead of Heroic Abilities costing HR, 
+	your heroic abilities can be used FREELY **within** overlapping completed rituals!!
+
+* think:
+	> Exodia!
+	> drawing the magic circle -> what does it do? change the battle completely!
+	> bad guy draws alchemical circle under city in FMAB
+	> collecting orbs to power up vs raid boss in Destiny
+
+==== CHALLENGES =====
+
+* how do Victories give you a headstart on your shit?
+* how do we prevent the map from getting overloaded with a fuck ton of little AoEs to track?
+
+======= TO DO ========
+
+* what does this class do well?
+	DPS	Mob	Heal	Stam	Stick	Comm	Buff	Debuff	Control
+	-----------------------------------------------------------------------
+	Low	High	Med	High	Low 	Low	High	Low	High
+		^^^^		^^^^			^^^^		^^^^
+	** fury is low healing, despite temporary stamina
+	** conduit is low dps despite a couple hard hitting 5-HR abilities
+
+===========
+
+Signature
+	> Spend 1 Essence: change any number of adjacent Totems to either your current elemental resonance or your council's inherent resonance.
+
+High Level Feature: The Forbidden One!
+	> Obliterate!
+
+
