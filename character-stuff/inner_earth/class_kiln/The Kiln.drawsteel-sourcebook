@@ -1,0 +1,957 @@
+{
+	"id": "Tn7RJZooEdsfgec0",
+	"name": "The Kiln",
+	"description": "",
+	"isHomebrew": true,
+	"ancestries": [],
+	"cultures": [],
+	"careers": [],
+	"classes": [
+		{
+			"id": "AloWeZFEndEpywqk",
+			"name": "Kiln",
+			"description": "Kilns are magical warriors and guardians of the Undermind. The roots of the Undermind course with magical ether that you capture in your wooden talismans. Different woods burn with different powers, and you wield them all to turn your foes to ash.\nChaos is your home on the battlefield. Wherever the spark of opportunity presents itself, you arrive to stoke the flame. You can empower your allies to devastate your enemies. Should the need arise, however, you’re well-equipped to put those who stand against you to the pyre yourself.",
+			"heroicResource": "Spark",
+			"subclassName": "Cadre",
+			"subclassCount": 1,
+			"primaryCharacteristics": [
+				"Agility",
+				"Reason"
+			],
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "AHShD5RQJEsUMI5D",
+							"name": "Stamina",
+							"description": "",
+							"type": "Bonus",
+							"data": {
+								"field": "Stamina",
+								"value": 18,
+								"valueCharacteristics": [],
+								"valuePerLevel": 9,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "fASrDG7UhEX5Blxa",
+							"name": "Recoveries",
+							"description": "",
+							"type": "Bonus",
+							"data": {
+								"field": "Recoveries",
+								"value": 10,
+								"valueCharacteristics": [],
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "40EUJLeDYXVn2fjh",
+							"name": "Magic",
+							"description": "",
+							"type": "Skill",
+							"data": {
+								"skill": "Magic"
+							}
+						},
+						{
+							"id": "1D5vcoaQjS4bxAfB",
+							"name": "Timescape",
+							"description": "",
+							"type": "Skill",
+							"data": {
+								"skill": "Timescape"
+							}
+						},
+						{
+							"id": "XpH3WAhclAzTtZiv",
+							"name": "Crafting / Lore Skills",
+							"description": "",
+							"type": "Skill Choice",
+							"data": {
+								"options": [],
+								"listOptions": [
+									"Crafting",
+									"Lore"
+								],
+								"count": 2,
+								"selected": []
+							}
+						},
+						{
+							"id": "pVGsG9NfxCcT1pfc",
+							"name": "Spark",
+							"description": "At the start of each of your turns during combat, you gain 1d3 spark. Additionally, you gain 1 spark whenever you use the Stoke the Flame ability targeting an ally.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "NxRH87mcetZ70dNs",
+							"name": "Stoke the Flame",
+							"description": "As a kiln, you gain the following triggered action. Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself as a free triggered action.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "6AEyy4LFirQe4qST",
+									"name": "Stoke the Flame",
+									"description": "As an ally attacks, you harness a bit of arcane energy to grant them a decisive advantage.",
+									"type": {
+										"usage": "Triggered Action",
+										"free": false,
+										"trigger": "The target makes an ability power roll for an ability that deals damage. ",
+										"time": "",
+										"qualifiers": []
+									},
+									"keywords": [
+										"Magic",
+										"Ranged"
+									],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 5,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "1 ally",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "Apply one Stoke the Flame effect from your talisman kit granted by the Tinderbox feature.",
+									"strained": "",
+									"alternateEffects": [
+										"Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself as a free triggered action."
+									],
+									"spend": [],
+									"persistence": []
+								}
+							}
+						},
+						{
+							"id": "dXmTjCwMVwFeU1vV",
+							"name": "Kit",
+							"description": "",
+							"type": "Kit",
+							"data": {
+								"types": [
+									"Standard"
+								],
+								"count": 1,
+								"selected": []
+							}
+						},
+						{
+							"id": "dsTOgwyx33aQcquK",
+							"name": "Tinderbox",
+							"description": "Choose a Talisman kit.",
+							"type": "Kit",
+							"data": {
+								"types": [
+									"Kiln"
+								],
+								"count": 1,
+								"selected": []
+							}
+						},
+						{
+							"id": "QeAzUQduMYs8dMZS",
+							"name": "Ability",
+							"description": "",
+							"type": "Class Ability",
+							"data": {
+								"cost": 3,
+								"count": 1,
+								"selectedIDs": []
+							}
+						},
+						{
+							"id": "zWI9wDu9dKJVBjaj",
+							"name": "Ability",
+							"description": "",
+							"type": "Class Ability",
+							"data": {
+								"cost": 5,
+								"count": 1,
+								"selectedIDs": []
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"features": []
+				},
+				{
+					"level": 3,
+					"features": []
+				},
+				{
+					"level": 4,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 6,
+					"features": []
+				},
+				{
+					"level": 7,
+					"features": []
+				},
+				{
+					"level": 8,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				},
+				{
+					"level": 10,
+					"features": []
+				}
+			],
+			"abilities": [
+				{
+					"id": "o6o03jRIxEG0NQpx",
+					"name": "Dance Like Embers",
+					"description": "You dart from skirmish to skirmish leaving an ephemeral doppelganger of fire in your wake.",
+					"type": {
+						"usage": "Maneuver",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Magic"
+					],
+					"distance": [
+						{
+							"type": "Self",
+							"value": 0,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Self",
+					"cost": 3,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "You can teleport twice, each time up to 2 squares. If you are adjacent an enemy, no matter the enemy’s size, you can teleport to a space on the opposite side of the enemy as one of the teleports. All 3 squares before and after your teleports count as allies for flanking enemies until the end of your turn.",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "ghpGUOgj52GuvcYZ",
+					"name": "Heat Wave",
+					"description": "Toasty. ",
+					"type": {
+						"usage": "Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Area",
+						"Magic"
+					],
+					"distance": [
+						{
+							"type": "Burst",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "All enemies",
+					"cost": 3,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": {
+						"characteristic": [
+							"Reason"
+						],
+						"bonus": 0,
+						"tier1": "2 fire damage",
+						"tier2": "5 fire damage; push 1",
+						"tier3": "7 fire damage; push 2"
+					},
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "4IphmdVho7h9FoY8",
+					"name": "Smoke on the Wind",
+					"description": "Your body grows hazy and you briefly fade to an incorporeal state.",
+					"type": {
+						"usage": "Maneuver",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Magic"
+					],
+					"distance": [
+						{
+							"type": "Self",
+							"value": 0,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Self",
+					"cost": 3,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "You can shift up to your speed. You can pass through 1 square of solid matter as part of this movement, but you cannot end this movement inside solid matter. If you move through a square occupied by an ally, that ally gains a surge. ",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "sDLIrCOVMuotUg77",
+					"name": "Wavering Flame",
+					"description": "The heat of your movement plays tricks on your foes’ eyes.",
+					"type": {
+						"usage": "Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Melee",
+						"Strike",
+						"Ranged",
+						"Weapon"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						},
+						{
+							"type": "Ranged",
+							"value": 5,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "2 creatures or objects",
+					"cost": 3,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": {
+						"characteristic": [
+							"Agility"
+						],
+						"bonus": 0,
+						"tier1": "4 damage",
+						"tier2": "5 damage; R < average, dazed (EoT)",
+						"tier3": "7 damage; R < strong, dazed (EoT)"
+					},
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "pJu7F0ayOaU0jL8Y",
+					"name": "Grasp and Immolate",
+					"description": "There may be such thing as too warm of an embrace.",
+					"type": {
+						"usage": "Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Melee",
+						"Magic",
+						"Strike",
+						"Weapon"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "1 creature or object",
+					"cost": 5,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "If the target is already grabbed, the target is burning (save ends). A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends. ",
+					"powerRoll": {
+						"characteristic": [
+							"Agility"
+						],
+						"bonus": 0,
+						"tier1": "4 + A fire damage; M < weak, grabbed",
+						"tier2": "6 + A fire damage; M < average, grabbed",
+						"tier3": "10 + A fire damage; M < strong, grabbed"
+					},
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "Y11uB8aPXNICBB0Z",
+					"name": "Rake Over the Coals",
+					"description": "They drag their feet, but they only kick up more fire.",
+					"type": {
+						"usage": "Maneuver",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Melee",
+						"Strike",
+						"Weapon"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "1 creature or object",
+					"cost": 5,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": {
+						"characteristic": [
+							"Agility"
+						],
+						"bonus": 0,
+						"tier1": "Push 3",
+						"tier2": "Push 5",
+						"tier3": "Push 7"
+					},
+					"test": null,
+					"effect": "For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies.",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "02UsIBtWuprA6Ti5",
+					"name": "Searing Strike",
+					"description": "Memory of your steel radiates oppressive heat.",
+					"type": {
+						"usage": "Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Melee",
+						"Strike",
+						"Weapon"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "1 creature or object",
+					"cost": 5,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": {
+						"characteristic": [
+							"Agility"
+						],
+						"bonus": 0,
+						"tier1": "7 + A damage",
+						"tier2": "10 + A damage",
+						"tier3": "16 + A damage"
+					},
+					"test": null,
+					"effect": "The target has fire weakness 5 (save ends). Until the end of the encounter, whenever the target takes damage, all adjacent creatures take 2 fire damage.",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				},
+				{
+					"id": "vZHDpe6mKOcP89Xy",
+					"name": "Smoldering Sword",
+					"description": "Embers and ash rise and coalesce into a solid mass, honed to an edge and ready to command.",
+					"type": {
+						"usage": "Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": []
+					},
+					"keywords": [
+						"Magic",
+						"Ranged"
+					],
+					"distance": [
+						{
+							"type": "Ranged",
+							"value": 5,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Special",
+					"cost": 5,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of your next turn. All creatures can move through the sword’s space, but enemies who move into or out of the space provoke Opportunity Attacks from you. When you use a Weapon attack, you can choose to attack from the sword’s position. An attack performed in this way temporarily gains the Magic keyword and any untyped damage it deals is instead fire damage.",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			],
+			"subclasses": [
+				{
+					"id": "iIRFRndVCP4jQuXo",
+					"name": "Flameweaver",
+					"description": "You weave through the battlefield from skirmish to skirmish like a thread in the wind. Your power guides you to where you are needed most.",
+					"featuresByLevel": [
+						{
+							"level": 1,
+							"features": [
+								{
+									"id": "j0NHyyP7a0NF1TnH",
+									"name": "Navigate",
+									"description": "",
+									"type": "Skill",
+									"data": {
+										"skill": "Navigate"
+									}
+								},
+								{
+									"id": "eidZoR9ptsDVAv6X",
+									"name": "Stoke the Flame Cadre Benefit",
+									"description": "When you use your Stoke the Flame ability on an ally, you can shift a number of squares equal to your Agility score. ",
+									"type": "Text",
+									"data": null
+								}
+							],
+							"optionalFeatures": []
+						},
+						{
+							"level": 2,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 3,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 4,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 5,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 6,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 7,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 8,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 9,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 10,
+							"features": [],
+							"optionalFeatures": []
+						}
+					],
+					"selected": false
+				},
+				{
+					"id": "ezVKqdKSYQqHhxe0",
+					"name": "Hexblaze",
+					"description": "You are an eruption, and the battlefield will burn to ash. The explosive force of your power shatters any hope of victory for your enemies.",
+					"featuresByLevel": [
+						{
+							"level": 1,
+							"features": [
+								{
+									"id": "K2orXNVgQlytsh8Q",
+									"name": "Endurance",
+									"description": "",
+									"type": "Skill",
+									"data": {
+										"skill": "Endurance"
+									}
+								},
+								{
+									"id": "8WZni64Ku5UyuaSz",
+									"name": "Stoke the Flame Cadre Benefit",
+									"description": "When you use your Stoke the Flame ability on an ally, you gain one surge.",
+									"type": "Text",
+									"data": null
+								}
+							],
+							"optionalFeatures": []
+						},
+						{
+							"level": 2,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 3,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 4,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 5,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 6,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 7,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 8,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 9,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 10,
+							"features": [],
+							"optionalFeatures": []
+						}
+					],
+					"selected": false
+				},
+				{
+					"id": "R7zJXR3bkJBsMMlP",
+					"name": "Smokewight",
+					"description": "You are at once everywhere and nowhere. You slip through the grasp of your foes and you cannot be pinned down.",
+					"featuresByLevel": [
+						{
+							"level": 1,
+							"features": [
+								{
+									"id": "Jx8AcVTauHPBKCxS",
+									"name": "Escape Artist",
+									"description": "",
+									"type": "Skill",
+									"data": {
+										"skill": "Escape Artist"
+									}
+								},
+								{
+									"id": "X4oQbGOONdBQkZzi",
+									"name": "Stoke the Flame Cadre Benefit",
+									"description": "When you use your Stoke the Flame ability on an ally, you gain temporary Stamina equal to twice your Reason score.",
+									"type": "Text",
+									"data": null
+								}
+							],
+							"optionalFeatures": []
+						},
+						{
+							"level": 2,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 3,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 4,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 5,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 6,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 7,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 8,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 9,
+							"features": [],
+							"optionalFeatures": []
+						},
+						{
+							"level": 10,
+							"features": [],
+							"optionalFeatures": []
+						}
+					],
+					"selected": false
+				}
+			],
+			"level": 1,
+			"characteristics": []
+		}
+	],
+	"domains": [],
+	"kits": [
+		{
+			"id": "b6M3EJI16GGBBOnS",
+			"name": "Hawthorn",
+			"description": "Your talismans grant you the ability to ensnare, burden, and wrest vitality out of your victims.",
+			"type": "Kiln",
+			"armor": [],
+			"weapon": [],
+			"stamina": 0,
+			"speed": 0,
+			"stability": 0,
+			"meleeDamage": null,
+			"rangedDamage": null,
+			"meleeDistance": 0,
+			"rangedDistance": 0,
+			"disengage": 0,
+			"features": [
+				{
+					"id": "w5sSFIpYiEsCb838",
+					"name": "",
+					"description": "",
+					"type": "Ability",
+					"data": {
+						"ability": {
+							"id": "LfpLq2z0MdHLluQs",
+							"name": "Put Down Roots",
+							"description": "You reach out with magic tendrils, complicating and absorbing strength from your surroundings.",
+							"type": {
+								"usage": "Maneuver",
+								"free": false,
+								"trigger": "",
+								"time": "",
+								"qualifiers": []
+							},
+							"keywords": [
+								"Magic"
+							],
+							"distance": [
+								{
+									"type": "Aura",
+									"value": 1,
+									"value2": 0,
+									"within": 0,
+									"special": "",
+									"qualifier": ""
+								}
+							],
+							"target": "Self",
+							"cost": 0,
+							"repeatable": false,
+							"minLevel": 1,
+							"preEffect": "",
+							"powerRoll": null,
+							"test": null,
+							"effect": "Until the end of your next turn, the ground within the area is difficult terrain for enemies.",
+							"strained": "",
+							"alternateEffects": [],
+							"spend": [
+								{
+									"name": "",
+									"effect": "For each spark your spend, gain 1 surge and increase the aura’s distance by 1 square.",
+									"value": 1,
+									"repeatable": false
+								}
+							],
+							"persistence": []
+						}
+					}
+				},
+				{
+					"id": "6LDV6PIiHoOljlPJ",
+					"name": "",
+					"description": "",
+					"type": "Ability",
+					"data": {
+						"ability": {
+							"id": "cYrUy8SoUpCBmQvT",
+							"name": "Untame the Land",
+							"description": "Your talismans imbue you with a vivid memory of the wode before war or time.",
+							"type": {
+								"usage": "Action",
+								"free": false,
+								"trigger": "",
+								"time": "",
+								"qualifiers": []
+							},
+							"keywords": [
+								"Area",
+								"Magic"
+							],
+							"distance": [
+								{
+									"type": "Burst",
+									"value": 2,
+									"value2": 0,
+									"within": 0,
+									"special": "",
+									"qualifier": ""
+								}
+							],
+							"target": "All enemies",
+							"cost": "signature",
+							"repeatable": false,
+							"minLevel": 1,
+							"preEffect": "",
+							"powerRoll": {
+								"characteristic": [
+									"Reason"
+								],
+								"bonus": 0,
+								"tier1": "2 poison damage",
+								"tier2": "4 poison damage; pull 1",
+								"tier3": "6 poison damage; pull 1; restrained (EoT)"
+							},
+							"test": null,
+							"effect": "",
+							"strained": "",
+							"alternateEffects": [],
+							"spend": [],
+							"persistence": []
+						}
+					}
+				},
+				{
+					"id": "Rh3THhEfz7wQfVYR",
+					"name": "Hawthorn Stoke the Flame Effects",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is grabbed by a target of the ability (save ends). The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is bleeding (EoT).  |\n| Thurisaz | All targets of the ability shed thorns around them in 1 aura (EoT). When an enemy moves or is force moved to a square in the aura, they take 2 poison damage. |\n",
+					"type": "Text",
+					"data": null
+				}
+			]
+		}
+	],
+	"complications": [],
+	"perks": [],
+	"titles": [],
+	"items": [],
+	"monsterGroups": [],
+	"skills": [],
+	"languages": [],
+	"projects": []
+}
