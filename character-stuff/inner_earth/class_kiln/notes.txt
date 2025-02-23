@@ -42,18 +42,16 @@ SUBCLASSES: Hexdrinker (mistborn), Witch Hunter (witcher), Cryptokinetic (alucar
 * Smokewight (alucard/nautilus): mobility/stick/temp-stam (engage tank, lock down, intercept)
 
 
-== st elmo's fire?
-
-== Lv 4 ability:
-	* Trigger action: when you deal untyped damage, you can convert it to fire damage.
-	* Trigger action: when you receive fire damage, you can convert it to untyped damage.
-
 == Lv 5 ability:
 	* based on cadre: when a non-minion enemy dies/winded within your Incensed Field ritual site...
 
-== Lv 6 ability:
+== Lv 6 abilities:
+	* at the end of each respite...
 	* Effigy: select a target to be an Effigy. When they take fire damage, ally buffing Aura (s/e)
 		** Aura effect depends which Effigy you choose.
+
+== ?? ability
+	* you and allies in the incensed field can change their damage type (any type) to fire damage
 
 == Lv 10? ability:
 	* choose an ally, make a talisman of them. Choose one of their

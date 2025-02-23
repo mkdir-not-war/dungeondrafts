@@ -1,0 +1,45 @@
+
+== IDEAS ==
+* nightstone-like -> moathouse (town citizens escaped to? Captured?)
+
+overview:
+	1) The hawklords bombard the city and whisk away the sealing stone
+		- town is named Ivywatch - sealing stone seals passage to Arcadia under city
+	2) town is ravaged: local goblin tribe sees opportunity and attacks!
+		- steals citizens & occupies the city, bring hostages to moathouse
+	>> ENTER THE HEROES
+	3) phandalin opening: ambush on the road to ivywatch
+	4.1) if the party investigates the tracks to the cave
+		- phandalin cave dungeon, save the carter, learn about ivywatch
+		- occupation of ivywatch is done when party arrives
+	4.2) if the party continues to ivywatch
+		- ivywatch is occupied, fight through the town
+	5) enter the keep, lots of townsfolk taking refuge. Lord is barely keeping it together
+		- lots of injured as well
+		- hysterical young father begs you to save his wife
+		- center of town: evidence of something very large & prominent now missing
+	6) montage test to track goblins to their hideout
+		- super success: find side entrance to underground
+		- success: find the fort occupied by its guard...
+		- failure: find the fort empty, surprised by the guard returning
+		** guard = Ogre Goon + Skitterling Minions
+	7) a scout/squire of the wode elf knights enter from the portal to Arcadia! 
+		the knights cannot leave Arcadia even if they wanted - their oath prevents it
+		the squire hasn't taken the oath yet so they were sent to check on things...
+		** the squire isn't actually interested in helping, they'd rather get back
+		   to the knights ASAP and help fight against Arcadia. 
+		   Goblins aren't really a threat anyway...
+		** can negotiate to convince them to help in various ways. Retainer?
+	8) save the citizens before... some imminent threat! What are the goblins up to???
+	9) return to ivywatch, but! Another squire and the townsfolk don't get along! 
+		Squire is like the previous squire, but sent to check on the Sealing Stone,
+		blames the villagers for not protecting it seriously enough!
+		Mediate the parties, get reward and possibly a new verb/quest
+
+
+What is the night stone equivalent??
+	* The Sealing Stone - positioned in the center of 4 knight's forts to seal the 
+		portals to the realm of evil fae - story says the knights
+		entered the portals to take the fight to the enemy and activated the stone,
+		essentially locking the door behind themselves in the fae realm...
+	* Town is named Ivywatch
