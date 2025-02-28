@@ -1,11 +1,18 @@
 
-== IDEAS ==
-* nightstone-like -> moathouse (town citizens escaped to? Captured?)
+== ART ==
+	~) all battlemaps, different times of day & other variations
+  in-book art (buy on fiverr):
+	1) hawklord
+	2) the lord of ivywatch
+	3) the wode elf scout
+	4) lizardfolk leader summoning an aspect of reptile god
+  in-book art (I can do this):
+	~) area layouts/flowmaps have background illustration map
 
-overview:
+== OVERVIEW ==
 	1) The hawklords bombard the city and whisk away the sealing stone
 		- town is named Ivywatch - sealing stone seals passage to Arcadia under city
-	2) town is ravaged: local goblin tribe sees opportunity and attacks!
+	2) town is ravaged: local lizardfolk tribe sees opportunity and attacks!
 		- steals citizens & occupies the city, bring hostages to moathouse
 	>> ENTER THE HEROES
 	3) phandalin opening: ambush on the road to ivywatch
@@ -18,7 +25,7 @@ overview:
 		- lots of injured as well
 		- hysterical young father begs you to save his wife
 		- center of town: evidence of something very large & prominent now missing
-	6) montage test to track goblins to their hideout
+	6) montage test to track lizardfolk to their hideout
 		- super success: find side entrance to underground
 		- success: find the fort occupied by its guard...
 		- failure: find the fort empty, surprised by the guard returning
@@ -28,9 +35,11 @@ overview:
 		the squire hasn't taken the oath yet so they were sent to check on things...
 		** the squire isn't actually interested in helping, they'd rather get back
 		   to the knights ASAP and help fight against Arcadia. 
-		   Goblins aren't really a threat anyway...
+		   Lizardfolk aren't really a threat anyway...
 		** can negotiate to convince them to help in various ways. Retainer?
-	8) save the citizens before... some imminent threat! What are the goblins up to???
+	8) save the citizens before... some imminent threat! What are the lizardfolk up to???
+		** summoning a naga god!
+		   <<homebrew monster - aspect of naga>>
 	9) return to ivywatch, but! Another squire and the townsfolk don't get along! 
 		Squire is like the previous squire, but sent to check on the Sealing Stone,
 		blames the villagers for not protecting it seriously enough!
