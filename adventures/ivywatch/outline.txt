@@ -1,13 +1,33 @@
 
-== ART ==
-	~) all battlemaps, different times of day & other variations
-  in-book art (buy on fiverr):
-	1) hawklord
-	2) the lord of ivywatch
-	3) the wode elf scout
-	4) lizardfolk leader summoning an aspect of reptile god
-  in-book art (I can do this):
-	~) area layouts/flowmaps have background illustration map
+== TIME ==
+	1) prologue fight
+	2) cave entrance fight/town gate fight
+	3) dam fight/church or market fight
+	**1) optional portal fight
+	4) town keep fight
+	5) grunt camp fight
+	**2) optional ogre fight
+	6) portal room fight w/ wode elf squire
+	7) ritual room fight
+	8) training hall fight
+	**3) optional prayer hall fight
+	**4) optional torture room fight
+	**5) optional coral snake fight
+	**6) optional NEGOTIATION w/ wode elf squire
+	> 1) optional scene at tomb
+	> 2) scene at sealing stone
+	> 3) scene at hall of statues
+	> 4) optional scene at crypt & laboratory
+	> 5) optional scene in 2nd portal room
+	> 6) optional scene in Arcadia
+	> 7) scene in town keep
+
+	= 8 mandatory fights -> 16 hours
+	= 6 optional fights -> +12 hours
+	= 3 mandatory scenes -> 3 hours
+	= 4 optional scenes -> +4 hours
+			-----------------
+				~24-36 hours
 
 == OVERVIEW ==
 	1) The hawklords bombard the city and whisk away the sealing stone
