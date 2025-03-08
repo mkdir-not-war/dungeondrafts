@@ -31,6 +31,11 @@
 
 == NOTES ==
 
+	FORTRESS: be sure to have a combat encounter for restocking locations
+		the "wandering" encounter, for when the party leaves for respite
+		and comes back -- not just random fight; it implies some villagers are killed?
+		maybe some undead involved?
+
 	ARCADIAN KNIGHTS:
 		1) Andreja - protect lives, serve (Motivation: Protection)
 			Order: The Oak Shields
