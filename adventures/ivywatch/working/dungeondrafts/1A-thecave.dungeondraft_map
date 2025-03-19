@@ -17,8 +17,8 @@
 		],
 		"editor_state": {
 			"current_level": 1,
-			"camera_position": "Vector2( 2470.07, 5059.97 )",
-			"camera_zoom": 12.012012,
+			"camera_position": "Vector2( 5350.86, 1472.65 )",
+			"camera_zoom": 5.333333,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -132,9 +132,9 @@
 			},
 			"object_library_memory": {
 				"mode": "all",
-				"scroll": 398,
+				"scroll": 0,
 				"selected": [
-					"res://textures/objects/vegetation/vines/tendrils_04.png"
+					"res://textures/objects/environment/fire_07.png"
 				],
 				"search_strictness": 0.5
 			},
@@ -153,7 +153,7 @@
 		"format": 3,
 		"width": 30,
 		"height": 35,
-		"next_node_id": "3b1",
+		"next_node_id": "3df",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -167,7 +167,7 @@
 		},
 		"building_wear": null,
 		"wall_shadow": false,
-		"object_shadow": true,
+		"object_shadow": false,
 		"trace_image_visible": false,
 		"embedded": {
 
@@ -1255,27 +1255,27 @@
 						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
 						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
 						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"4": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"5": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"6": "res://textures/tilesets/simple/tileset_carpet.png",
+						"3": "res://textures/tilesets/simple/tileset_cobble.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"5": "res://textures/tilesets/simple/tileset_brick_worn.png",
+						"6": "res://textures/tilesets/simple/tileset_cave.png",
 						"7": "res://textures/tilesets/simple/tileset_concrete.png",
 						"8": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"9": "res://textures/tilesets/simple/tileset_cave.png",
-						"10": "res://textures/tilesets/simple/tileset_cobble.png",
-						"11": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"9": "res://textures/tilesets/simple/tileset_carpet.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_diamond_2.png",
 						"12": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"13": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"14": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"15": "res://textures/tilesets/simple/tileset_sewers.png",
-						"16": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"17": "res://textures/tilesets/simple/tileset_diamond.png",
-						"18": "res://textures/tilesets/simple/tileset_ornate.png",
-						"19": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"20": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"22": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"23": "res://textures/tilesets/simple/tileset_straw.png"
+						"13": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"14": "res://textures/tilesets/simple/tileset_diamond.png",
+						"15": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"16": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"17": "res://textures/tilesets/simple/tileset_sewers.png",
+						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
+						"19": "res://textures/tilesets/simple/tileset_ornate.png",
+						"20": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"22": "res://textures/tilesets/simple/tileset_straw.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png"
 					}
 				},
 				"patterns": [
@@ -1624,7 +1624,7 @@
 				"label": "Ground",
 				"environment": {
 					"baked_lighting": true,
-					"ambient_light": "ffffffff"
+					"ambient_light": "ffb2c5ff"
 				},
 				"layers": {
 					"-400": "Below Ground",
@@ -2702,27 +2702,27 @@
 						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
 						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
 						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"4": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"5": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"6": "res://textures/tilesets/simple/tileset_carpet.png",
+						"3": "res://textures/tilesets/simple/tileset_cobble.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"5": "res://textures/tilesets/simple/tileset_brick_worn.png",
+						"6": "res://textures/tilesets/simple/tileset_cave.png",
 						"7": "res://textures/tilesets/simple/tileset_concrete.png",
 						"8": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"9": "res://textures/tilesets/simple/tileset_cave.png",
-						"10": "res://textures/tilesets/simple/tileset_cobble.png",
-						"11": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"9": "res://textures/tilesets/simple/tileset_carpet.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_diamond_2.png",
 						"12": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"13": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"14": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"15": "res://textures/tilesets/simple/tileset_sewers.png",
-						"16": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"17": "res://textures/tilesets/simple/tileset_diamond.png",
-						"18": "res://textures/tilesets/simple/tileset_ornate.png",
-						"19": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"20": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"22": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"23": "res://textures/tilesets/simple/tileset_straw.png"
+						"13": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"14": "res://textures/tilesets/simple/tileset_diamond.png",
+						"15": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"16": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"17": "res://textures/tilesets/simple/tileset_sewers.png",
+						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
+						"19": "res://textures/tilesets/simple/tileset_ornate.png",
+						"20": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"22": "res://textures/tilesets/simple/tileset_straw.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png"
 					}
 				},
 				"patterns": [
@@ -2772,20 +2772,6 @@
 						]
 					},
 					{
-						"points": "PoolVector2Array( 3099.77, 5379.51, 3099.77, 6395.51 )",
-						"texture": "res://textures/walls/wood_02.png",
-						"color": "ff705e4b",
-						"loop": false,
-						"type": 1,
-						"joint": 1,
-						"normalize_uv": true,
-						"shadow": false,
-						"node_id": "160",
-						"portals": [
-
-						]
-					},
-					{
 						"points": "PoolVector2Array( 4099.65, 7132.2, 5623.65, 7136.2, 5664.45, 6445, 6151.65, 6412.2 )",
 						"texture": "res://textures/walls/wood_02.png",
 						"color": "ff705e4b",
@@ -2795,6 +2781,20 @@
 						"normalize_uv": true,
 						"shadow": false,
 						"node_id": "130",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3099.77, 5379.51, 3099.77, 6395.51 )",
+						"texture": "res://textures/walls/wood_02.png",
+						"color": "ff705e4b",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": false,
+						"node_id": "160",
 						"portals": [
 
 						]
@@ -2823,7 +2823,7 @@
 				"water": {
 					"disable_border": false,
 					"tree": {
-						"ref": -1098509994,
+						"ref": -873233898,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -2833,7 +2833,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": 1789945370,
+								"ref": -1530137670,
 								"polygon": "PoolVector2Array( 5376, 9728, 5376, 10240, 4608, 10240, 4608, 9216, 4864, 8704, 4864, 8192, 4621, 8070, 5060, 8062, 5051, 8024, 4562, 8041, 4352, 7936, 3840, 7936, 3328, 7680, 2816, 7680, 2560, 7424, 2304, 6912, 2304, 1536, 2560, 1024, 2560, -512, 3328, -512, 3328, 1280, 3072, 1792, 3072, 4942, 3166, 4996, 3434, 5037, 3793, 5002, 3827, 5014, 3942, 4966, 4070, 5014, 4070, 5118, 4023, 5156, 3876, 5164, 3774, 5100, 3763, 5082, 3681, 5069, 3358, 5121, 3185, 5098, 3095, 5121, 3072, 5156, 3072, 6656, 3328, 6912, 3840, 7168, 5120, 7168, 5632, 7680, 5632, 9216 )",
 								"join": 0,
 								"end": 0,
@@ -2916,6 +2916,149 @@
 					}
 				],
 				"objects": [
+					{
+						"position": "Vector2( 6112.21, 6927.16 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 2, 2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3ce"
+					},
+					{
+						"position": "Vector2( 3957.54, 6777.83 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3cd"
+					},
+					{
+						"position": "Vector2( 3477.54, 6527.16 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3cc"
+					},
+					{
+						"position": "Vector2( 6666.87, 8969.83 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3ca"
+					},
+					{
+						"position": "Vector2( 7168.21, 8447.16 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c9"
+					},
+					{
+						"position": "Vector2( 1541.54, 6607.16 )",
+						"rotation": 1.308997,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c3"
+					},
+					{
+						"position": "Vector2( 3082.87, 8980.5 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c2"
+					},
+					{
+						"position": "Vector2( 992.208, 7433.83 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c1"
+					},
+					{
+						"position": "Vector2( -10.459, 7172.5 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c0"
+					},
+					{
+						"position": "Vector2( 245.541, 9017.83 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_08.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3bf"
+					},
+					{
+						"position": "Vector2( 192.208, 8457.83 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3be"
+					},
+					{
+						"position": "Vector2( 1024.21, 8959.16 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3bd"
+					},
+					{
+						"position": "Vector2( 3552.21, 8148.5 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_07.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3bc"
+					},
 					{
 						"position": "Vector2( 6978.94, 3150.63 )",
 						"rotation": 2.094395,
@@ -3401,50 +3544,6 @@
 						"node_id": "184"
 					},
 					{
-						"position": "Vector2( 3449.92, 6531.9 )",
-						"rotation": -0.261799,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "7d"
-					},
-					{
-						"position": "Vector2( 3981.92, 6803.89 )",
-						"rotation": -0.2618,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "7e"
-					},
-					{
-						"position": "Vector2( 6280.59, 6798.56 )",
-						"rotation": -0.261799,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "7f"
-					},
-					{
-						"position": "Vector2( 6016.59, 7446.56 )",
-						"rotation": -1.308997,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_08.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "80"
-					},
-					{
 						"position": "Vector2( 4223.66, 4256.68 )",
 						"rotation": -3.141593,
 						"scale": "Vector2( 1.2, 1.2 )",
@@ -3467,39 +3566,6 @@
 						"node_id": "82"
 					},
 					{
-						"position": "Vector2( 7670.57, 6914.6 )",
-						"rotation": 2.879793,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_03.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "114"
-					},
-					{
-						"position": "Vector2( 7306.57, 7530.6 )",
-						"rotation": 2.879793,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "115"
-					},
-					{
-						"position": "Vector2( 7830.57, 7550.6 )",
-						"rotation": 2.879793,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "116"
-					},
-					{
 						"position": "Vector2( 8230.57, 6406.6 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 1.4, 1.4 )",
@@ -3509,17 +3575,6 @@
 						"shadow": true,
 						"block_light": false,
 						"node_id": "117"
-					},
-					{
-						"position": "Vector2( 7818.57, 6258.6 )",
-						"rotation": 1.308997,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "118"
 					},
 					{
 						"position": "Vector2( 8070.57, 7794.6 )",
@@ -3533,61 +3588,6 @@
 						"node_id": "119"
 					},
 					{
-						"position": "Vector2( 7046.57, 8026.6 )",
-						"rotation": 1.308997,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "11a"
-					},
-					{
-						"position": "Vector2( 7562.57, 8318.6 )",
-						"rotation": 1.308997,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "11b"
-					},
-					{
-						"position": "Vector2( 7130.57, 8886.6 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_07.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "11c"
-					},
-					{
-						"position": "Vector2( 7562.57, 8870.6 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "11d"
-					},
-					{
-						"position": "Vector2( 6806.57, 8578.6 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_12.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "11e"
-					},
-					{
 						"position": "Vector2( 8062.57, 8578.6 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.4, 1.4 )",
@@ -3599,28 +3599,6 @@
 						"node_id": "11f"
 					},
 					{
-						"position": "Vector2( 6266.57, 8078.6 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "120"
-					},
-					{
-						"position": "Vector2( 5998.57, 8854.6 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "121"
-					},
-					{
 						"position": "Vector2( 8085.24, 5743.93 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.4, 1.4 )",
@@ -3630,17 +3608,6 @@
 						"shadow": true,
 						"block_light": false,
 						"node_id": "123"
-					},
-					{
-						"position": "Vector2( 7042.58, 6029.27 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "126"
 					},
 					{
 						"position": "Vector2( 4261.24, 7038.6 )",
@@ -3764,28 +3731,6 @@
 						"node_id": "163"
 					},
 					{
-						"position": "Vector2( 1920, 7040 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_04.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "164"
-					},
-					{
-						"position": "Vector2( 896, 6528 )",
-						"rotation": 2.879793,
-						"scale": "Vector2( 1.5, 1.5 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "166"
-					},
-					{
 						"position": "Vector2( -581.023, 6401.37 )",
 						"rotation": -3.141593,
 						"scale": "Vector2( 1.5, 1.5 )",
@@ -3852,17 +3797,6 @@
 						"node_id": "16c"
 					},
 					{
-						"position": "Vector2( 128.311, 8833.37 )",
-						"rotation": 2.094395,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "16d"
-					},
-					{
 						"position": "Vector2( -751.689, 9041.37 )",
 						"rotation": 2.094395,
 						"scale": "Vector2( 1.4, 1.4 )",
@@ -3872,160 +3806,6 @@
 						"shadow": true,
 						"block_light": false,
 						"node_id": "16e"
-					},
-					{
-						"position": "Vector2( 938.977, 9004.04 )",
-						"rotation": -1.832596,
-						"scale": "Vector2( 1.5, 1.5 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_03.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "16f"
-					},
-					{
-						"position": "Vector2( 1386.98, 8081.37 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "170"
-					},
-					{
-						"position": "Vector2( 133.644, 7062.71 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "171"
-					},
-					{
-						"position": "Vector2( 2432.31, 8076.04 )",
-						"rotation": -1.308997,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "173"
-					},
-					{
-						"position": "Vector2( 1434.98, 7324.04 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "174"
-					},
-					{
-						"position": "Vector2( 389.644, 6028.04 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "175"
-					},
-					{
-						"position": "Vector2( 3983.93, 8337.81 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.6, 1.6 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "176"
-					},
-					{
-						"position": "Vector2( 4234.59, 8849.81 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "177"
-					},
-					{
-						"position": "Vector2( 55.8897, 8148.9 )",
-						"rotation": 0.523597,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_07.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "178"
-					},
-					{
-						"position": "Vector2( 359.89, 8298.24 )",
-						"rotation": 0.523597,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "179"
-					},
-					{
-						"position": "Vector2( 381.222, 7546.24 )",
-						"rotation": 0.523597,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "17a"
-					},
-					{
-						"position": "Vector2( 1909.26, 8849.81 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.5, 1.5 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "17b"
-					},
-					{
-						"position": "Vector2( 2165.26, 8561.81 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "17c"
-					},
-					{
-						"position": "Vector2( 3199.93, 7815.14 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "17d"
 					},
 					{
 						"position": "Vector2( 4608.53, 5892.56 )",
@@ -4224,83 +4004,6 @@
 						"shadow": true,
 						"block_light": false,
 						"node_id": "2a1"
-					},
-					{
-						"position": "Vector2( 117.056, 6515.53 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_04.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a2"
-					},
-					{
-						"position": "Vector2( 117.056, 5518.2 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a3"
-					},
-					{
-						"position": "Vector2( 645.056, 7288.87 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_05.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a4"
-					},
-					{
-						"position": "Vector2( 869.056, 7806.2 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a5"
-					},
-					{
-						"position": "Vector2( 885.057, 8563.53 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a7"
-					},
-					{
-						"position": "Vector2( 3463.72, 8055.53 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a8"
-					},
-					{
-						"position": "Vector2( 2695.72, 7815.53 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.3, 1.3 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "2a9"
 					},
 					{
 						"position": "Vector2( 2816, 8064 )",
@@ -4831,17 +4534,6 @@
 						"node_id": "2db"
 					},
 					{
-						"position": "Vector2( 7033.24, 7043.93 )",
-						"rotation": -1.047198,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "122"
-					},
-					{
 						"position": "Vector2( 4736, 8064 )",
 						"rotation": -2.356194,
 						"scale": "Vector2( 1.2, 1.2 )",
@@ -5027,17 +4719,6 @@
 						"shadow": false,
 						"block_light": false,
 						"node_id": "2ec"
-					},
-					{
-						"position": "Vector2( 2170.98, 7713.37 )",
-						"rotation": -1.308997,
-						"scale": "Vector2( 1.4, 1.4 )",
-						"mirror": false,
-						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_08.png",
-						"layer": 100,
-						"shadow": true,
-						"block_light": false,
-						"node_id": "172"
 					},
 					{
 						"position": "Vector2( 768, 5632 )",
@@ -5467,6 +5148,226 @@
 						"shadow": true,
 						"block_light": false,
 						"node_id": "332"
+					},
+					{
+						"position": "Vector2( 2288.21, 7679.17 )",
+						"rotation": -0.523599,
+						"scale": "Vector2( 1.9, 1.9 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3b6"
+					},
+					{
+						"position": "Vector2( 1264.21, 8089.83 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_08.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3b7"
+					},
+					{
+						"position": "Vector2( 2037.54, 8724.5 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 1.9, 1.9 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3b9"
+					},
+					{
+						"position": "Vector2( 4090.88, 8452.5 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2, 2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3ba"
+					},
+					{
+						"position": "Vector2( 3317.54, 7951.17 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 2.1, 2.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_04.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3bb"
+					},
+					{
+						"position": "Vector2( 890.875, 6276.5 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1.2, 1.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c4"
+					},
+					{
+						"position": "Vector2( 1658.87, 7284.5 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1.2, 1.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_09.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c5"
+					},
+					{
+						"position": "Vector2( 6400.21, 8191.16 )",
+						"rotation": 1.308997,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c6"
+					},
+					{
+						"position": "Vector2( 7178.87, 7417.83 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c7"
+					},
+					{
+						"position": "Vector2( 7642.87, 8665.83 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3c8"
+					},
+					{
+						"position": "Vector2( 7162.87, 6084.5 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_06.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3cf"
+					},
+					{
+						"position": "Vector2( 7648.21, 6649.83 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 2.2, 2.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d0"
+					},
+					{
+						"position": "Vector2( 6026.87, 6009.83 )",
+						"rotation": -0.523599,
+						"scale": "Vector2( 1.4, 1.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d1"
+					},
+					{
+						"position": "Vector2( 117.427, 5508.78 )",
+						"rotation": -0.523599,
+						"scale": "Vector2( 1.4, 1.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d2"
+					},
+					{
+						"position": "Vector2( 63.8271, 8022.64 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 1.4, 1.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d3"
+					},
+					{
+						"position": "Vector2( 6013.34, 8573.1 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 1.4, 1.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_10.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d4"
+					},
+					{
+						"position": "Vector2( 7703.21, 7705.1 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 2.4, 2.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d5"
+					},
+					{
+						"position": "Vector2( 3600.65, 9015.6 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 2.4, 2.4 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/shrubs/bush_green_simple_11.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3d6"
+					},
+					{
+						"position": "Vector2( 2218.46, 915.581 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://textures/objects/decor/lighting/torch_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "3da"
+					},
+					{
+						"position": "Vector2( 2140.06, 853.181 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.3, 0.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/environment/fire_07.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "3db"
 					}
 				],
 				"lights": [
@@ -5479,6 +5380,26 @@
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
 						"node_id": "2be"
+					},
+					{
+						"position": "Vector2( 2150.86, 877.18 )",
+						"rotation": 0,
+						"range": 3,
+						"intensity": 0.9,
+						"color": "ffffad58",
+						"texture": "res://textures/lights/fragments.png",
+						"shadows": true,
+						"node_id": "3dc"
+					},
+					{
+						"position": "Vector2( 2150.86, 896.647 )",
+						"rotation": 0,
+						"range": 5.5,
+						"intensity": 0.5,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/point.png",
+						"shadows": true,
+						"node_id": "3de"
 					}
 				],
 				"roofs": {
