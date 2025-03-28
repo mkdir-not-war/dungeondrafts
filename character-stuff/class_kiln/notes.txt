@@ -1,0 +1,66 @@
+====== LAYOUT ========
+
+1) 1-page setting primer for Inner Earth
+2) Soulborn Ancestry
+3) Spellbinder Class
+	* the Soulbinder, Soulsmoker, Soulburner, Soulflare, Soulcinder, Soulspark
+	* the Woodwill, the Cinder
+
+======= TO DO ========
+
+* lean more into forced movement options
+* what does this class do well?
+	DPS	Mob	Heal	Stam	Stick	Comm	Buff	Debuff	Control
+	-----------------------------------------------------------------------
+	Low	Med	Low	Med	Med	Low	High	High	High
+							^^^^	^^^^	^^^^
+	** fury is low healing, despite temporary stamina, so we are low healing too
+	** conduit is low dps despite a couple hard hitting 5-HR abilities, so we are too
+
+* We should feel a lot more like we're risking it all when getting in close,
+	if our buffs run out (not entirely in our control, bit of risk!), we
+	could potentially have landed ourself in a very bad situation.
+
+* Rethink subclasses, and possibly rethink Depth as a heroic resource.
+	Maybe Talismans are our resource? Rather than always having the three?
+* Burning a talisman should not only buff us but also create some kind of unique
+	risk factor. We should be thinking not only "which of these is perfect for this fight"
+	but also "which of these is a risk that I can manage in this fight?". 
+	> Not a simple debuff, but something you *want* to ride the line of. For example, 
+	maybe one grants 1d3 Depth when you end your turn adjacent a foe, 
+	but if you hit 6 Depth, you Drown in a unique way to that talisman?
+	> Then we can play with Drowning in subclasses?
+
+===========
+
+SUBCLASSES: Hexdrinker (mistborn), Witch Hunter (witcher), Cryptokinetic (alucard)
+
+= summaries =
+** all subclasses have buff/debuff/control
+* Flameweaver (mistborn): mobility/dps (harrier)
+* Hexblaze (witcher): self-heal/dps (fury-like, risk/reward, doom playstyle)
+* Smokewight (alucard/nautilus): mobility/stick/temp-stam (engage tank, lock down, intercept)
+
+
+*** need respite stuff - at the end of each respite...
+
+Wicker Man - force move an enemy into the center of a 3x3 DTO, then they're restrained.
+	while they're restrained, you can control the wicker man as a retainer!
+	Or just free maneuvers on your turn *like* it's a retainer
+
+Cataclysm - your epic resource!
+
+Ashbound & Infernal Totem - 
+	* choose an ally, make a talisman of them. Choose one of their
+	  signature abilities.
+	>> going to have to rework this >>
+		** while talisman is not flared, can use the signature ability yourself.
+		   If the ability can trigger one of the ally's triggered actions, they
+		   can use that triggered action on the ability for free.
+		** when you flare the talisman, you cannot use the signature anymore.
+		   The ally gains 3 Heroic Resource and until EoE, they gain all your
+		   flared talisman passive bonuses.
+
+
+
+
