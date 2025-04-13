@@ -1,48 +1,34 @@
 
+== TIME ==
+	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
+	2) fight at the chapel [1-2] (demons from the orb - extra: save the priest)
+	3) fight at the sealing stone [1] (hawklord accusations)
+	*) skill/group tests at ivywatch keep
+	*) montage test to find dungeon [1]
+	4) entrance fight [1] (ogre/lizardfolk)
+	5) prayer hall fight [1] (twilight princess from arcadia)
+	*) portal room with squire, potential negotiation [0-1]
+	6) ziggurat boss fight [1-2] (1: save the villagers, 2: prevent the summoning)
+	*) montage test to leave [1]
+
+	optional 1) other entrance [1] (ogre/lizardfolk)
+	optional 2) tomb/lab [1-2] (lizardfolk - extra: save the squire before they kill him)
+	optional 3) magic sword [1] (undead guard the sword)
+	optional *) hall of statues
+	optional 4) knights quarters/kitchen [1-2] (lizardfolk - extra: save the children)
+
+	Victories: [8-18]
+	Hours: 2*combats + 1*others = [16-25]
+
 ***** Fighting the summoner = Goxomoc encounter
 	> if you fail! Instantly teleported to Arcadia - denouement is licking your wounds,
 		you must now find the knights and convince them to help you against
 		the newly summoned demon! 
 	> if you succeed, MONTAGE TEST to escape the crumbling fortress and save the citizens!
 
-== TIME ==
-	1) prologue fight
-	2) cave entrance fight/town gate fight
-	3) dam fight/church or market fight
-	**1) optional portal fight
-	4) town keep fight
-	5) grunt camp fight
-	**2) optional ogre fight
-	6) portal room fight w/ wode elf squire
-	7) ritual room fight
-	8) training hall fight
-	**3) optional prayer hall fight
-	**4) optional torture room fight
-	**5) optional coral snake fight
-	**6) optional NEGOTIATION w/ wode elf squire
-	> 1) optional scene at tomb
-	> 2) scene at sealing stone
-	> 3) scene at hall of statues
-	> 4) optional scene at crypt & laboratory
-	> 5) optional scene in 2nd portal room
-	> 6) optional scene in Arcadia
-	> 7) scene in town keep
-
-	= 8 mandatory fights -> 16 hours
-	= 6 optional fights -> +12 hours
-	= 3 mandatory scenes -> 3 hours
-	= 4 optional scenes -> +4 hours
-			-----------------
-				~24-36 hours
-
 == NOTES ==
 
-	FORTRESS: be sure to have a combat encounter for restocking locations
-		the "wandering" encounter, for when the party leaves for respite
-		and comes back -- not just random fight; it implies some villagers are killed?
-		maybe some undead involved?
-
-	ARCADIAN KNIGHTS:
+	ARCADIAN KNIGHTS (Knights of Golden Ivy):
 		1) Andreja - protect lives, serve (Motivation: Protection)
 			Order: The Oak Shields
 			Charge (design on shield): Seven-Pointed Star, Gold on Green
@@ -59,12 +45,7 @@
 		3) Grigor - avenge the fallen in the war, duty (Motivation: Vengeance)
 		4) Nicklaus - end the war so we can go home, begrudging (Motivation: Freedom)
 
-	PORTAL FIGHTS
-		1) The Cave:
-			- portal flickers on, something comes through, flickers off
-				* thing is obviously evil -> mistreating its DOGS! (bit with a...)
-			- some statues (A & B) have oaths written on them, the rest are illegible
-
+		some statues (A & B) have oaths written on them, the rest are illegible
 		>> obelisk room has oaths B & C
 
 		A: Andreja
@@ -77,52 +58,32 @@
 		** If the party become pages of the knights, they have tattooed rings on their
 		   fingers that track their courage - they must push back the forces of arcadia!
 		   ^^ knights greet eachother by showing their hand (ring finger)
-		2) Fort Portal 1:
+		2) Fort Portal:
 			- some statues have oaths written (A & C & D). If all oaths are read,
-			  in order, the portal opens to Arcadia! (A>B>C>D).
-			- portal from frigid arcadia - water in room freezes! (fort thunder)
-			  enter... something! Not sure!
-			
-		3) Fort Portal 2:
-			- some statues have oaths written (A & B & D). If all oaths are read,
-			  in order, the portal opens to Arcadia! (A>B>C>D).
-			- copy another encounter from fort thunder
+			  in order, the portal opens to Arcadia! (A>B>C>D)
+
 
 == OVERVIEW ==
 	1) The hawklords bombard the city and whisk away the sealing stone
-		- town is named Ivywatch - sealing stone seals passage to Arcadia under city
-	2) town is ravaged: local lizardfolk tribe sees opportunity and attacks!
-		- steals citizens & occupies the city, bring hostages to moathouse
+		- town is named Ivywatch - sealing stone seals passages to Arcadia in region
+	2) Lizardfolk raid the town and kidnap citizens!
+
 	>> ENTER THE HEROES
-	3) phandalin opening: ambush on the road to ivywatch
-	4.1) if the party investigates the tracks to the cave
-		- phandalin cave dungeon, save the carter, learn about ivywatch
-		- occupation of ivywatch is done when party arrives
-	4.2) if the party continues to ivywatch
-		- ivywatch is occupied, fight through the town
-	5) enter the keep, lots of townsfolk taking refuge. Lord is barely keeping it together
-		- lots of injured as well
-		- hysterical young father begs you to save his wife
-		- center of town: evidence of something very large & prominent now missing
-	6) montage test to track lizardfolk to their hideout
-		- super success: find side entrance to underground
-		- success: find the fort occupied by its guard...
-		- failure: find the fort empty, surprised by the guard returning
-		** guard = Ogre Goon + Skitterling Minions
-	7) a scout/squire of the wode elf knights enter from the portal to Arcadia! 
-		the knights cannot leave Arcadia even if they wanted - their oath prevents it
-		the squire hasn't taken the oath yet so they were sent to check on things...
-		** the squire isn't actually interested in helping, they'd rather get back
-		   to the knights ASAP and help fight against Arcadia. 
-		   Lizardfolk aren't really a threat anyway...
-		** can negotiate to convince them to help in various ways. Retainer?
-	8) save the citizens before... some imminent threat! What are the lizardfolk up to???
-		** summoning a naga god!
-		   <<homebrew monster - aspect of naga>>
-	9) return to ivywatch, but! Another squire and the townsfolk don't get along! 
-		Squire is like the previous squire, but sent to check on the Sealing Stone,
-		blames the villagers for not protecting it seriously enough!
-		Mediate the parties, get reward and possibly a new verb/quest
+
+	*) Heroes arrive at the town!
+		- a HORDE of lizardfolk pass the heroes, carrying villagers!
+		- an evil lieutenant smiles wickedly, from the forest taunting the heroes,
+			some villagers have already been taken! This is the last squad out!
+		- protect Lewin Coppertoe and save the villagers!	
+		- to Ivywatch Town Square (1) or Follow the Horde (2)
+	*) Ivywatch Town Square
+		- The Sealing Stone is missing!
+		- Fight a returning Hawklord, accuses the party of commanding the lizardfolk!
+		- meet the Lord of Ivywatch and the citizens
+		- stakes go up! how? someone was kidnapped who is needed to protect the city?
+	*) montage to find the dungeon
+	*) the dungeon!
+		- 4 session max, I think (~10 scenes max, ~6 combats at most)
 
 
 What is the night stone equivalent??
