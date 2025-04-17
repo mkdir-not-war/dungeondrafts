@@ -1,8 +1,11 @@
 
 == TIME ==
 	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
+
+	# rethink these
 	2) fight at the chapel [1-2] (demons from the orb - extra: save the priest)
 	3) fight at the sealing stone [1] (hawklord accusations)
+
 	*) skill/group tests at ivywatch keep
 	*) montage test to find dungeon [1]
 	4) entrance fight [1] (ogre/lizardfolk)
@@ -84,6 +87,37 @@
 	*) montage to find the dungeon
 	*) the dungeon!
 		- 4 session max, I think (~10 scenes max, ~6 combats at most)
+
+== PLOTTING ==
+
+	* The heroes are escorting Coppertoe for 1) payment and 2) political connections
+	* Coppertoe has a dog that belongs to his cousin, the steward
+	* fight lizardfolk on their way out - they're taking the hobbits to isengard
+	* meet deatheye yslansh, ooo she's so evil!
+		- if the lizardfolk encounter is before the dog,
+		  the players have tension: they want to chase the lizards too!
+		- if the lizardfolk encounter is after the dog runs in,
+		  how do we meet the deatheye? 
+	= players want to chase lizardfolk
+		* skip to montage test - result is the heroes find straggling lizardfolk in the forest
+		* fight the stragglers
+		* arrive at the ogre
+	
+	* hawklords drop rocks and head toward the keep,
+		one rock is dropped on the remaining enemies in combat! also hits hero!
+	* dog runs off toward the keep!
+	= players want to chase the dog
+
+	* chase the dog through the city with a montage test!
+	* arrive at the keep - success: as the hawklords arrive, failure: after the hawklords
+	* fight the late hawklord and demons from the orb, the guards help!
+	= players dont like the hawklords now
+
+	* guards say the lord will reward them
+	* meet the lord and coppertoe's cousin
+	* [use old adventure stuff here]
+
+	* montage test to track the lizards to fort ranaghan
 
 
 What is the night stone equivalent??
