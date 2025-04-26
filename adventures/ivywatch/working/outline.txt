@@ -1,3 +1,10 @@
+*** STRETCH GOAL IDEA ***
+1) An "Encounters" PDF with the respective monster stat blocks consolidated onto a single page 
+	for each combat encounter in the adventure.
+
+TODO: 
+	* update Lewin profile art to include Baxter!
+
 
 == TIME ==
 	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
