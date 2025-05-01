@@ -1,17 +1,23 @@
-*** STRETCH GOAL IDEA ***
+*** STRETCH GOAL IDEAS ***
 1) An "Encounters" PDF with the respective monster stat blocks consolidated onto a single page 
 	for each combat encounter in the adventure.
+2) Once Raiders of Ivywatch is released, I'll begin work on a follow-up adventure set in Tullow Vale.
 
 TODO: 
 	* update Lewin profile art to include Baxter!
-
+	* maybe we do a couple more "not appearing in this film" faction leaders, for inspiration!
+	* final fight should be VERY HARD to do BOTH saving the people and preventing the ritual:
+		- if the people are not saved, they turn into death knights! Nazgul! -> new adventure
+		- if the ritual isn't stopped, the evil god turns into a character like
+			HxH Meruem - maybe it possesses Yslansh! -> new adventure
 
 == TIME ==
 	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
-
-	# rethink these
-	2) fight at the chapel [1-2] (demons from the orb - extra: save the priest)
-	3) fight at the sealing stone [1] (hawklord accusations)
+	2) Group test to deflect incoming bombardment on citizens [1]
+		>> raise the tension with the townsfolk
+	3) Hawklords come down and attempt to steal a child (they have the thing) [1-2]
+		(extra: save the child)
+		>> learn about the B Plot - hold onto the Crown Jewel
 
 	*) skill/group tests at ivywatch keep
 	*) montage test to find dungeon [1]
