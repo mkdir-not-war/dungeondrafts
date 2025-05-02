@@ -17,7 +17,8 @@ TODO:
 		>> raise the tension with the townsfolk
 	3) Hawklords come down and attempt to steal a child (they have the thing) [1-2]
 		(extra: save the child)
-		>> learn about the B Plot - hold onto the Crown Jewel
+		>> learn about the B Plot - hold onto the Jewel of Redemption
+		>> Gain Jewel of Redemption magic item & Hope of Ivywatch title
 
 	*) skill/group tests at ivywatch keep
 	*) montage test to find dungeon [1]
