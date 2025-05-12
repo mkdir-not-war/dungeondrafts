@@ -1,0 +1,34 @@
+==== MAJOR IDEA ======
+
+* using limited words (subclasses grant lexicons), create your own abilities
+	> can only use a word once in your spellbook, never repeat a word
+	> more words = higher HR cost of the ability
+		or maybe, higher HR = use *more* of your spells!
+		maybe the spells have Effect1, Effect2, etc and your HR spent unlocks each effect
+	> complexity is ok, this is THE complexity class!
+
+======= TO DO ========
+
+* lean into forced movement options
+* what does this class do well?
+	DPS	Mob	Heal	Stam	Stick	Comm	Buff	Debuff	Control
+	-----------------------------------------------------------------------
+	Low	Med	Low	Med	Med	Low	High	High	High
+							^^^^	^^^^	^^^^
+	** fury is low healing, despite temporary stamina, so we are low healing too
+	** conduit is low dps despite a couple hard hitting 5-HR abilities, so we are too
+
+
+===========
+
+SUBCLASSES: 
+
+* lightning subclass: mobility, debuff
+* sound subclass: debuff, command
+
+= summaries =
+
+
+
+
+

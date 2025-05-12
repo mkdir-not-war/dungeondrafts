@@ -5,11 +5,23 @@
 
 TODO: 
 	* update Lewin profile art to include Baxter!
-	* maybe we do a couple more "not appearing in this film" faction leaders, for inspiration!
+	* make Deatheye art (zoomed out, view of the forest army) for end of Scene 1.
 	* final fight should be VERY HARD to do BOTH saving the people and preventing the ritual:
 		- if the people are not saved, they turn into death knights! Nazgul! -> new adventure
 		- if the ritual isn't stopped, the evil god turns into a character like
 			HxH Meruem - maybe it possesses Yslansh! -> new adventure
+	* tips on how to Level Up the adventure to 2 or 3.
+
+	** Idea for Forest Clearing Scene 5:
+		> find a small squad of lizardmen and citizens, all dead
+		> fight with something really scary! Arrix?? Bredbeddle?? Lightbender??
+							Fuck it! Make our own monster!
+		> Hawklords swoop in for the final blow and fight the party after--
+			looking through the corpses for the Jewel?
+
+REMINDERS:
+	* remember to plug crafting materials in the dungeon
+	* remember to clearly signal danger upon entering dangerous rooms (for harlequins)
 
 == TIME ==
 	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
