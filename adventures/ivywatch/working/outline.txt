@@ -65,6 +65,7 @@ REMINDERS:
 			  To honour we answer, our hearts and our blades,
 			  As one, we call."
 		  ** Squire Gwalchmai (first wode elf)
+			> Look: basically lady Braum. Beefy, big shield, jolly
 			> Motivations: Higher Authority, Protection
 			> begins Suspicious (Interest 2, Patience 2)
 			> Pitfalls: Revelry, Freedom
