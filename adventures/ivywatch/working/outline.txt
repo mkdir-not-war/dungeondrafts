@@ -4,20 +4,12 @@
 2) Once Raiders of Ivywatch is released, I'll begin work on a follow-up adventure set in Tullow Vale.
 
 TODO: 
-	* update Lewin profile art to include Baxter!
-	* make Deatheye art (zoomed out, view of the forest army) for end of Scene 1.
+	* art for Gwenifax and art for Baxter running thru gate w/ hawklords overhead
+	* resize the scenes art for Part 2 so it takes both columns
 	* final fight should be VERY HARD to do BOTH saving the people and preventing the ritual:
 		- if the people are not saved, they turn into death knights! Nazgul! -> new adventure
 		- if the ritual isn't stopped, the evil god turns into a character like
 			HxH Meruem - maybe it possesses Yslansh! -> new adventure
-	* tips on how to Level Up the adventure to 2 or 3.
-
-	** Idea for Forest Clearing Scene 5:
-		> find a small squad of lizardmen and citizens, all dead
-		> fight with something really scary! Arrix?? Bredbeddle?? Lightbender??
-							Fuck it! Make our own monster!
-		> Hawklords swoop in for the final blow and fight the party after--
-			looking through the corpses for the Jewel?
 
 REMINDERS:
 	* remember to plug crafting materials in the dungeon
