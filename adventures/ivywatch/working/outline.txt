@@ -1,19 +1,15 @@
-*** STRETCH GOAL IDEAS ***
-1) An "Encounters" PDF with the respective monster stat blocks consolidated onto a single page 
-	for each combat encounter in the adventure.
-2) Once Raiders of Ivywatch is released, I'll begin work on a follow-up adventure set in Tullow Vale.
+SWEETNEWIVYWATCHPREVIEW - itch.io password to view the page
 
 TODO: 
-	* art for Gwenifax and art for Baxter running thru gate w/ hawklords overhead
-	* resize the scenes art for Part 2 so it takes both columns
+	* defeating the radenwights also grants a title maybe?
+	
+REMINDERS:
+	* remember to plug crafting materials in the dungeon
+	* remember to clearly signal danger upon entering dangerous rooms (for harlequins)
 	* final fight should be VERY HARD to do BOTH saving the people and preventing the ritual:
 		- if the people are not saved, they turn into death knights! Nazgul! -> new adventure
 		- if the ritual isn't stopped, the evil god turns into a character like
 			HxH Meruem - maybe it possesses Yslansh! -> new adventure
-
-REMINDERS:
-	* remember to plug crafting materials in the dungeon
-	* remember to clearly signal danger upon entering dangerous rooms (for harlequins)
 
 == TIME ==
 	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
