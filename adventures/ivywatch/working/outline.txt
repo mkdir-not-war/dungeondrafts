@@ -2,6 +2,7 @@ SWEETNEWIVYWATCHPREVIEW - itch.io password to view the page
 
 TODO: 
 	* defeating the radenwights also grants a title maybe?
+	* chase montage scene a lookout-scout in Obelisk to Mess -> scout is caught by a spider or soemthing, save them!
 	
 REMINDERS:
 	* remember to plug crafting materials in the dungeon
