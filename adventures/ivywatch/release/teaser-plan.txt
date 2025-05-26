@@ -1,13 +1,8 @@
-1) publish itch io page
-2) publish backerkit page
-3) post backerkit on reddit
-4) post backerkit on homebrew discord
+1) make sure actual crowdfunder page is ready
 ----
-5) post lfg game for testing
-6x) make sure actual crowdfunder page is ready
 7) when crowdfunder is live: update itch.io page to have 
 	* full details (What to Expect on Full Release)
 	* full details in the top banner
 	* back-link to the backerkit page
-----
-8) run lfg game for testing
+8) post again on homebrew
+9) post on reddit
