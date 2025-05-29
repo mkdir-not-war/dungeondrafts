@@ -1,85 +1,39 @@
-SWEETNEWIVYWATCHPREVIEW - itch.io password to view the page
 
-TODO: 
-	* defeating the radenwights also grants a title maybe?
-	* chase montage scene a lookout-scout in Obelisk to Mess -> scout is caught by a spider or soemthing, save them!
+==== KNIGHTS OATH ====
+
+	(The Prayer)
+	The Forestal witness
+	You uplifted us				> dweric
+	Orden shivered
+	Witness me
+
+	(The Duty of Oak)
+	As the oak gives shade and never wavers in a gale
+	So will I shelter the Vale and never waver in the storm of evil
+
+	(The Duty of Thorns)
+	As thorns draw blood from those who covet the rose
+	So will I draw blood from fiends who covet the Vale
+
+	(The Offering)
+	My blood belongs to the company
+	My heart belongs to my ______
+	My mind is focused on the mission
 	
-REMINDERS:
-	* remember to plug crafting materials in the dungeon
-	* remember to clearly signal danger upon entering dangerous rooms (for harlequins)
-	* final fight should be VERY HARD to do BOTH saving the people and preventing the ritual:
-		- if the people are not saved, they turn into death knights! Nazgul! -> new adventure
-		- if the ritual isn't stopped, the evil god turns into a character like
-			HxH Meruem - maybe it possesses Yslansh! -> new adventure
+	(The Oath)
+	I will speak no lies
+	I will fear no evil
+	I will protect the Vale
 
-== TIME ==
-	1) Fight at the gate [1-2] (lizardfolk leaving - extra: save the kidnapped villagers)
-	2) Group test to deflect incoming bombardment on citizens [1]
-		>> raise the tension with the townsfolk
-	3) Hawklords come down and attempt to steal a child (they have the thing) [1-2]
-		(extra: save the child)
-		>> learn about the B Plot - hold onto the Jewel of Redemption
-		>> Gain Jewel of Redemption magic item & Hope of Ivywatch title
+	(The Ultimatum)
+	Until the three-jawed usurper lay dead, or do I
 
-	*) skill/group tests at ivywatch keep
-	*) montage test to find dungeon [1]
-	4) entrance fight [1] (ogre/lizardfolk)
-	5) prayer hall fight [1] (twilight princess from arcadia)
-	*) portal room with squire, potential negotiation [0-1]
-	6) ziggurat boss fight [1-2] (1: save the villagers, 2: prevent the summoning)
-	*) montage test to leave [1]
-
-	optional 1) other entrance [1] (ogre/lizardfolk)
-	optional 2) tomb/lab [1-2] (lizardfolk - extra: save the squire before they kill him)
-	optional 3) magic sword [1] (undead guard the sword)
-	optional *) hall of statues
-	optional 4) knights quarters/kitchen [1-2] (lizardfolk - extra: save the children)
-
-	Victories: [8-18]
-	Hours: 2*combats + 1*others = [16-25]
 
 ***** Fighting the summoner = Goxomoc encounter
 	> if you fail! Instantly teleported to Arcadia - denouement is licking your wounds,
 		you must now find the knights and convince them to help you against
 		the newly summoned demon! 
 	> if you succeed, MONTAGE TEST to escape the crumbling fortress and save the citizens!
-
-== NOTES ==
-
-	ARCADIAN KNIGHTS (Knights of Golden Ivy):
-		1) Andreja - protect lives, serve (Motivation: Protection)
-			Order: The Oak Shields
-			Charge (design on shield): Seven-Pointed Star, Gold on Green
-			"‘Tis to glory we steer, for the lives of all.
-			  To honour we answer, our hearts and our blades,
-			  As one, we call."
-		  ** Squire Gwalchmai (first wode elf)
-			> Look: basically lady Braum. Beefy, big shield, jolly
-			> Motivations: Higher Authority, Protection
-			> begins Suspicious (Interest 2, Patience 2)
-			> Pitfalls: Revelry, Freedom
-				doesn't fight just for the glory or fun of it
-				doesn't *want* to go home, belongs on the battlefield
-		2) Derioc- fight in glory, might (Motivation: Revelry)
-		3) Grigor - avenge the fallen in the war, duty (Motivation: Vengeance)
-		4) Nicklaus - end the war so we can go home, begrudging (Motivation: Freedom)
-
-		some statues (A & B) have oaths written on them, the rest are illegible
-		>> obelisk room has oaths B & C
-
-		A: Andreja
-		B: Derioc
-		C: Grigor
-		D: Nicklaus
-
-		** Whichever fort portal found first, do that encounter with the wode elf
-		** Whicever for portal found second, lizardfolk reinforcements!
-		** If the party become pages of the knights, they have tattooed rings on their
-		   fingers that track their courage - they must push back the forces of arcadia!
-		   ^^ knights greet eachother by showing their hand (ring finger)
-		2) Fort Portal:
-			- some statues have oaths written (A & C & D). If all oaths are read,
-			  in order, the portal opens to Arcadia! (A>B>C>D)
 
 
 == OVERVIEW ==
@@ -103,42 +57,3 @@ REMINDERS:
 	*) montage to find the dungeon
 	*) the dungeon!
 		- 4 session max, I think (~10 scenes max, ~6 combats at most)
-
-== PLOTTING ==
-
-	* The heroes are escorting Coppertoe for 1) payment and 2) political connections
-	* Coppertoe has a dog that belongs to his cousin, the steward
-	* fight lizardfolk on their way out - they're taking the hobbits to isengard
-	* meet deatheye yslansh, ooo she's so evil!
-		- if the lizardfolk encounter is before the dog,
-		  the players have tension: they want to chase the lizards too!
-		- if the lizardfolk encounter is after the dog runs in,
-		  how do we meet the deatheye? 
-	= players want to chase lizardfolk
-		* skip to montage test - result is the heroes find straggling lizardfolk in the forest
-		* fight the stragglers
-		* arrive at the ogre
-	
-	* hawklords drop rocks and head toward the keep,
-		one rock is dropped on the remaining enemies in combat! also hits hero!
-	* dog runs off toward the keep!
-	= players want to chase the dog
-
-	* chase the dog through the city with a montage test!
-	* arrive at the keep - success: as the hawklords arrive, failure: after the hawklords
-	* fight the late hawklord and demons from the orb, the guards help!
-	= players dont like the hawklords now
-
-	* guards say the lord will reward them
-	* meet the lord and coppertoe's cousin
-	* [use old adventure stuff here]
-
-	* montage test to track the lizards to fort ranaghan
-
-
-What is the night stone equivalent??
-	* The Sealing Stone - positioned in the center of 4 knight's forts to seal the 
-		portals to the realm of evil fae - story says the knights
-		entered the portals to take the fight to the enemy and activated the stone,
-		essentially locking the door behind themselves in the fae realm...
-	* Town is named Ivywatch
