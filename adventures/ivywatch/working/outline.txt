@@ -14,6 +14,7 @@ dungeon notes:
 		> no more king = oaths are worthless(?), pages split up and evolve
 		> thorned gauntlet pages become the hawklords, protecting the vale anyway
 		> oakshields hunker down around the statue, forming ivywatch
+	Page -> Squire -> Knight -> Palladin -> Commander (-> King)
 		
 
 ==== KNIGHTS OATH ====
@@ -37,7 +38,7 @@ dungeon notes:
 	My heart belongs to my ______
 	My mind is focused on the mission
 	
-	(The Oath)
+	(The Promise)
 	I will speak no lies
 	I will fear no evil
 	I will protect the Vale
@@ -47,11 +48,11 @@ dungeon notes:
 
 Riddle clues locations:
 	* all statues throughout the fort have "<Name>, whose heart belonged to ______"
-	* The Horror: some statues, a tithe cauldron with the oath written out
+	* The Horror: some statues, a tithe cauldron with the Promise written out
 	* The Obelisk: the prayer, the oath, the offering, and the ultimatum are written here. Lots of statues
 	* The Gaol: frieze depicts the companies in order and their duties. 
-		1) The Thorned Gauntlet
-		2) The Oak Shields
+		1) The Thorned Gauntlet - Paladin 
+		2) The Oak Shields - Paladin Millicent
 		3) (spears)
 		4) (archers)
 	  Also, jailed thorn squire knows their oath! But they will not repeat the Prayer.
