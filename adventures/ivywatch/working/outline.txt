@@ -49,15 +49,16 @@ dungeon notes:
 Riddle clues locations:
 	* all statues throughout the fort have "<Name>, whose heart belonged to ______"
 	* The Horror: some statues, a tithe cauldron with the Promise written out
-	* The Obelisk: the prayer, the oath, the offering, and the ultimatum are written here. Lots of statues
+	* The Obelisk: the oath, the offering, and the ultimatum are written here. Lots of statues
 	* The Gaol: frieze depicts the companies in order and their duties. 
 		1) The Thorned Gauntlet - Paladin 
 		2) The Oak Shields - Paladin Millicent
 		3) (spears)
 		4) (archers)
-	  Also, jailed thorn squire knows their oath! But they will not repeat the Prayer.
+	  Also, jailed thorn squire knows their oath! But they will not repeat the Prayer. Will say it's in the chapel.
 	* The Portal: the oak squire (gwalchmai) knows their oath! But will not repeat the Prayer.
 	* The Tomb: the offering is written here.
+	* The Chapel: the prayer is written here (only place to find the prayer)
 
 
 ==== DUNGEON VICTORIES/VERBS =========
@@ -75,7 +76,7 @@ Riddle clues locations:
 4) The Obelisk (>Mess >Chapel >Tunnel)
 	* (no victories? local puzzle victory?)
 
-5) The Chapel (>>Portal >Obelisk >Tunnel)
+5) The Chapel (>>Portal >Obelisk >Tunnel-same hallway as Obelisk)
 	* save the citizens! (hogtied, bleeding for ritual)
 	* defeat the lizardfolk & undead
 
