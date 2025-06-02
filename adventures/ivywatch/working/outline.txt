@@ -14,7 +14,7 @@ dungeon notes:
 		> no more king = oaths are worthless(?), pages split up and evolve
 		> thorned gauntlet pages become the hawklords, protecting the vale anyway
 		> oakshields hunker down around the statue, forming ivywatch
-	Page -> Squire -> Knight -> Palladin -> Commander (-> King)
+	Page -> Squire -> Knight -> Paladin -> Commander (-> King)
 		
 
 ==== KNIGHTS OATH ====
