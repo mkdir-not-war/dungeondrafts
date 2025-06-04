@@ -4,6 +4,10 @@ dungeon notes:
 	* the vines on the maps coming through the walls are from arcadia, 
 		and they have never seen winter (they're new)
 
+NEED TO HAVE:
+	* fight against creatures from arcadia
+	* fight against a basilisk (maybe in the ziggurat?)
+
 ==== HISTORY NOTES ====
 
 	* Pages haven't swore their oath yet

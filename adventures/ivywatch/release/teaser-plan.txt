@@ -1,8 +1,4 @@
-1) make sure actual crowdfunder page is ready
-----
-7) when crowdfunder is live: update itch.io page to have 
-	* full details (What to Expect on Full Release)
-	* full details in the top banner
-	* back-link to the backerkit page
-8) post again on homebrew
-9) post on reddit
+=== NOTES ===
+
+* preview went live ~9 days before the crowdfunder launch
+	> 30 followers by launch day (40 backers needed to fund)
