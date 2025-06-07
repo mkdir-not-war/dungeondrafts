@@ -1,0 +1,6 @@
+= Version 0.1 =
+* All Part 1 Scenes, Part 2 Scenes 1 & 2
+* All Part 1 Maps, Part 2 Maps 1, 2, 3
+* Part 1 Scenes 1 & 5 Reference Maps
+* Player Rewards (Treasures): Jewel of Redemption, Healing Potion, Merlu's Speaking Stone
+* Player Rewards (Titles): Hawklords' Quarry, Marshall
