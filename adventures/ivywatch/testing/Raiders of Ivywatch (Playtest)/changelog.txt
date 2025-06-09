@@ -10,3 +10,4 @@
 * Running the Adventure advice on how victories play into encounter balance (they don't)
 * Remade the montage test that begins Part 2
 * More respite stuff in ivywatch
+* Part 2 Scenes 3, 
