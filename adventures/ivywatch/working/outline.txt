@@ -55,7 +55,7 @@ Riddle clues locations:
 	* The Horror: some statues, a tithe cauldron with the Promise written out
 	* The Obelisk: the oath, the offering, and the ultimatum are written here. Lots of statues
 	* The Gaol: frieze depicts the companies in order and their duties. 
-		1) The Thorned Gauntlet - Paladin 
+		1) The Thorned Gauntlets - Paladin Tomas & Jacca, Lord of the Hawks
 		2) The Oak Shields - Paladin Millicent
 		3) (spears)
 		4) (archers)
@@ -86,7 +86,7 @@ Riddle clues locations:
 
 6) The Mess (>Gaol >Obelisk ?Portal)
 ** lots of digging for water pits (egg clutches?), terrain, elevation. Get to the advantageous position
-	* 
+	* basilisks!
 
 7) The Portal (|Chapel >Mess >Yslansh)
 	* (no victories? negotiation potential!)
@@ -96,7 +96,20 @@ Riddle clues locations:
 
 9) Yslansh (>Portal)
 	* save the citizens!
-	* prevent the ritual before round 6!
+	* prevent the ritual before the end of the 6th round!
+		> to prevent the ritual, either:
+			1) all sigils are attuned simultaneously
+			2) Yslansh is dead and at least half the sigils (min 2) are attuned simultaneously
+		> sigil is attuned while there is a hero (or retainer) but no enemies within 3 squares of the sigil
+			* sigils can be moved vertically with terrain, but not horizontally
+
+	At the end of...
+	* round 1: 5x5 AoE attack, not lasting; yslansh VA1
+	* round 2: DTO spawns (lightning holy idol? black obelisk?); enemies reinforce; yslansh VA2
+	* round 3: 5x5 AoE attack again; yslansh VA2
+	* round 4: enemies reinforce; another sigil appears!
+	* round 5: map changes dramatically (water flood? or evaporate? arcadia plants?)
+	* round 6: all is lost! excurcior interfectus invades orden! escape with your lives!
 
 
 ***** Fighting the summoner = Goxomoc encounter

@@ -4,3 +4,9 @@
 * Part 1 Scenes 1 & 5 Reference Maps
 * Player Rewards (Treasures): Jewel of Redemption, Healing Potion, Merlu's Speaking Stone
 * Player Rewards (Titles): Hawklords' Quarry, Marshall
+
+= Version 0.2 =
+* lots of changes to encounter balancing throughout
+* Running the Adventure advice on how victories play into encounter balance (they don't)
+* Remade the montage test that begins Part 2
+* More respite stuff in ivywatch
