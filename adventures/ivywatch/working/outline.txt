@@ -5,8 +5,8 @@ dungeon notes:
 		and they have never seen winter (they're new)
 
 NEED TO HAVE:
-	* fight against creatures from arcadia
-	* fight against a basilisk (maybe in the ziggurat?)
+	* fight against creatures from arcadia (ziggurat reinforcements?)
+	* save Kane in the Mess!
 
 ==== HISTORY NOTES ====
 
@@ -53,7 +53,7 @@ NEED TO HAVE:
 Riddle clues locations:
 	* all statues throughout the fort have "<Name>, whose heart belonged to ______"
 	* The Horror: some statues, a tithe cauldron with the Promise written out
-	* The Obelisk: the oath, the offering, and the ultimatum are written here. Lots of statues
+	* The Obelisk: the promise, the offering, and the ultimatum are written here. Lots of statues
 	* The Gaol: frieze depicts the companies in order and their duties. 
 		1) The Thorned Gauntlets - Paladin Tomas & Jacca, Lord of the Hawks
 		2) The Oak Shields - Paladin Millicent
