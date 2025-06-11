@@ -10,7 +10,7 @@
 * Running the Adventure advice on how victories play into encounter balance (they don't)
 * Remade the montage test that begins Part 2
 * More respite stuff in ivywatch
-* Part 2 Scenes 3, 
+* Part 2 Scenes 3, 4, 
 * Information Map section added
 * Squire Qoroth (and renamed the other squire to Bleddyn)
 * new STATBLOCKS document with custom retainers and monsters
