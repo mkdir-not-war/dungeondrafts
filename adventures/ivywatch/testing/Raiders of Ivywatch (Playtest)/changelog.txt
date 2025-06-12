@@ -14,3 +14,6 @@
 * Information Map section added
 * Squire Qoroth (and renamed the other squire to Bleddyn)
 * new STATBLOCKS document with custom retainers and monsters
+
+= Version 0.3 =
+* Part 2 Maps 6, 
