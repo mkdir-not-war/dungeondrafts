@@ -17,3 +17,4 @@
 
 = Version 0.3 =
 * Part 2 Maps 6, 
+* Player Rewards (Titles): Wodewash Baiter
