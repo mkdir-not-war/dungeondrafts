@@ -16,5 +16,5 @@
 * new STATBLOCKS document with custom retainers and monsters
 
 = Version 0.3 =
-* Part 2 Maps 6, 
+* Part 2 Maps 6, 9
 * Player Rewards (Titles): Wodewash Baiter
