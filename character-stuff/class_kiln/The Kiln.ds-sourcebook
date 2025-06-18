@@ -1,5 +1,5 @@
 {
-	"id": "Tn7RJZooEdsfgec0",
+	"id": "dUtVfuZUbkLrM501",
 	"name": "The Kiln",
 	"description": "",
 	"isHomebrew": true,
@@ -290,7 +290,7 @@
 							"data": {
 								"cost": 7,
 								"count": 1,
-								"minLevel": 3,
+								"minLevel": 1,
 								"selectedIDs": []
 							}
 						}
@@ -978,7 +978,7 @@
 								},
 								{
 									"id": "eidZoR9ptsDVAv6X",
-									"name": "Stoke the Flame Cadre Benefit",
+									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, you can shift a number of squares equal to your Agility score. ",
 									"type": "Text",
 									"data": null
@@ -992,7 +992,7 @@
 								{
 									"id": "wsSWrpjvXCLqk3qy",
 									"name": "Wildfire",
-									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, when you take the Disengage move action, you can shift an additional number squares equal to your Agility score. ",
+									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, you can shift into difficult terrain, and if the difficult terrain is caused by an object, you can deal fire damage to the object equal to your Agility score.",
 									"type": "Text",
 									"data": null
 								},
@@ -1702,7 +1702,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is bleeding (EoT).  |\n| Thurisaz | If the target’s ability kills an enemy, the target can end on effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **M < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end on effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
@@ -1833,7 +1833,7 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets have a bane on their next power roll (EoT).   |\n| Othalan | The target gains a surge. Once before the end of the target’s next turn, when they obtain a tier 3 result on the power roll of an ability that deals damage, they can make a free strike. |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets **P < average** take a bane on their power rolls (EoT).  |\n| Othalan | The target gains a surge. Once before the end of the target’s next turn, when they obtain a tier 3 result on the power roll of an ability that deals damage, they can make a free strike. |",
 					"type": "Text",
 					"data": null
 				}
