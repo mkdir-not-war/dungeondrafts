@@ -508,7 +508,7 @@
 					"distance": [
 						{
 							"type": "Burst",
-							"value": 1,
+							"value": 2,
 							"value2": 0,
 							"within": 0,
 							"special": "",
@@ -525,9 +525,9 @@
 							"Reason"
 						],
 						"bonus": 0,
-						"tier1": "2 fire damage",
-						"tier2": "5 fire damage; push 1",
-						"tier3": "7 fire damage; push 2"
+						"tier1": "3 fire damage",
+						"tier2": "6 fire damage; push 1",
+						"tier3": "9 fire damage; push 2"
 					},
 					"test": null,
 					"effect": "",
@@ -718,7 +718,7 @@
 						"tier3": "Push 7"
 					},
 					"test": null,
-					"effect": "For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies.",
+					"effect": "An object you target must be your size or smaller. For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies.",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
@@ -1169,7 +1169,7 @@
 								},
 								{
 									"id": "8WZni64Ku5UyuaSz",
-									"name": "Stoke the Flame Cadre Benefit",
+									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge.",
 									"type": "Text",
 									"data": null
@@ -1232,7 +1232,7 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Until the end of your turn, your flames take on a color of your choosing:\n    • Red: After you deal fire damage to a creature with an ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n    • Blue: After you deal fire damage to a creature with an ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of your turn. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n    • White: After you deal fire damage to a creature with an ability, you can end on effect that is ended by a saving throw or that ends at the end of you turn. Additionally, for each target of the ability, your stability increases by 1 until the end of your turn.",
+															"effect": "Until the end of your turn, your flames take on a color of your choosing:\n    • Red: After you deal fire damage to a creature with an ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n    • Blue: After you deal fire damage to a creature with an ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of your turn. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n    • White: After you deal fire damage to a creature with an ability, you can end on effect that is ended by a saving throw or that ends at the end of you turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
@@ -1376,7 +1376,7 @@
 								},
 								{
 									"id": "X4oQbGOONdBQkZzi",
-									"name": "Stoke the Flame Cadre Benefit",
+									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, you gain temporary Stamina equal to twice your Reason score.",
 									"type": "Text",
 									"data": null
@@ -1761,7 +1761,7 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage. All targets are frightened of the afterimage (EoT).",
+							"effect": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage. All targets are taunted by the afterimage (EoT).",
 							"strained": "",
 							"alternateEffects": [],
 							"spend": [
