@@ -1703,7 +1703,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **A < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end on effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **A < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
