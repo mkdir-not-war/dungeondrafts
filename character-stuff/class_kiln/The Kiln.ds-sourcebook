@@ -101,7 +101,7 @@
 									"type": {
 										"usage": "Triggered Action",
 										"free": false,
-										"trigger": "The target makes an ability power roll for an ability that deals damage. ",
+										"trigger": "The target makes an ability roll for a damage-dealing ability. ",
 										"time": "",
 										"qualifiers": []
 									},
@@ -803,7 +803,7 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of your next turn. All creatures can move through the sword’s space, but enemies who move into or out of the space provoke Opportunity Attacks from you. When you use a Weapon attack, you can choose to attack from the sword’s position. An attack performed in this way temporarily gains the Magic keyword and any untyped damage it deals is instead fire damage.",
+					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of your next turn.  All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you use a Weapon attack, you can choose to attack from the sword’s position. An attack performed in this way temporarily gains the Magic keyword and any untyped damage it deals is instead fire damage.",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
@@ -1611,7 +1611,8 @@
 								"qualifiers": []
 							},
 							"keywords": [
-								"Magic"
+								"Magic",
+								"Area"
 							],
 							"distance": [
 								{
@@ -1702,7 +1703,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **M < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end on effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **A < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end on effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
@@ -1742,7 +1743,8 @@
 								"qualifiers": []
 							},
 							"keywords": [
-								"Magic"
+								"Magic",
+								"Area"
 							],
 							"distance": [
 								{
@@ -1833,7 +1835,7 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets **P < average** take a bane on their power rolls (EoT).  |\n| Othalan | The target gains a surge. Once before the end of the target’s next turn, when they obtain a tier 3 result on the power roll of an ability that deals damage, they can make a free strike. |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |",
 					"type": "Text",
 					"data": null
 				}
