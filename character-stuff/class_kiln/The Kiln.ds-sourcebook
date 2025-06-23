@@ -208,10 +208,10 @@
 									{
 										"damageType": "Fire",
 										"type": "Immunity",
-										"value": 5,
+										"value": 6,
 										"valueCharacteristics": [],
 										"valueCharacteristicMultiplier": 1,
-										"valuePerLevel": 0,
+										"valuePerLevel": 1,
 										"valuePerEchelon": 0
 									}
 								]
