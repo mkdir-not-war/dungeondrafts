@@ -17,4 +17,6 @@
 
 = Version 0.3 =
 * Part 2 Maps 6, 8, 9
-* Player Rewards (Titles): Wodewash Baiter
+* Player Rewards (Titles): Wodewash Baiter, Oak Shield Squire, Thorned Gauntlet Squire
+* Player Rewards (Treasures): Skullbloom, Berry of Ghost-Willow
+* cut "the promise" from the knight's oath, changed P2 scenes 1 & 4 to each have a different stanza
