@@ -1,10 +1,9 @@
 ====== LAYOUT ========
 
 1) 1-page setting primer for Inner Earth
-2) Soulborn Ancestry
-3) Spellbinder Class
-	* the Soulbinder, Soulsmoker, Soulburner, Soulflare, Soulcinder, Soulspark
-	* the Woodwill, the Cinder
+2) The Kiln!
+3) Kiln rival monster stat blocks
+4) Kiln titles & treasures
 
 ======= TO DO ========
 

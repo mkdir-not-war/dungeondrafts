@@ -1,6 +1,6 @@
 = Version 0.1 =
-* All Part 1 Scenes, Part 2 Scenes 1 & 2
-* All Part 1 Maps, Part 2 Maps 1, 2, 3
+* all Part 1 Scenes, Part 2 Scenes 1 & 2
+* all Part 1 Maps, Part 2 Maps 1, 2, 3
 * Part 1 Scenes 1 & 5 Reference Maps
 * Player Rewards (Treasures): Jewel of Redemption, Healing Potion, Merlu's Speaking Stone
 * Player Rewards (Titles): Hawklords' Quarry, Marshall
@@ -8,15 +8,16 @@
 = Version 0.2 =
 * lots of changes to encounter balancing throughout
 * Running the Adventure advice on how victories play into encounter balance (they don't)
-* Remade the montage test that begins Part 2
-* More respite stuff in ivywatch
+* remade the montage test that begins Part 2
+* more respite stuff in ivywatch
 * Part 2 Scenes 3 & 4, Part 2 Maps 5 & 8
 * Information Map section added
 * Squire Qoroth (and renamed the other squire to Bleddyn)
 * new STATBLOCKS document with custom retainers and monsters
 
 = Version 0.3 =
-* Part 2 Maps 6, 8, 9
+* Part 2 Maps 6, 7, 8, 9
+* Part 2 Scenes 5, 6,
 * Player Rewards (Titles): Wodewash Baiter, Oak Shield Squire, Thorned Gauntlet Squire
-* Player Rewards (Treasures): Skullbloom, Berry of Ghost-Willow
+* Player Rewards (Treasures): Skullbloom & Berry of Ghost-Willow
 * cut "the promise" from the knight's oath, changed P2 scenes 1 & 4 to each have a different stanza
