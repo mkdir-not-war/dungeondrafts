@@ -10,7 +10,7 @@
 		{
 			"id": "AloWeZFEndEpywqk",
 			"name": "Kiln",
-			"description": "Kilns are magical warriors and guardians of the Undermind. The roots of the Undermind course with magical ether that you capture in your wooden talismans. Different woods burn with different powers, and you wield them all to turn your foes to ash.\nChaos is your home on the battlefield. Wherever the spark of opportunity presents itself, you arrive to stoke the flame. You can empower your allies to devastate your enemies. Should the need arise, however, you’re well-equipped to put those who stand against you to the pyre yourself.",
+			"description": "Kilns are magical warriors and guardians of the Undermind. The omnipresent roots of the Undermind course with magical ether that you capture in your wooden talismans. Different woods burn with different powers, and you wield them all to turn your foes to ash.\nChaos is your home on the battlefield. Wherever the spark of opportunity presents itself, you arrive to stoke the flame. You can empower your allies to devastate your enemies. Should the need arise, however, you’re well-equipped to put those who stand against you to the pyre yourself.",
 			"heroicResource": "Spark",
 			"subclassName": "Cadre",
 			"subclassCount": 1,
@@ -84,7 +84,7 @@
 						{
 							"id": "pVGsG9NfxCcT1pfc",
 							"name": "Spark",
-							"description": "At the start of each of your turns during combat, you gain 1d3 spark. Additionally, you gain 1 spark whenever you use the Stoke the Flame ability targeting an ally.",
+							"description": "At the start of each of your turns during combat, you gain 1d3 spark. \n\nYou gain 1 spark when you use the Stoke the Flame ability targeting an ally. \n\nWhenever you roll to gain spark at the start of your turn, you can kindle (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, the Undermind accepts your offering. You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way. You are enkindled.\n* If the roll is a 2, you are enkindled.\n* If the roll is a 3, you are enkindled and you gain 1 spark.\n\nWhile you are enkindled, your abilities granted by your Talisman Kit are empowered. You lose any remaining spark at the end of the encounter.\n",
 							"type": "Text",
 							"data": null
 						},
@@ -200,8 +200,8 @@
 					"features": [
 						{
 							"id": "7vZoBzC4hUudI9fI",
-							"name": "Controller Burn",
-							"description": "You have a double edge on Presence tests made near a visible flame that is larger than 1 square. \nAdditionally, you have fire immunity equal to 5 plus your level in this class.",
+							"name": "Controlled Burn",
+							"description": "You gain an edge on Presence tests made to interact with other creatures when you are near a visible flame that is larger than 1 square. Given 1 uninterrupted minute, you can reach out with magic to light any at-most size 1 pile of dry, flammable wood or torch that you can see and recognize, no matter the distance.",
 							"type": "Damage Modifier",
 							"data": {
 								"modifiers": [
@@ -421,7 +421,7 @@
 						{
 							"id": "JxoYOSr9IoyBKOFm",
 							"name": "The Trick is Not Minding That It Hurts",
-							"description": "When you or an ally you could target with your Stoke the Flame ability would deal fire damage with an ability, you can roll a d6. You lose Stamina equal to the roll, all of the fire damage dealt is instead untyped damage, and the ability deals extra rolled damage equal to twice your Reason score.",
+							"description": "When you or an ally you could target with your Stoke the Flame ability would deal fire damage with an ability, you can roll a d6. You lose Stamina equal to the roll, the ability deals extra rolled damage equal to twice your Reason score, and the ability ignores fire immunity of targets.",
 							"type": "Text",
 							"data": null
 						}
@@ -526,8 +526,8 @@
 						],
 						"bonus": 0,
 						"tier1": "3 fire damage",
-						"tier2": "6 fire damage; push 1",
-						"tier3": "9 fire damage; push 2"
+						"tier2": "5 fire damage; push 1",
+						"tier3": "8 fire damage; push 2"
 					},
 					"test": null,
 					"effect": "",
@@ -564,7 +564,7 @@
 					"cost": 3,
 					"repeatable": false,
 					"minLevel": 1,
-					"preEffect": "You can shift up to your speed. You can pass through 1 square of solid matter as part of this movement, but you cannot end this movement inside solid matter. If you move through a square occupied by an ally, that ally gains a surge. ",
+					"preEffect": "You can shift up to your speed. You can pass through 1 square of solid matter as part of this movement, but you cannot end this movement inside solid matter. Allies occupying squares that you move through during this shift each gain a surge. Squares occupied by enemies do not count as difficult terrain during this movement.",
 					"powerRoll": null,
 					"test": null,
 					"effect": "",
@@ -660,15 +660,15 @@
 					"cost": 5,
 					"repeatable": false,
 					"minLevel": 1,
-					"preEffect": "If the target is already grabbed, the target is burning (save ends). A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends. ",
+					"preEffect": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends. ",
 					"powerRoll": {
 						"characteristic": [
 							"Agility"
 						],
 						"bonus": 0,
-						"tier1": "4 + A fire damage; M < weak, grabbed",
-						"tier2": "6 + A fire damage; M < average, grabbed",
-						"tier3": "10 + A fire damage; M < strong, grabbed"
+						"tier1": "4 + A fire damage; burning (EoT) and grabbed",
+						"tier2": "6 + A fire damage; burning (EoT) and grabbed",
+						"tier3": "10 + A fire damage; burning (EoT) and grabbed"
 					},
 					"test": null,
 					"effect": "",
@@ -760,12 +760,12 @@
 							"Agility"
 						],
 						"bonus": 0,
-						"tier1": "7 + A damage",
-						"tier2": "10 + A damage",
-						"tier3": "16 + A damage"
+						"tier1": "5 + A damage; M < weak, the target has fire weakness 5 (save ends)",
+						"tier2": "8 + A damage; M < average, the target has fire weakness 5 (save ends)",
+						"tier3": "12 + A damage; M < strong, the target has fire weakness 5 (save ends)"
 					},
 					"test": null,
-					"effect": "The target has fire weakness 5 (save ends). Until the end of the encounter, whenever the target takes damage, all adjacent creatures take 2 fire damage.",
+					"effect": "Until the end of the encounter, whenever the target takes damage, all adjacent creatures take 2 fire damage.",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
@@ -776,7 +776,7 @@
 					"name": "Smoldering Sword",
 					"description": "Embers and ash rise and coalesce into a solid mass, honed to an edge and ready to command.",
 					"type": {
-						"usage": "Action",
+						"usage": "Maneuver",
 						"free": false,
 						"trigger": "",
 						"time": "",
@@ -803,7 +803,7 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of your next turn.  All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you use a Weapon attack, you can choose to attack from the sword’s position. An attack performed in this way temporarily gains the Magic keyword and any untyped damage it deals is instead fire damage.",
+					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of the encounter. Summoning a new smoldering sword dismisses the previous one. All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you use a Weapon ability, you can choose to use it from the sword’s position. An ability performed in this way temporarily gains the Magic keyword and deals additional fire damage equal to your Reason score. At the start of your turn while the sword is summoned, as a free maneuver, you can move the sword up to your speed.",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
@@ -992,7 +992,7 @@
 								{
 									"id": "wsSWrpjvXCLqk3qy",
 									"name": "Wildfire",
-									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, you can shift into difficult terrain, and if the difficult terrain is caused by an object, you can deal fire damage to the object equal to your Agility score.",
+									"description": "Each turn, if the result of your roll to gain spark is 3, you can shift into difficult terrain, and if the difficult terrain is caused by an object, you can deal fire damage to the object equal to your Agility score.",
 									"type": "Text",
 									"data": null
 								},
@@ -1027,7 +1027,7 @@
 															"distance": [
 																{
 																	"type": "Ranged",
-																	"value": 5,
+																	"value": 10,
 																	"value2": 0,
 																	"within": 0,
 																	"special": "",
@@ -1041,7 +1041,7 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Teleport to an unoccupied square adjacent the target. You can use a signature ability, and the target can spend a Recovery.",
+															"effect": "Teleport to an unoccupied square adjacent the target. You can use a signature ability and a maneuver in either order, and the target can spend a Recovery.",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
@@ -1232,7 +1232,7 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Until the end of your turn, your flames take on a color of your choosing:\n    • Red: After you deal fire damage to a creature with an ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n    • Blue: After you deal fire damage to a creature with an ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of your turn. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n    • White: After you deal fire damage to a creature with an ability, you can end on effect that is ended by a saving throw or that ends at the end of you turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.",
+															"effect": "Until the end of the encounter, your flames take on a color of your choosing:\n* Red: Once per round, when you use a fire damage-dealing ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n* Blue: Once per round, when you use a fire damage-dealing ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of the round. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n* White: Once per round, when you use a fire damage-dealing ability, you can end one effect that is ended by a saving throw or that ends at the end of your turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.\n\nChanging the color of your flames requires the use of this ability again.",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
@@ -1631,13 +1631,13 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "Until the end of your next turn, the ground within the area is difficult terrain for enemies.",
-							"strained": "",
+							"effect": "Until the start of your next turn, your stability is increased by your Reason score and allies who begin their turn in the area gain temporary stamina equal to twice your stability.",
+							"strained": "Enemies who begin their turn in the area are bleeding (EoT).",
 							"alternateEffects": [],
 							"spend": [
 								{
 									"name": "",
-									"effect": "For each spark you spend, the aura’s size is increased by 1 and your stability is increased by 1 until the end of your next turn.",
+									"effect": "For each spark you spend, the aura’s size is increased by 1 and your stability is increased by 1 until the start of your next turn.",
 									"value": 1,
 									"repeatable": false
 								}
@@ -1693,7 +1693,7 @@
 							},
 							"test": null,
 							"effect": "",
-							"strained": "",
+							"strained": "The pull effect on tier 2 and tier 3 outcomes changes to vertical pull 2.",
 							"alternateEffects": [],
 							"spend": [],
 							"persistence": []
@@ -1763,8 +1763,8 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage. All targets are taunted by the afterimage (EoT).",
-							"strained": "",
+							"effect": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage.",
+							"strained": "Until the end of this round, as a free triggered action, after you use an ability, you can swap places with your afterimage.",
 							"alternateEffects": [],
 							"spend": [
 								{
@@ -1787,7 +1787,7 @@
 						"ability": {
 							"id": "LLgH22ZsPAiFzzOu",
 							"name": "Resonate",
-							"description": "Your talismans imbue you with the resonance of a waterfall of time emptying into a Sea of Stars.",
+							"description": "Your talismans imbue you with the resonance of a hollow trunk reaching up from the Undermind.",
 							"type": {
 								"usage": "Action",
 								"free": false,
@@ -1825,7 +1825,7 @@
 							},
 							"test": null,
 							"effect": "",
-							"strained": "",
+							"strained": "For each target, you can choose to replace the slowed effect with dazed (EoT).",
 							"alternateEffects": [],
 							"spend": [],
 							"persistence": []
