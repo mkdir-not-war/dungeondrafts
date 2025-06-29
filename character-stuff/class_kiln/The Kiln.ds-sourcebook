@@ -29,9 +29,9 @@
 							"type": "Bonus",
 							"data": {
 								"field": "Stamina",
-								"value": 18,
+								"value": 21,
 								"valueCharacteristics": [],
-								"valuePerLevel": 9,
+								"valuePerLevel": 12,
 								"valuePerEchelon": 0
 							}
 						},
@@ -274,7 +274,7 @@
 									"preEffect": "",
 									"powerRoll": null,
 									"test": null,
-									"effect": "Until the end of the round, your Stoke the Flame ability gains a distance bonus of +2 and you don’t need line of effect to target allies with your Stoke the Flame ability.",
+									"effect": "Until the end of the round, your Stoke the Flame ability gains a distance bonus of +5 and you don’t need line of effect to target allies with your Stoke the Flame ability.",
 									"strained": "",
 									"alternateEffects": [],
 									"spend": [],
@@ -803,7 +803,7 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of the encounter. Summoning a new smoldering sword dismisses the previous one. All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you use a Weapon ability, you can choose to use it from the sword’s position. An ability performed in this way temporarily gains the Magic keyword and deals additional fire damage equal to your Reason score. At the start of your turn while the sword is summoned, as a free maneuver, you can move the sword up to your speed.",
+					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of the encounter. Summoning a new smoldering sword dismisses the previous one. All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you or an ally uses a Melee Weapon ability, they can choose to use it from the sword’s position. An ability performed in this way temporarily gains the Magic keyword and deals additional fire damage equal to your Reason score. At the start of your turn while the sword is summoned, as a free maneuver, you can move the sword up to your speed.",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
@@ -979,7 +979,7 @@
 								{
 									"id": "eidZoR9ptsDVAv6X",
 									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, you can shift a number of squares equal to your Agility score. ",
+									"description": "When you use your Stoke the Flame ability targeting yourself, before and after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
 									"type": "Text",
 									"data": null
 								}
@@ -1170,7 +1170,7 @@
 								{
 									"id": "8WZni64Ku5UyuaSz",
 									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge.",
+									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge, which can be used on the triggering ability.",
 									"type": "Text",
 									"data": null
 								}
@@ -1602,7 +1602,7 @@
 						"ability": {
 							"id": "LfpLq2z0MdHLluQs",
 							"name": "Put Down Roots",
-							"description": "You reach out with magic tendrils, complicating and absorbing strength from your surroundings.",
+							"description": "Unwavering in the storm.",
 							"type": {
 								"usage": "Maneuver",
 								"free": false,
@@ -1616,7 +1616,7 @@
 							],
 							"distance": [
 								{
-									"type": "Aura",
+									"type": "Burst",
 									"value": 1,
 									"value2": 0,
 									"within": 0,
@@ -1631,13 +1631,13 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "Until the start of your next turn, your stability is increased by your Reason score and allies who begin their turn in the area gain temporary stamina equal to twice your stability.",
-							"strained": "Enemies who begin their turn in the area are bleeding (EoT).",
+							"effect": "Until the start of your next turn, your stability is increased by your Reason score. Allies in the area gain temporary Stamina equal to twice your stability.",
+							"strained": "You and allies in the area can spend a Recovery.",
 							"alternateEffects": [],
 							"spend": [
 								{
 									"name": "",
-									"effect": "For each spark you spend, the aura’s size is increased by 1 and your stability is increased by 1 until the start of your next turn.",
+									"effect": "For each spark you spend, the burst’s size is increased by 1 and your stability is further increased by 1 until the start of your next turn.",
 									"value": 1,
 									"repeatable": false
 								}
@@ -1688,12 +1688,12 @@
 								],
 								"bonus": 0,
 								"tier1": "2 poison damage",
-								"tier2": "4 poison damage; pull 1",
-								"tier3": "6 poison damage; pull 1; restrained (EoT)"
+								"tier2": "3 poison damage; pull 1",
+								"tier3": "5 poison damage; pull 1; restrained (EoT)"
 							},
 							"test": null,
 							"effect": "",
-							"strained": "The pull effect on tier 2 and tier 3 outcomes changes to vertical pull 2.",
+							"strained": "The pull effect on tier 2 and tier 3 outcomes changes to vertical pull and the distance of the pull is increased by your Reason.",
 							"alternateEffects": [],
 							"spend": [],
 							"persistence": []
@@ -1703,7 +1703,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy adjacent to one of the targets of the ability is **M < strong** grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | If a target of the ability is already bleeding, the ability has an edge on its power roll. Otherwise, one target of the ability is **A < average** bleeding (EoT). |\n| Thurisaz | If the target’s ability kills an enemy, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy within 2 squares of one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, the target is bleeding (save ends). |\n| Thurisaz | If the target of the ability is bleeding or is killed by the ability, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
@@ -1820,8 +1820,8 @@
 								],
 								"bonus": 0,
 								"tier1": "2 sonic damage; R < weak, slowed (save ends)",
-								"tier2": "4 sonic damage; R < average, slowed (save ends)",
-								"tier3": "6 sonic damage; R < strong, slowed (save ends)"
+								"tier2": "3 sonic damage; R < average, slowed (save ends)",
+								"tier3": "5 sonic damage; R < strong, slowed (save ends)"
 							},
 							"test": null,
 							"effect": "",
@@ -1835,7 +1835,139 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies within 2 squares of enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |",
+					"type": "Text",
+					"data": null
+				}
+			]
+		},
+		{
+			"id": "MvZbaWiYbk9GfvEI",
+			"name": "Hazel",
+			"description": "Your talismans grant you the ability to anticipate the future and discern illusion from reality.",
+			"type": "Kiln",
+			"armor": [],
+			"weapon": [],
+			"stamina": 0,
+			"speed": 0,
+			"stability": 0,
+			"meleeDamage": null,
+			"rangedDamage": null,
+			"meleeDistance": 0,
+			"rangedDistance": 0,
+			"disengage": 0,
+			"features": [
+				{
+					"id": "w5sSFIpYiEsCb838",
+					"name": "",
+					"description": "",
+					"type": "Ability",
+					"data": {
+						"ability": {
+							"id": "LfpLq2z0MdHLluQs",
+							"name": "Shiver with Anticipation",
+							"description": "Remove the cause, but not the symptom.",
+							"type": {
+								"usage": "Maneuver",
+								"free": false,
+								"trigger": "",
+								"time": "",
+								"qualifiers": []
+							},
+							"keywords": [
+								"Magic",
+								"Area"
+							],
+							"distance": [
+								{
+									"type": "Burst",
+									"value": 1,
+									"value2": 0,
+									"within": 0,
+									"special": "",
+									"qualifier": ""
+								}
+							],
+							"target": "Self",
+							"cost": 0,
+							"repeatable": false,
+							"minLevel": 1,
+							"preEffect": "",
+							"powerRoll": null,
+							"test": null,
+							"effect": "You gain temporary Stamina equal to your Agility score. Additionally, until the start of your next turn, your characteristic scores are considered 1 higher for the purpose of resisting potencies.",
+							"strained": "Ability rolls made against each ally in the area have a bane until the start of the ally’s turn.",
+							"alternateEffects": [],
+							"spend": [
+								{
+									"name": "",
+									"effect": "For each spark you spend, the burst’s size is increased by 1 and the temporary Stamina you gain is additionally increased by your Agility score.",
+									"value": 1,
+									"repeatable": false
+								}
+							],
+							"persistence": []
+						}
+					}
+				},
+				{
+					"id": "6LDV6PIiHoOljlPJ",
+					"name": "",
+					"description": "",
+					"type": "Ability",
+					"data": {
+						"ability": {
+							"id": "cYrUy8SoUpCBmQvT",
+							"name": "Peer Beyond the Veil",
+							"description": "The line between what is and what will be has never been clearer.",
+							"type": {
+								"usage": "Action",
+								"free": false,
+								"trigger": "",
+								"time": "",
+								"qualifiers": []
+							},
+							"keywords": [
+								"Area",
+								"Magic"
+							],
+							"distance": [
+								{
+									"type": "Burst",
+									"value": 2,
+									"value2": 0,
+									"within": 0,
+									"special": "",
+									"qualifier": ""
+								}
+							],
+							"target": "All enemies",
+							"cost": "signature",
+							"repeatable": false,
+							"minLevel": 1,
+							"preEffect": "Targets of this ability do not need to be within line of effect. Hidden enemies in the area are automatically revealed.",
+							"powerRoll": {
+								"characteristic": [
+									"Reason"
+								],
+								"bonus": 0,
+								"tier1": "2 psychic damage",
+								"tier2": "3 psychic damage",
+								"tier3": "5 psychic damage"
+							},
+							"test": null,
+							"effect": "",
+							"strained": "After using the ability, you can teleport to an unoccupied space adjacent to a target.",
+							"alternateEffects": [],
+							"spend": [],
+							"persistence": []
+						}
+					}
+				},
+				{
+					"id": "Rh3THhEfz7wQfVYR",
+					"name": "Hazel Stoke the Flame Effects",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Dagaz | All targets of the ability are **R < average** frightened of the target. If the target is concealed, the ability deals extra psychic damage equal to your Reason score. |\n| Laguz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can teleport a number of squares equal to your Reason score. |\n| Kaunan | If any target of the ability is frightened or weakened, and the ability was made with an edge or double edge on it, then the target gains 1 Heroic Resource. |\n",
 					"type": "Text",
 					"data": null
 				}
