@@ -17,7 +17,9 @@
 
 = Version 0.3 =
 * Part 2 Maps 6, 7, 8, 9
-* Part 2 Scenes 5, 6,
+* Part 2 Scenes 5, 6, 
 * Player Rewards (Titles): Wodewash Baiter, Oak Shield Squire, Thorned Gauntlet Squire
 * Player Rewards (Treasures): Skullbloom & Berry of Ghost-Willow
+* Player Rewards (Retainers): Thorton, Qoroth, Bleddyn
+* custom monsters: the horror
 * cut "the promise" from the knight's oath, changed P2 scenes 1 & 4 to each have a different stanza
