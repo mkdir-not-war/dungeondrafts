@@ -17,7 +17,7 @@
 		],
 		"editor_state": {
 			"current_level": 1,
-			"camera_position": "Vector2( 4409.24, 6761.06 )",
+			"camera_position": "Vector2( 5003.09, 8549.48 )",
 			"camera_zoom": 8,
 			"guide_position": "null",
 			"trace_image": null,
@@ -158,7 +158,7 @@
 		"format": 3,
 		"width": 40,
 		"height": 45,
-		"next_node_id": "1b09",
+		"next_node_id": "1bc6",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -179,7 +179,7 @@
 		},
 		"levels": {
 			"0": {
-				"label": "Sigils 35%",
+				"label": "Sigil 46%",
 				"environment": {
 					"baked_lighting": true,
 					"ambient_light": "ffffffff"
@@ -2009,28 +2009,28 @@
 					"lookup": {
 						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
 						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_cave.png",
-						"3": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"2": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"3": "res://textures/tilesets/simple/tileset_cobble.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
 						"5": "res://textures/tilesets/simple/tileset_concrete.png",
 						"6": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"7": "res://textures/tilesets/simple/tileset_carpet.png",
-						"8": "res://textures/tilesets/simple/tileset_cobble.png",
-						"9": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"10": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"11": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"12": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"13": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"14": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"7": "res://textures/tilesets/simple/tileset_cave.png",
+						"8": "res://textures/tilesets/simple/tileset_carpet.png",
+						"9": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"10": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"13": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"14": "res://textures/tilesets/simple/tileset_roman_worn.png",
 						"15": "res://textures/tilesets/simple/tileset_diamond.png",
-						"16": "res://textures/tilesets/simple/tileset_sewers.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"18": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"16": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"17": "res://textures/tilesets/simple/tileset_sewers.png",
+						"18": "res://textures/tilesets/simple/tileset_plank_45.png",
 						"19": "res://textures/tilesets/simple/tileset_ornate.png",
-						"20": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"20": "res://textures/tilesets/simple/tileset_straw.png",
 						"21": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
 						"22": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"23": "res://textures/tilesets/simple/tileset_straw.png"
+						"23": "res://textures/tilesets/simple/tileset_wood_damaged.png"
 					}
 				},
 				"patterns": [
@@ -2067,7 +2067,7 @@
 				},
 				"paths": [
 					{
-						"position": "Vector2( 2574.24, 7479.86 )",
+						"position": "Vector2( 2572, 7495.48 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2081,10 +2081,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a69"
+						"node_id": "1b4f"
 					},
 					{
-						"position": "Vector2( 2580.64, 9188.66 )",
+						"position": "Vector2( 2578.4, 9204.26 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2098,10 +2098,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a6a"
+						"node_id": "1b50"
 					},
 					{
-						"position": "Vector2( 4337.44, 9207.86 )",
+						"position": "Vector2( 4335.2, 9223.46 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2115,10 +2115,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a6b"
+						"node_id": "1b51"
 					},
 					{
-						"position": "Vector2( 4340.64, 7425.46 )",
+						"position": "Vector2( 4338.4, 7441.08 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2132,10 +2132,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a6c"
+						"node_id": "1b52"
 					},
 					{
-						"position": "Vector2( 2577.44, 7428.66 )",
+						"position": "Vector2( 2575.2, 7444.28 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2149,10 +2149,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a6d"
+						"node_id": "1b53"
 					},
 					{
-						"position": "Vector2( 6164.22, 9274.66 )",
+						"position": "Vector2( 785.837, 4678.13 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2166,10 +2166,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a74"
+						"node_id": "1b6a"
 					},
 					{
-						"position": "Vector2( 6170.62, 10983.5 )",
+						"position": "Vector2( 792.237, 6386.91 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2183,10 +2183,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a75"
+						"node_id": "1b6b"
 					},
 					{
-						"position": "Vector2( 7927.42, 11002.7 )",
+						"position": "Vector2( 2549.04, 6406.11 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2200,10 +2200,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a76"
+						"node_id": "1b6c"
 					},
 					{
-						"position": "Vector2( 7930.62, 9220.26 )",
+						"position": "Vector2( 2552.24, 4623.73 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2217,10 +2217,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a77"
+						"node_id": "1b6d"
 					},
 					{
-						"position": "Vector2( 6167.42, 9223.46 )",
+						"position": "Vector2( 789.037, 4626.93 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2234,10 +2234,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a78"
+						"node_id": "1b6e"
 					},
 					{
-						"position": "Vector2( 7694.88, 8261.33 )",
+						"position": "Vector2( 3596.5, 2880.8 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2251,10 +2251,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a82"
+						"node_id": "1b78"
 					},
 					{
-						"position": "Vector2( 7701.28, 9970.13 )",
+						"position": "Vector2( 3602.9, 4589.58 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2268,10 +2268,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a83"
+						"node_id": "1b79"
 					},
 					{
-						"position": "Vector2( 9458.08, 9989.33 )",
+						"position": "Vector2( 5359.7, 4608.78 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2285,10 +2285,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a84"
+						"node_id": "1b7a"
 					},
 					{
-						"position": "Vector2( 9461.29, 8206.93 )",
+						"position": "Vector2( 5362.9, 2826.4 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2302,10 +2302,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a85"
+						"node_id": "1b7b"
 					},
 					{
-						"position": "Vector2( 7698.08, 8210.13 )",
+						"position": "Vector2( 3599.7, 2829.6 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2319,10 +2319,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a86"
+						"node_id": "1b7c"
 					},
 					{
-						"position": "Vector2( 782.885, 4666.66 )",
+						"position": "Vector2( 7180.5, 3648.8 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2336,10 +2336,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a90"
+						"node_id": "1b86"
 					},
 					{
-						"position": "Vector2( 789.285, 6375.46 )",
+						"position": "Vector2( 7186.9, 5357.58 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2353,10 +2353,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a91"
+						"node_id": "1b87"
 					},
 					{
-						"position": "Vector2( 2546.08, 6394.66 )",
+						"position": "Vector2( 8943.7, 5376.78 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2370,10 +2370,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a92"
+						"node_id": "1b88"
 					},
 					{
-						"position": "Vector2( 2549.28, 4612.26 )",
+						"position": "Vector2( 8946.9, 3594.4 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2387,10 +2387,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a93"
+						"node_id": "1b89"
 					},
 					{
-						"position": "Vector2( 786.085, 4615.46 )",
+						"position": "Vector2( 7183.7, 3597.6 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2404,10 +2404,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a94"
+						"node_id": "1b8a"
 					},
 					{
-						"position": "Vector2( 3593.55, 2874.66 )",
+						"position": "Vector2( 7692.5, 8262.13 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2421,10 +2421,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a9e"
+						"node_id": "1b94"
 					},
 					{
-						"position": "Vector2( 3599.95, 4583.46 )",
+						"position": "Vector2( 7698.9, 9970.91 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2438,10 +2438,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1a9f"
+						"node_id": "1b95"
 					},
 					{
-						"position": "Vector2( 5356.75, 4602.66 )",
+						"position": "Vector2( 9455.7, 9990.11 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2455,10 +2455,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aa0"
+						"node_id": "1b96"
 					},
 					{
-						"position": "Vector2( 5359.95, 2820.26 )",
+						"position": "Vector2( 9458.9, 8207.73 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2472,10 +2472,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aa1"
+						"node_id": "1b97"
 					},
 					{
-						"position": "Vector2( 3596.75, 2823.46 )",
+						"position": "Vector2( 7695.7, 8210.93 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2489,10 +2489,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aa2"
+						"node_id": "1b98"
 					},
 					{
-						"position": "Vector2( 7188.22, 3642.66 )",
+						"position": "Vector2( 6156.5, 9280.8 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1712, 6.3999, 1708.8 )",
@@ -2506,10 +2506,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aac"
+						"node_id": "1ba2"
 					},
 					{
-						"position": "Vector2( 7194.62, 5351.46 )",
+						"position": "Vector2( 6162.9, 10989.6 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 1756.8, 19.2002, 1756.8, 19.2002 )",
@@ -2523,10 +2523,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aad"
+						"node_id": "1ba3"
 					},
 					{
-						"position": "Vector2( 8951.42, 5370.66 )",
+						"position": "Vector2( 7919.7, 11008.8 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 3.2002, -1782.4, 3.2002, -1782.4 )",
@@ -2540,10 +2540,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aae"
+						"node_id": "1ba4"
 					},
 					{
-						"position": "Vector2( 8954.62, 3588.26 )",
+						"position": "Vector2( 7922.9, 9226.4 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -1763.2, 3.19971, -1763.2, 3.19971 )",
@@ -2557,10 +2557,10 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1aaf"
+						"node_id": "1ba5"
 					},
 					{
-						"position": "Vector2( 7191.42, 3591.46 )",
+						"position": "Vector2( 6159.7, 9229.6 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, -12.8, 57.6001, -12.8, 57.6001 )",
@@ -2574,12 +2574,12 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "1ab0"
+						"node_id": "1ba6"
 					}
 				],
 				"objects": [
 					{
-						"position": "Vector2( 3456, 8320 )",
+						"position": "Vector2( 3453.76, 8335.62 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2588,10 +2588,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a40"
+						"node_id": "1b49"
 					},
 					{
-						"position": "Vector2( 2944, 7808 )",
+						"position": "Vector2( 2941.76, 7823.62 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2600,10 +2600,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a41"
+						"node_id": "1b4a"
 					},
 					{
-						"position": "Vector2( 2944, 8832 )",
+						"position": "Vector2( 2941.76, 8847.66 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2612,10 +2612,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a42"
+						"node_id": "1b4b"
 					},
 					{
-						"position": "Vector2( 3968, 8832 )",
+						"position": "Vector2( 3965.76, 8847.66 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2624,10 +2624,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a43"
+						"node_id": "1b4c"
 					},
 					{
-						"position": "Vector2( 3968, 7808 )",
+						"position": "Vector2( 3965.76, 7823.62 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2636,10 +2636,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a44"
+						"node_id": "1b4d"
 					},
 					{
-						"position": "Vector2( 3456, 8448 )",
+						"position": "Vector2( 3453.76, 8463.62 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -2647,10 +2647,10 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1a45"
+						"node_id": "1b4e"
 					},
 					{
-						"position": "Vector2( 7045.98, 10114.8 )",
+						"position": "Vector2( 1667.6, 5518.27 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2659,10 +2659,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a6e"
+						"node_id": "1b64"
 					},
 					{
-						"position": "Vector2( 6533.98, 9602.8 )",
+						"position": "Vector2( 1155.6, 5006.27 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2671,10 +2671,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a6f"
+						"node_id": "1b65"
 					},
 					{
-						"position": "Vector2( 6533.98, 10626.8 )",
+						"position": "Vector2( 1155.6, 6030.31 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2683,10 +2683,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a70"
+						"node_id": "1b66"
 					},
 					{
-						"position": "Vector2( 7557.98, 10626.8 )",
+						"position": "Vector2( 2179.6, 6030.31 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2695,10 +2695,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a71"
+						"node_id": "1b67"
 					},
 					{
-						"position": "Vector2( 7557.98, 9602.8 )",
+						"position": "Vector2( 2179.6, 5006.27 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2707,10 +2707,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a72"
+						"node_id": "1b68"
 					},
 					{
-						"position": "Vector2( 7045.98, 10242.8 )",
+						"position": "Vector2( 1667.6, 5646.27 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -2718,10 +2718,10 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1a73"
+						"node_id": "1b69"
 					},
 					{
-						"position": "Vector2( 8576.64, 9101.47 )",
+						"position": "Vector2( 4478.26, 3720.94 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2730,10 +2730,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a7c"
+						"node_id": "1b72"
 					},
 					{
-						"position": "Vector2( 8064.64, 8589.47 )",
+						"position": "Vector2( 3966.26, 3208.94 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2742,10 +2742,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a7d"
+						"node_id": "1b73"
 					},
 					{
-						"position": "Vector2( 8064.64, 9613.47 )",
+						"position": "Vector2( 3966.26, 4232.98 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2754,10 +2754,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a7e"
+						"node_id": "1b74"
 					},
 					{
-						"position": "Vector2( 9088.64, 9613.47 )",
+						"position": "Vector2( 4990.26, 4232.98 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2766,10 +2766,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a7f"
+						"node_id": "1b75"
 					},
 					{
-						"position": "Vector2( 9088.64, 8589.47 )",
+						"position": "Vector2( 4990.26, 3208.94 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2778,10 +2778,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a80"
+						"node_id": "1b76"
 					},
 					{
-						"position": "Vector2( 8576.64, 9229.47 )",
+						"position": "Vector2( 4478.26, 3848.94 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -2789,10 +2789,10 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1a81"
+						"node_id": "1b77"
 					},
 					{
-						"position": "Vector2( 1664.64, 5506.8 )",
+						"position": "Vector2( 8062.26, 4488.94 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2801,10 +2801,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a8a"
+						"node_id": "1b80"
 					},
 					{
-						"position": "Vector2( 1152.64, 4994.8 )",
+						"position": "Vector2( 7550.26, 3976.94 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2813,10 +2813,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a8b"
+						"node_id": "1b81"
 					},
 					{
-						"position": "Vector2( 1152.64, 6018.8 )",
+						"position": "Vector2( 7550.26, 5000.98 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2825,10 +2825,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a8c"
+						"node_id": "1b82"
 					},
 					{
-						"position": "Vector2( 2176.64, 6018.8 )",
+						"position": "Vector2( 8574.26, 5000.98 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2837,10 +2837,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a8d"
+						"node_id": "1b83"
 					},
 					{
-						"position": "Vector2( 2176.64, 4994.8 )",
+						"position": "Vector2( 8574.26, 3976.94 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2849,10 +2849,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a8e"
+						"node_id": "1b84"
 					},
 					{
-						"position": "Vector2( 1664.64, 5634.8 )",
+						"position": "Vector2( 8062.26, 4616.94 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -2860,10 +2860,10 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1a8f"
+						"node_id": "1b85"
 					},
 					{
-						"position": "Vector2( 4475.31, 3714.8 )",
+						"position": "Vector2( 8574.26, 9102.27 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2872,10 +2872,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a98"
+						"node_id": "1b8e"
 					},
 					{
-						"position": "Vector2( 3963.31, 3202.8 )",
+						"position": "Vector2( 8062.26, 8590.27 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2884,10 +2884,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a99"
+						"node_id": "1b8f"
 					},
 					{
-						"position": "Vector2( 3963.31, 4226.8 )",
+						"position": "Vector2( 8062.26, 9614.31 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2896,10 +2896,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a9a"
+						"node_id": "1b90"
 					},
 					{
-						"position": "Vector2( 4987.31, 4226.8 )",
+						"position": "Vector2( 9086.26, 9614.31 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2908,10 +2908,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a9b"
+						"node_id": "1b91"
 					},
 					{
-						"position": "Vector2( 4987.31, 3202.8 )",
+						"position": "Vector2( 9086.26, 8590.27 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2920,10 +2920,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1a9c"
+						"node_id": "1b92"
 					},
 					{
-						"position": "Vector2( 4475.31, 3842.8 )",
+						"position": "Vector2( 8574.26, 9230.27 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -2931,10 +2931,10 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1a9d"
+						"node_id": "1b93"
 					},
 					{
-						"position": "Vector2( 8069.98, 4482.8 )",
+						"position": "Vector2( 7038.26, 10120.9 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 3.5, 3.5 )",
 						"mirror": false,
@@ -2943,10 +2943,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1aa6"
+						"node_id": "1b9c"
 					},
 					{
-						"position": "Vector2( 7557.98, 3970.8 )",
+						"position": "Vector2( 6526.26, 9608.94 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2955,10 +2955,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1aa7"
+						"node_id": "1b9d"
 					},
 					{
-						"position": "Vector2( 7557.98, 4994.8 )",
+						"position": "Vector2( 6526.26, 10633 )",
 						"rotation": 0.261799,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2967,10 +2967,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1aa8"
+						"node_id": "1b9e"
 					},
 					{
-						"position": "Vector2( 8581.98, 4994.8 )",
+						"position": "Vector2( 7550.26, 10633 )",
 						"rotation": -1.047198,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2979,10 +2979,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1aa9"
+						"node_id": "1b9f"
 					},
 					{
-						"position": "Vector2( 8581.98, 3970.8 )",
+						"position": "Vector2( 7550.26, 9608.94 )",
 						"rotation": -2.094395,
 						"scale": "Vector2( 1.5, 1.5 )",
 						"mirror": false,
@@ -2991,10 +2991,10 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff772195",
-						"node_id": "1aaa"
+						"node_id": "1ba0"
 					},
 					{
-						"position": "Vector2( 8069.98, 4610.8 )",
+						"position": "Vector2( 7038.26, 10248.9 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 2.7, 2.7 )",
 						"mirror": false,
@@ -3002,189 +3002,189 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "1aab"
+						"node_id": "1ba1"
 					}
 				],
 				"lights": [
 					{
-						"position": "Vector2( 3460.53, 8323.82 )",
+						"position": "Vector2( 3458.29, 8339.44 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a46"
+						"node_id": "1b54"
 					},
 					{
-						"position": "Vector2( 3441.44, 8331.87 )",
+						"position": "Vector2( 3439.2, 8347.49 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a67"
+						"node_id": "1b55"
 					},
 					{
-						"position": "Vector2( 3428.64, 8331.87 )",
+						"position": "Vector2( 3426.4, 8347.49 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1a68"
+						"node_id": "1b56"
 					},
 					{
-						"position": "Vector2( 7050.51, 10118.6 )",
+						"position": "Vector2( 1672.13, 5522.09 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a79"
+						"node_id": "1b6f"
 					},
 					{
-						"position": "Vector2( 7031.42, 10126.7 )",
+						"position": "Vector2( 1653.04, 5530.14 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a7a"
+						"node_id": "1b70"
 					},
 					{
-						"position": "Vector2( 7018.62, 10126.7 )",
+						"position": "Vector2( 1640.24, 5530.14 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1a7b"
+						"node_id": "1b71"
 					},
 					{
-						"position": "Vector2( 8581.17, 9105.29 )",
+						"position": "Vector2( 4482.79, 3724.76 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a87"
+						"node_id": "1b7d"
 					},
 					{
-						"position": "Vector2( 8562.08, 9113.34 )",
+						"position": "Vector2( 4463.7, 3732.81 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a88"
+						"node_id": "1b7e"
 					},
 					{
-						"position": "Vector2( 8549.28, 9113.34 )",
+						"position": "Vector2( 4450.9, 3732.81 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1a89"
+						"node_id": "1b7f"
 					},
 					{
-						"position": "Vector2( 1669.17, 5510.62 )",
+						"position": "Vector2( 8066.79, 4492.76 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a95"
+						"node_id": "1b8b"
 					},
 					{
-						"position": "Vector2( 1650.08, 5518.67 )",
+						"position": "Vector2( 8047.7, 4500.81 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1a96"
+						"node_id": "1b8c"
 					},
 					{
-						"position": "Vector2( 1637.28, 5518.67 )",
+						"position": "Vector2( 8034.9, 4500.81 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1a97"
+						"node_id": "1b8d"
 					},
 					{
-						"position": "Vector2( 4479.84, 3718.62 )",
+						"position": "Vector2( 8578.79, 9106.09 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1aa3"
+						"node_id": "1b99"
 					},
 					{
-						"position": "Vector2( 4460.75, 3726.67 )",
+						"position": "Vector2( 8559.7, 9114.14 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1aa4"
+						"node_id": "1b9a"
 					},
 					{
-						"position": "Vector2( 4447.95, 3726.67 )",
+						"position": "Vector2( 8546.9, 9114.14 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1aa5"
+						"node_id": "1b9b"
 					},
 					{
-						"position": "Vector2( 8074.51, 4486.62 )",
+						"position": "Vector2( 7042.79, 10124.8 )",
 						"rotation": 0,
 						"range": 5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1ab1"
+						"node_id": "1ba7"
 					},
 					{
-						"position": "Vector2( 8055.42, 4494.67 )",
+						"position": "Vector2( 7023.7, 10132.8 )",
 						"rotation": 0,
 						"range": 7,
 						"intensity": 1.1,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
-						"node_id": "1ab2"
+						"node_id": "1ba8"
 					},
 					{
-						"position": "Vector2( 8042.62, 4494.67 )",
+						"position": "Vector2( 7010.9, 10132.8 )",
 						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.6,
 						"color": "ffdf00ff",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "1ab3"
+						"node_id": "1ba9"
 					}
 				],
 				"roofs": {
@@ -3233,7 +3233,7 @@
 					]
 				},
 				"tiles": {
-					"cells": "PoolIntArray( -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, -1, 8, 8, -1, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 8, 8, 17, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, -1, -1, -1, 17, 17, 17, 17, -1, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 8, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, -1, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 3, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 3, 8, 3, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 3, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 3, 3, 3, 3, 3, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 17, 17, 17, -1, 17, 17, 17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 8, 8, 3, 3, 3, 3, 3, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 1, 3, 3, 3, 8, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 )",
+					"cells": "PoolIntArray( -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, -1, 3, 3, -1, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 3, 3, 14, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, -1, -1, -1, 14, 14, 14, 14, -1, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 3, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, -1, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 9, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 9, 3, 9, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 9, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 9, 9, 9, 9, 9, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 14, 14, 14, -1, 14, 14, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3, 3, 9, 9, 9, 9, 9, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, 9, 9, 3, 3, 3, 3, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 1, 9, 9, 9, 3, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, 9, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 9, 9, 9, 9, 9, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 )",
 					"colors": [
 						"ffffffff",
 						"ffffffff",
@@ -5039,28 +5039,28 @@
 					"lookup": {
 						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
 						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_cave.png",
-						"3": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"2": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"3": "res://textures/tilesets/simple/tileset_cobble.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
 						"5": "res://textures/tilesets/simple/tileset_concrete.png",
 						"6": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"7": "res://textures/tilesets/simple/tileset_carpet.png",
-						"8": "res://textures/tilesets/simple/tileset_cobble.png",
-						"9": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"10": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"11": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"12": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"13": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"14": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"7": "res://textures/tilesets/simple/tileset_cave.png",
+						"8": "res://textures/tilesets/simple/tileset_carpet.png",
+						"9": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"10": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"13": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"14": "res://textures/tilesets/simple/tileset_roman_worn.png",
 						"15": "res://textures/tilesets/simple/tileset_diamond.png",
-						"16": "res://textures/tilesets/simple/tileset_sewers.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"18": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"16": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"17": "res://textures/tilesets/simple/tileset_sewers.png",
+						"18": "res://textures/tilesets/simple/tileset_plank_45.png",
 						"19": "res://textures/tilesets/simple/tileset_ornate.png",
-						"20": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"20": "res://textures/tilesets/simple/tileset_straw.png",
 						"21": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
 						"22": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"23": "res://textures/tilesets/simple/tileset_straw.png"
+						"23": "res://textures/tilesets/simple/tileset_wood_damaged.png"
 					}
 				},
 				"patterns": [
@@ -5763,7 +5763,7 @@
 				"water": {
 					"disable_border": false,
 					"tree": {
-						"ref": 246599286,
+						"ref": 1046428342,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -5773,7 +5773,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": -18526774,
+								"ref": -1762936478,
 								"polygon": "PoolVector2Array( 5567, 8397, 5338, 8621, 5287, 8672, 5135, 8736, 5103, 8787, 5018, 8979, 4922, 9035, 4799, 9088, 4692, 9104, 4620, 9155, 4471, 9392, 4354, 9459, 4047, 9504, 3927, 9592, 3711, 9592, 3610, 9472, 3658, 9400, 3772, 9325, 3850, 9384, 3962, 9376, 3994, 9411, 3989, 9423, 4030, 9445, 4396, 9392, 4506, 9232, 4644, 9072, 4842, 9040, 4888, 9006, 4802, 8947, 4725, 8931, 4685, 8883, 4565, 8851, 4536, 8755, 4602, 8648, 4650, 8611, 4722, 8640, 4752, 8779, 4754, 8840, 4818, 8907, 4885, 8961, 4932, 8974, 4988, 8933, 5092, 8717, 5290, 8624, 5564, 8357 )",
 								"join": 0,
 								"end": 0,
@@ -5786,7 +5786,7 @@
 								]
 							},
 							{
-								"ref": -1806984834,
+								"ref": 743572758,
 								"polygon": "PoolVector2Array( 7070, 8291, 7116, 8399, 7086, 8493, 7106, 8565, 7056, 8625, 7003, 8621, 6977, 8602, 6983, 8534, 6978, 8511, 6946, 8479, 6950, 8437, 6909, 8406, 6868, 8411, 6772, 8471, 6612, 8495, 6456, 8449, 6304, 8421, 6308, 8389, 6528, 8433, 6662, 8449, 6798, 8407, 6846, 8337, 6959, 8295, 6990, 8271 )",
 								"join": 0,
 								"end": 0,
@@ -5799,7 +5799,7 @@
 								]
 							},
 							{
-								"ref": 699524402,
+								"ref": -1044885302,
 								"polygon": "PoolVector2Array( 7261, 5751, 7262, 5753, 7278, 5753, 7285, 5764, 7287, 5810, 7262, 5871, 7211, 5946, 7174, 5967, 7100, 6047, 6995, 6082, 6851, 6181, 6767, 6415, 6707, 6389, 6793, 6175, 6943, 6047, 7020, 6008, 7057, 5980, 7044, 5926, 7032, 5917, 6996, 5867, 6992, 5804, 7026, 5757, 7063, 5756, 7123, 5745, 7123, 5739, 7206, 5730, 7206, 5738, 7255, 5725 )",
 								"join": 0,
 								"end": 0,
@@ -5812,7 +5812,7 @@
 								]
 							},
 							{
-								"ref": -1088933658,
+								"ref": 1461623934,
 								"polygon": "PoolVector2Array( 4698, 5560, 4758, 5580, 4826, 5564, 4940, 5582, 4974, 5618, 4958, 5710, 4454, 5776, 4430, 5758, 4428, 5692, 4454, 5634, 4592, 5540, 4646, 5530 )",
 								"join": 0,
 								"end": 0,
@@ -5825,7 +5825,7 @@
 								]
 							},
 							{
-								"ref": 1065219870,
+								"ref": -326834126,
 								"polygon": "PoolVector2Array( 6041, 5318, 6081, 5336, 6125, 5426, 6123, 5534, 6203, 5610, 6267, 5612, 6319, 5610, 6335, 5654, 6307, 5692, 6235, 5690, 6097, 5702, 5973, 5654, 5951, 5552, 5873, 5466, 5867, 5360, 5943, 5306 )",
 								"join": 0,
 								"end": 0,
@@ -5838,7 +5838,7 @@
 								]
 							},
 							{
-								"ref": 1417575578,
+								"ref": -2115292186,
 								"polygon": "PoolVector2Array( 6934, 5653, 6933, 5653, 6930, 5651 )",
 								"join": 0,
 								"end": 0,
@@ -5851,7 +5851,7 @@
 								]
 							},
 							{
-								"ref": 1769931286,
+								"ref": 391217050,
 								"polygon": "PoolVector2Array( 7414, 4322, 7422, 4322, 7423, 4338, 7435, 4360, 7431, 4362, 7430, 4599, 7409, 4639, 7428, 4707, 7442, 4654, 7441, 4662, 7439, 4707, 7439, 4924, 7429, 4924, 7429, 5026, 7426, 5026, 7428, 5067, 7424, 5069, 7423, 5119, 7387, 5193, 7281, 5257, 7193, 5461, 7211, 5601, 7127, 5577, 7117, 5511, 7155, 5359, 7287, 5161, 7323, 5011, 7329, 4707, 7307, 4484, 7301, 4451, 7307, 4450, 7323, 4325, 7394, 4323, 7402, 4317, 7407, 4309 )",
 								"join": 0,
 								"end": 0,
@@ -5864,7 +5864,7 @@
 								]
 							},
 							{
-								"ref": -370882482,
+								"ref": -1397241010,
 								"polygon": "PoolVector2Array( 4390, 5021, 4392, 5139, 4291, 5204, 4277, 5227, 4257, 5297, 4189, 5371, 4153, 5347, 4192, 5299, 4179, 5233, 4151, 5199, 4126, 5198, 4046, 5152, 3869, 5141, 3848, 5075, 3933, 5001, 3997, 4982, 4126, 4969, 4249, 4937 )",
 								"join": 0,
 								"end": 0,
@@ -5877,7 +5877,7 @@
 								]
 							},
 							{
-								"ref": 2135626754,
+								"ref": 1109268226,
 								"polygon": "PoolVector2Array( 7457, 4519, 7458, 4420, 7491, 4413 )",
 								"join": 0,
 								"end": 0,
@@ -5890,7 +5890,7 @@
 								]
 							},
 							{
-								"ref": 347168694,
+								"ref": -679189834,
 								"polygon": "PoolVector2Array( 7636, 2745, 7941, 2816, 8192, 2816, 8192, 2874, 8324, 2905, 8422, 3198, 8400, 3224, 8444, 3513, 8439, 3522, 8469, 3561, 8393, 3591, 8276, 3592, 8222, 3583, 8190, 3561, 8189, 3531, 8153, 3472, 8061, 3412, 7885, 3348, 7638, 3353, 7567, 3336, 7443, 3369, 7367, 3535, 7355, 3729, 7427, 3833, 7419, 4261, 7332, 4258, 7341, 4187, 7351, 3913, 7265, 3703, 7343, 3373, 7406, 3221, 7409, 3064, 7448, 2921, 7532, 2841, 7421, 2819, 7470, 2721 )",
 								"join": 0,
 								"end": 0,
@@ -5903,7 +5903,7 @@
 								]
 							},
 							{
-								"ref": -1441289366,
+								"ref": 1827319402,
 								"polygon": "PoolVector2Array( 8601, 2279, 8558, 2317, 8485, 2338, 8433, 2389, 8429, 2475, 8385, 2583, 8251, 2672, 8221, 2771, 8181, 2746, 8197, 2683, 8235, 2616, 8326, 2575, 8379, 2525, 8379, 2411, 8328, 2367, 8267, 2267, 8321, 2168, 8374, 2115 )",
 								"join": 0,
 								"end": 0,
@@ -5916,7 +5916,7 @@
 								]
 							},
 							{
-								"ref": 1051880110,
+								"ref": 38861342,
 								"polygon": "PoolVector2Array( 9171, 1255, 9195, 1515, 9172, 1514, 9181, 1520, 8955, 1554, 8886, 1545, 8720, 1599, 8701, 1747, 8729, 1893, 8728, 1933, 8701, 1960, 8616, 1989, 8549, 2061, 8467, 2042, 8533, 1965, 8672, 1927, 8685, 1832, 8640, 1744, 8659, 1551, 8704, 1489, 8702, 1366, 8677, 1311, 8605, 1261, 8755, 1237, 8757, 1232, 8814, 1226 )",
 								"join": 0,
 								"end": 0,
@@ -16700,150 +16700,6 @@
 						"node_id": "1aba"
 					},
 					{
-						"position": "Vector2( 4484.03, 3716.02 )",
-						"rotation": -0.261799,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1ae1"
-					},
-					{
-						"position": "Vector2( 1660.03, 5504.02 )",
-						"rotation": -1.308997,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1ae2"
-					},
-					{
-						"position": "Vector2( 3448.03, 8316.02 )",
-						"rotation": -2.094395,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1ae3"
-					},
-					{
-						"position": "Vector2( 7028.03, 10112 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1ae4"
-					},
-					{
-						"position": "Vector2( 8584.04, 9088.02 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1ae5"
-					},
-					{
-						"position": "Vector2( 7024.03, 10112 )",
-						"rotation": 1.832596,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1ae6"
-					},
-					{
-						"position": "Vector2( 8584.04, 9096.02 )",
-						"rotation": -0.261799,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1ae7"
-					},
-					{
-						"position": "Vector2( 3452.03, 8336.02 )",
-						"rotation": -0.261799,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1ae8"
-					},
-					{
-						"position": "Vector2( 1644.03, 5520.02 )",
-						"rotation": 1.047198,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1ae9"
-					},
-					{
-						"position": "Vector2( 4492.03, 3716.02 )",
-						"rotation": -1.832596,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1aea"
-					},
-					{
-						"position": "Vector2( 8062.31, 4477.8 )",
-						"rotation": -1.308995,
-						"scale": "Vector2( 2.2, 2.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_06.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff772195",
-						"node_id": "1aeb"
-					},
-					{
-						"position": "Vector2( 8065.02, 4474.86 )",
-						"rotation": -2.617994,
-						"scale": "Vector2( 1.7, 1.7 )",
-						"mirror": false,
-						"texture": "res://textures/objects/magic/sum_circle_07.png",
-						"layer": 700,
-						"shadow": false,
-						"block_light": false,
-						"custom_color": "ff994858",
-						"node_id": "1aec"
-					},
-					{
 						"position": "Vector2( 6333.05, 8384.32 )",
 						"rotation": 1.308997,
 						"scale": "Vector2( 0.5, 0.5 )",
@@ -16912,66 +16768,6 @@
 						"texture": "res://textures/lights/fragments.png",
 						"shadows": true,
 						"node_id": "162b"
-					},
-					{
-						"position": "Vector2( 4466.25, 3739.52 )",
-						"rotation": 0,
-						"range": 2,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "162c"
-					},
-					{
-						"position": "Vector2( 1662.25, 5523.52 )",
-						"rotation": 0,
-						"range": 3,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "162d"
-					},
-					{
-						"position": "Vector2( 8054.25, 4495.52 )",
-						"rotation": 0,
-						"range": 2.5,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "162e"
-					},
-					{
-						"position": "Vector2( 3454.25, 8327.52 )",
-						"rotation": 0,
-						"range": 3,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "162f"
-					},
-					{
-						"position": "Vector2( 8570.25, 9099.52 )",
-						"rotation": 0,
-						"range": 2.5,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "1630"
-					},
-					{
-						"position": "Vector2( 7022.25, 10111.5 )",
-						"rotation": 0,
-						"range": 3,
-						"intensity": 0.8,
-						"color": "ffdf00ff",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "1631"
 					},
 					{
 						"position": "Vector2( 6627.74, 6449.09 )",
@@ -17142,6 +16938,66 @@
 						"texture": "res://textures/lights/point.png",
 						"shadows": true,
 						"node_id": "1a66"
+					},
+					{
+						"position": "Vector2( 5741.71, 8340.57 )",
+						"rotation": 0,
+						"range": 6.5,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b3e"
+					},
+					{
+						"position": "Vector2( 7397.71, 7052.57 )",
+						"rotation": 0,
+						"range": 6.5,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b3f"
+					},
+					{
+						"position": "Vector2( 3653.71, 5500.57 )",
+						"rotation": 0,
+						"range": 6.5,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b40"
+					},
+					{
+						"position": "Vector2( 3381.71, 5860.57 )",
+						"rotation": 0,
+						"range": 6.5,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b41"
+					},
+					{
+						"position": "Vector2( 6325.71, 6340.57 )",
+						"rotation": 0,
+						"range": 4,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b42"
+					},
+					{
+						"position": "Vector2( 7709.71, 7684.57 )",
+						"rotation": 0,
+						"range": 4,
+						"intensity": 0.6,
+						"color": "ffdf00ff",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": false,
+						"node_id": "1b43"
 					}
 				],
 				"roofs": {
