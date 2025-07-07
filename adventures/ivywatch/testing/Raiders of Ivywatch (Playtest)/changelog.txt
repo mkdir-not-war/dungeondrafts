@@ -15,13 +15,15 @@
 * Squire Qoroth (and renamed the other squire to Bleddyn)
 * new STATBLOCKS document with custom retainers and monsters
 
-= Version 0.3 =
-* Part 2 Maps 6, 7, 8, 9
-* Part 2 Scenes 5, 6, 7, 8
-* Player Rewards (Titles): Wodewash Baiter, Oak Shields Squire, Thorned Gauntlets Squire
+= Version 0.3 (Complete 1st Draft) =
+* Part 2 Maps 6, 7, 8, 9, 10
+* Part 2 Scenes 5, 6, 7, 8, 9, 10 + Epilogue A and B
+* Player Rewards (Titles): Wodewash Baiter, Oak Shields Squire, Thorned Gauntlets Squire, Doomed
 * Player Rewards (Treasures): Skullbloom & Berry of Ghost-Willow
 * Player Rewards (Retainers): Thorton, Qoroth, Bleddyn
-* custom monsters: the horror
+* custom monsters: the horror, deatheye yslansh, lizardfolk deathshedder, 
+   torment demon albeoq, torment demon myldorin, basilisk hatchling, statue of the third commander
 * cut "the promise" from the knight's oath, changed P2 scenes 1 & 4 to each have a different stanza
 * reworked P1S5 map
 * P1S1 various small fixes to narrative
+* completed all reference maps and redid old reference maps to include encounter tables
