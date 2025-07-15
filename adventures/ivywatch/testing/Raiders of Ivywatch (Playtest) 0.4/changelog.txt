@@ -31,3 +31,11 @@
 = Version 0.4 =
 * cracking the fort montage - horse only spots one hero
 * P2S2: movement/misc updated, reference map fixed
+* P1S3: fixed iron ball -> end of each Round** not encounter
+* Horror monster buffs
+* P1S4: removed a victory
+* clarity on wodewash baiter title
+* some test difficulty changes in Respite in Ivywatch
+* P2S1: fixes to start conditions
+* general guidance on hostage carrying in P1S1
+* P2S5: changed some encounter units
