@@ -39,3 +39,4 @@
 * P2S1: fixes to start conditions
 * general guidance on hostage carrying in P1S1
 * P2S5: changed some encounter units
+* P2S6: unfucked the first encounter table for the Tomb
