@@ -43,3 +43,5 @@
 * recounted total and expected average victories for whole adventure
 
 = Version 0.5 =
+* fixed P2S6 reference map
+* removed tactics on P1S1 that suggest giving minions temp stam (that's illegal)
