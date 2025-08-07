@@ -126,13 +126,24 @@
 									"preEffect": "",
 									"powerRoll": null,
 									"test": null,
-									"effect": "Apply one Stoke the Flame effect from your talisman kit granted by the Tinderbox feature.",
+									"effect": "",
 									"strained": "",
-									"alternateEffects": [
-										"Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself as a free triggered action."
-									],
+									"alternateEffects": [],
 									"spend": [],
-									"persistence": []
+									"persistence": [],
+									"sections": [
+										{
+											"type": "text",
+											"text": "Apply one Stoke the Flame effect from your talisman kit granted by the Tinderbox feature."
+										},
+										{
+											"type": "field",
+											"name": "Inner Flame",
+											"value": 0,
+											"repeatable": false,
+											"effect": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself as a free triggered action."
+										}
+									]
 								}
 							}
 						},
@@ -140,8 +151,10 @@
 							"id": "7PLQZwqlWXWAI7Pp",
 							"name": "Inner Flame",
 							"description": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself instead of an ally as a free triggered action.",
-							"type": "Text",
-							"data": null
+							"type": "Package",
+							"data": {
+								"tag": "IF"
+							}
 						},
 						{
 							"id": "dXmTjCwMVwFeU1vV",
@@ -248,7 +261,7 @@
 									"name": "Tendrils of the Undermind",
 									"description": "You see as the Undermind sees, reaching out through the veil of reality.",
 									"type": {
-										"usage": "Action",
+										"usage": "Main Action",
 										"free": false,
 										"trigger": "",
 										"time": "",
@@ -274,11 +287,17 @@
 									"preEffect": "",
 									"powerRoll": null,
 									"test": null,
-									"effect": "Until the end of the round, your Stoke the Flame ability gains a distance bonus of +5 and you don’t need line of effect to target allies with your Stoke the Flame ability.",
+									"effect": "",
 									"strained": "",
 									"alternateEffects": [],
 									"spend": [],
-									"persistence": []
+									"persistence": [],
+									"sections": [
+										{
+											"type": "text",
+											"text": "Until the end of the round, your Stoke the Flame ability gains a distance bonus of +5 and you don’t need line of effect to target allies with your Stoke the Flame ability."
+										}
+									]
 								}
 							}
 						},
@@ -481,21 +500,27 @@
 					"cost": 3,
 					"repeatable": false,
 					"minLevel": 1,
-					"preEffect": "You can teleport twice, each time up to 2 squares. If you are adjacent an enemy, no matter the enemy’s size, you can teleport to a space on the opposite side of the enemy as one of the teleports. All 3 squares before and after your teleports count as allies for flanking enemies until the end of your turn.",
+					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
 					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "You can teleport twice, each time up to 2 squares. If you are adjacent an enemy, no matter the enemy’s size, you can teleport to a space on the opposite side of the enemy as one of the teleports. All 3 squares before and after your teleports count as allies for flanking enemies until the end of your turn."
+						}
+					]
 				},
 				{
 					"id": "ghpGUOgj52GuvcYZ",
 					"name": "Heat Wave",
 					"description": "Toasty. ",
 					"type": {
-						"usage": "Action",
+						"usage": "Main Action",
 						"free": false,
 						"trigger": "",
 						"time": "",
@@ -520,21 +545,27 @@
 					"repeatable": false,
 					"minLevel": 1,
 					"preEffect": "",
-					"powerRoll": {
-						"characteristic": [
-							"Reason"
-						],
-						"bonus": 0,
-						"tier1": "3 fire damage",
-						"tier2": "5 fire damage; push 1",
-						"tier3": "8 fire damage; push 2"
-					},
+					"powerRoll": null,
 					"test": null,
 					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Reason"
+								],
+								"bonus": 0,
+								"tier1": "3 fire damage",
+								"tier2": "5 fire damage; push 1",
+								"tier3": "8 fire damage; push 2"
+							}
+						}
+					]
 				},
 				{
 					"id": "4IphmdVho7h9FoY8",
@@ -564,21 +595,27 @@
 					"cost": 3,
 					"repeatable": false,
 					"minLevel": 1,
-					"preEffect": "You can shift up to your speed. You can pass through 1 square of solid matter as part of this movement, but you cannot end this movement inside solid matter. Allies occupying squares that you move through during this shift each gain a surge. Squares occupied by enemies do not count as difficult terrain during this movement.",
+					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
 					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "You can shift up to your speed. You can pass through 1 square of solid matter as part of this movement, but you cannot end this movement inside solid matter. Allies occupying squares that you move through during this shift each gain a surge. Squares occupied by enemies do not count as difficult terrain during this movement."
+						}
+					]
 				},
 				{
 					"id": "sDLIrCOVMuotUg77",
 					"name": "Wavering Flame",
 					"description": "The heat of your movement plays tricks on your foes’ eyes.",
 					"type": {
-						"usage": "Action",
+						"usage": "Main Action",
 						"free": false,
 						"trigger": "",
 						"time": "",
@@ -613,28 +650,34 @@
 					"repeatable": false,
 					"minLevel": 1,
 					"preEffect": "",
-					"powerRoll": {
-						"characteristic": [
-							"Agility"
-						],
-						"bonus": 0,
-						"tier1": "4 damage",
-						"tier2": "5 damage; R < average, dazed (EoT)",
-						"tier3": "7 damage; R < strong, dazed (EoT)"
-					},
+					"powerRoll": null,
 					"test": null,
 					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Agility"
+								],
+								"bonus": 0,
+								"tier1": "4 damage",
+								"tier2": "5 damage; R < average, dazed (EoT)",
+								"tier3": "7 damage; R < strong, dazed (EoT)"
+							}
+						}
+					]
 				},
 				{
 					"id": "pJu7F0ayOaU0jL8Y",
 					"name": "Grasp and Immolate",
 					"description": "There may be such thing as too warm of an embrace.",
 					"type": {
-						"usage": "Action",
+						"usage": "Main Action",
 						"free": false,
 						"trigger": "",
 						"time": "",
@@ -660,22 +703,32 @@
 					"cost": 5,
 					"repeatable": false,
 					"minLevel": 1,
-					"preEffect": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends. ",
-					"powerRoll": {
-						"characteristic": [
-							"Agility"
-						],
-						"bonus": 0,
-						"tier1": "4 + A fire damage; burning (EoT) and grabbed",
-						"tier2": "6 + A fire damage; burning (EoT) and grabbed",
-						"tier3": "10 + A fire damage; burning (EoT) and grabbed"
-					},
+					"preEffect": "",
+					"powerRoll": null,
 					"test": null,
 					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends. "
+						},
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Agility"
+								],
+								"bonus": 0,
+								"tier1": "4 + A fire damage; burning (EoT) and grabbed",
+								"tier2": "6 + A fire damage; burning (EoT) and grabbed",
+								"tier3": "10 + A fire damage; burning (EoT) and grabbed"
+							}
+						}
+					]
 				},
 				{
 					"id": "Y11uB8aPXNICBB0Z",
@@ -708,28 +761,38 @@
 					"repeatable": false,
 					"minLevel": 1,
 					"preEffect": "",
-					"powerRoll": {
-						"characteristic": [
-							"Agility"
-						],
-						"bonus": 0,
-						"tier1": "Push 3",
-						"tier2": "Push 5",
-						"tier3": "Push 7"
-					},
+					"powerRoll": null,
 					"test": null,
-					"effect": "An object you target must be your size or smaller. For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Agility"
+								],
+								"bonus": 0,
+								"tier1": "Push 3",
+								"tier2": "Push 5",
+								"tier3": "Push 7"
+							}
+						},
+						{
+							"type": "text",
+							"text": "An object you target must be your size or smaller. For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies."
+						}
+					]
 				},
 				{
 					"id": "02UsIBtWuprA6Ti5",
 					"name": "Searing Strike",
 					"description": "Memory of your steel radiates oppressive heat.",
 					"type": {
-						"usage": "Action",
+						"usage": "Main Action",
 						"free": false,
 						"trigger": "",
 						"time": "",
@@ -755,21 +818,31 @@
 					"repeatable": false,
 					"minLevel": 1,
 					"preEffect": "",
-					"powerRoll": {
-						"characteristic": [
-							"Agility"
-						],
-						"bonus": 0,
-						"tier1": "5 + A damage; M < weak, the target has fire weakness 5 (save ends)",
-						"tier2": "8 + A damage; M < average, the target has fire weakness 5 (save ends)",
-						"tier3": "12 + A damage; M < strong, the target has fire weakness 5 (save ends)"
-					},
+					"powerRoll": null,
 					"test": null,
-					"effect": "Until the end of the encounter, whenever the target takes damage, all adjacent creatures take 2 fire damage.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Agility"
+								],
+								"bonus": 0,
+								"tier1": "5 + A damage; M < weak, the target has fire weakness 5 (save ends)",
+								"tier2": "8 + A damage; M < average, the target has fire weakness 5 (save ends)",
+								"tier3": "12 + A damage; M < strong, the target has fire weakness 5 (save ends)"
+							}
+						},
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, whenever the target takes damage, all adjacent creatures take 2 fire damage."
+						}
+					]
 				},
 				{
 					"id": "vZHDpe6mKOcP89Xy",
@@ -803,11 +876,17 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of the encounter. Summoning a new smoldering sword dismisses the previous one. All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you or an ally uses a Melee Weapon ability, they can choose to use it from the sword’s position. An ability performed in this way temporarily gains the Magic keyword and deals additional fire damage equal to your Reason score. At the start of your turn while the sword is summoned, as a free maneuver, you can move the sword up to your speed.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "You summon in an unoccupied space within distance an ethereal flaming sword of size 1S that can’t be harmed. The sword lasts until the end of the encounter. Summoning a new smoldering sword dismisses the previous one. All creatures can move through the sword’s space. When an enemy adjacent to the sword willingly moves to a space not adjacent to the sword without shifting, the enemy provokes an Opportunity Attack from you. When you or an ally uses a Melee Weapon ability, they can choose to use it from the sword’s position. An ability performed in this way temporarily gains the Magic keyword and deals additional fire damage equal to your Reason score. At the start of your turn while the sword is summoned, as a free maneuver, you can move the sword up to your speed."
+						}
+					]
 				},
 				{
 					"id": "dfxNUT4lp8fTkmDR",
@@ -840,11 +919,17 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura gain one surge and can make a melee free strike as a free triggered action.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura gain one surge and can make a melee free strike as a free triggered action."
+						}
+					]
 				},
 				{
 					"id": "Cb2gcWe4lmscq3mO",
@@ -877,11 +962,17 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Enemies within the aura take a bane on power rolls.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Enemies within the aura take a bane on power rolls."
+						}
+					]
 				},
 				{
 					"id": "68wY6lq8sUxzAeTM",
@@ -914,11 +1005,17 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. When targets of this ability within the aura make a power roll (including on the ability that triggered Stoke the Flame) and at least one of the d10s rolled is a 1, they can reroll one d10. Additionally, targets of this ability in the aura cannot be dazed.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. When targets of this ability within the aura make a power roll (including on the ability that triggered Stoke the Flame) and at least one of the d10s rolled is a 1, they can reroll one d10. Additionally, targets of this ability in the aura cannot be dazed."
+						}
+					]
 				},
 				{
 					"id": "gzgbDNJYvg7VgOb2",
@@ -951,11 +1048,17 @@
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
-					"effect": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura can use a free triggered action to do one of the following:\n    • Spend a Recovery.\n    • End one effect that is ended by a saving throw or that ends at the end of the target’s turn.",
+					"effect": "",
 					"strained": "",
 					"alternateEffects": [],
 					"spend": [],
-					"persistence": []
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura can use a free triggered action to do one of the following:\n    • Spend a Recovery.\n    • End one effect that is ended by a saving throw or that ends at the end of the target’s turn."
+						}
+					]
 				}
 			],
 			"subclasses": [
@@ -980,8 +1083,10 @@
 									"id": "eidZoR9ptsDVAv6X",
 									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, before and after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
-									"type": "Text",
-									"data": null
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								}
 							],
 							"optionalFeatures": []
@@ -1045,7 +1150,8 @@
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1093,7 +1199,8 @@
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1171,8 +1278,10 @@
 									"id": "8WZni64Ku5UyuaSz",
 									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge, which can be used on the triggering ability.",
-									"type": "Text",
-									"data": null
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								}
 							],
 							"optionalFeatures": []
@@ -1236,7 +1345,8 @@
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1300,7 +1410,8 @@
 																	"repeatable": false
 																}
 															],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1378,8 +1489,10 @@
 									"id": "X4oQbGOONdBQkZzi",
 									"name": "Inner Flame Cadre Benefit",
 									"description": "When you use your Stoke the Flame ability targeting yourself, you gain temporary Stamina equal to twice your Reason score.",
-									"type": "Text",
-									"data": null
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								}
 							],
 							"optionalFeatures": []
@@ -1443,7 +1556,8 @@
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1507,7 +1621,8 @@
 																	"repeatable": false
 																}
 															],
-															"persistence": []
+															"persistence": [],
+															"sections": []
 														}
 													}
 												},
@@ -1631,18 +1746,31 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "Until the start of your next turn, your stability is increased by your Reason score. Allies in the area gain temporary Stamina equal to twice your stability.",
-							"strained": "You and allies in the area can spend a Recovery.",
+							"effect": "",
+							"strained": "",
 							"alternateEffects": [],
-							"spend": [
+							"spend": [],
+							"persistence": [],
+							"sections": [
 								{
-									"name": "",
-									"effect": "For each spark you spend, the burst’s size is increased by 1 and your stability is further increased by 1 until the start of your next turn.",
+									"type": "text",
+									"text": "Until the start of your next turn, your stability is increased by your Reason score. Allies in the area gain temporary Stamina equal to twice your stability."
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "You and allies in the area can spend a Recovery."
+								},
+								{
+									"type": "field",
+									"name": "Spend",
 									"value": 1,
-									"repeatable": false
+									"repeatable": false,
+									"effect": "For each spark you spend, the burst’s size is increased by 1 and your stability is further increased by 1 until the start of your next turn."
 								}
-							],
-							"persistence": []
+							]
 						}
 					}
 				},
@@ -1657,7 +1785,7 @@
 							"name": "Untame the Land",
 							"description": "Your talismans imbue you with a vivid memory of the wode before war or time.",
 							"type": {
-								"usage": "Action",
+								"usage": "Main Action",
 								"free": false,
 								"trigger": "",
 								"time": "",
@@ -1682,21 +1810,34 @@
 							"repeatable": false,
 							"minLevel": 1,
 							"preEffect": "",
-							"powerRoll": {
-								"characteristic": [
-									"Reason"
-								],
-								"bonus": 0,
-								"tier1": "2 poison damage",
-								"tier2": "3 poison damage; pull 1",
-								"tier3": "5 poison damage; pull 1; restrained (EoT)"
-							},
+							"powerRoll": null,
 							"test": null,
 							"effect": "",
-							"strained": "The pull effect on tier 2 and tier 3 outcomes changes to vertical pull and the distance of the pull is increased by your Reason.",
+							"strained": "",
 							"alternateEffects": [],
 							"spend": [],
-							"persistence": []
+							"persistence": [],
+							"sections": [
+								{
+									"type": "roll",
+									"roll": {
+										"characteristic": [
+											"Reason"
+										],
+										"bonus": 0,
+										"tier1": "2 poison damage",
+										"tier2": "3 poison damage; pull 1",
+										"tier3": "5 poison damage; pull 1; restrained (EoT)"
+									}
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "The pull effect on tier 2 and tier 3 outcomes changes to vertical pull and the distance of the pull is increased by your Reason."
+								}
+							]
 						}
 					}
 				},
@@ -1763,18 +1904,31 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage.",
-							"strained": "Until the end of this round, as a free triggered action, after you use an ability, you can swap places with your afterimage.",
+							"effect": "",
+							"strained": "",
 							"alternateEffects": [],
-							"spend": [
+							"spend": [],
+							"persistence": [],
+							"sections": [
 								{
-									"name": "",
-									"effect": "For each spark you spend, gain 1 surge and teleport 1 additional square.",
+									"type": "text",
+									"text": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage."
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "Until the end of this round, as a free triggered action, after you use an ability, you can swap places with your afterimage."
+								},
+								{
+									"type": "field",
+									"name": "Spend",
 									"value": 1,
-									"repeatable": false
+									"repeatable": false,
+									"effect": "For each spark you spend, gain 1 surge and teleport 1 additional square."
 								}
-							],
-							"persistence": []
+							]
 						}
 					}
 				},
@@ -1789,7 +1943,7 @@
 							"name": "Resonate",
 							"description": "Your talismans imbue you with the resonance of a hollow trunk reaching up from the Undermind.",
 							"type": {
-								"usage": "Action",
+								"usage": "Main Action",
 								"free": false,
 								"trigger": "",
 								"time": "",
@@ -1814,21 +1968,34 @@
 							"repeatable": false,
 							"minLevel": 1,
 							"preEffect": "",
-							"powerRoll": {
-								"characteristic": [
-									"Reason"
-								],
-								"bonus": 0,
-								"tier1": "2 sonic damage; R < weak, slowed (save ends)",
-								"tier2": "3 sonic damage; R < average, slowed (save ends)",
-								"tier3": "5 sonic damage; R < strong, slowed (save ends)"
-							},
+							"powerRoll": null,
 							"test": null,
 							"effect": "",
-							"strained": "For each target, you can choose to replace the slowed effect with dazed (EoT).",
+							"strained": "",
 							"alternateEffects": [],
 							"spend": [],
-							"persistence": []
+							"persistence": [],
+							"sections": [
+								{
+									"type": "roll",
+									"roll": {
+										"characteristic": [
+											"Reason"
+										],
+										"bonus": 0,
+										"tier1": "2 sonic damage; R < weak, slowed (save ends)",
+										"tier2": "3 sonic damage; R < average, slowed (save ends)",
+										"tier3": "5 sonic damage; R < strong, slowed (save ends)"
+									}
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "For each target, you can choose to replace the slowed effect with dazed (EoT)."
+								}
+							]
 						}
 					}
 				},
@@ -1895,18 +2062,31 @@
 							"preEffect": "",
 							"powerRoll": null,
 							"test": null,
-							"effect": "You gain temporary Stamina equal to your Agility score. Additionally, until the start of your next turn, your characteristic scores are considered 1 higher for the purpose of resisting potencies.",
-							"strained": "Ability rolls made against each ally in the area have a bane until the start of the ally’s turn.",
+							"effect": "",
+							"strained": "",
 							"alternateEffects": [],
-							"spend": [
+							"spend": [],
+							"persistence": [],
+							"sections": [
 								{
-									"name": "",
-									"effect": "For each spark you spend, the burst’s size is increased by 1 and the temporary Stamina you gain is additionally increased by your Agility score.",
+									"type": "text",
+									"text": "Each target is I < average weakened. Once before the start of your next turn, whenever any target takes a triggered action or a free triggered action, you can make a free strike against the target first. The free strike deals extra psychic damage equal to the number of targets."
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "Ability rolls made against each ally in the area have a bane until the start of the ally’s turn."
+								},
+								{
+									"type": "field",
+									"name": "Spend",
 									"value": 1,
-									"repeatable": false
+									"repeatable": false,
+									"effect": "For each spark you spend, the burst’s size is increased by 1 and the potency is increased by 1."
 								}
-							],
-							"persistence": []
+							]
 						}
 					}
 				},
@@ -1921,7 +2101,7 @@
 							"name": "Peer Beyond the Veil",
 							"description": "The line between what is and what will be has never been clearer.",
 							"type": {
-								"usage": "Action",
+								"usage": "Main Action",
 								"free": false,
 								"trigger": "",
 								"time": "",
@@ -1945,22 +2125,39 @@
 							"cost": "signature",
 							"repeatable": false,
 							"minLevel": 1,
-							"preEffect": "Targets of this ability do not need to be within line of effect. Hidden enemies in the area are automatically revealed.",
-							"powerRoll": {
-								"characteristic": [
-									"Reason"
-								],
-								"bonus": 0,
-								"tier1": "2 psychic damage",
-								"tier2": "3 psychic damage",
-								"tier3": "5 psychic damage"
-							},
+							"preEffect": "",
+							"powerRoll": null,
 							"test": null,
 							"effect": "",
-							"strained": "After using the ability, you can teleport to an unoccupied space adjacent to a target.",
+							"strained": "",
 							"alternateEffects": [],
 							"spend": [],
-							"persistence": []
+							"persistence": [],
+							"sections": [
+								{
+									"type": "text",
+									"text": "Targets of this ability do not need to be within line of effect. Hidden enemies in the area are automatically revealed."
+								},
+								{
+									"type": "roll",
+									"roll": {
+										"characteristic": [
+											"Reason"
+										],
+										"bonus": 0,
+										"tier1": "2 psychic damage",
+										"tier2": "3 psychic damage",
+										"tier3": "5 psychic damage"
+									}
+								},
+								{
+									"type": "field",
+									"name": "Enkindled",
+									"value": 0,
+									"repeatable": false,
+									"effect": "After using the ability, you can teleport to an unoccupied space adjacent to a target and that target is dazed (EoT)."
+								}
+							]
 						}
 					}
 				},
