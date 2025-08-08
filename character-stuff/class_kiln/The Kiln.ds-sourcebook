@@ -84,7 +84,7 @@
 						{
 							"id": "pVGsG9NfxCcT1pfc",
 							"name": "Spark",
-							"description": "At the start of each of your turns during combat, you gain 1d3 spark. \n\nYou gain 1 spark when you use the Stoke the Flame ability targeting an ally. \n\nWhenever you roll to gain spark at the start of your turn, you can kindle (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, the Undermind accepts your offering. You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way. You are enkindled.\n* If the roll is a 2, you are enkindled.\n* If the roll is a 3, you are enkindled and you gain 1 spark.\n\nWhile you are enkindled, your abilities granted by your Talisman Kit are empowered. You lose any remaining spark at the end of the encounter.\n",
+							"description": "At the start of each of your turns during combat, you gain 1d3 spark. \n\nYou gain 1 spark when you use the Stoke the Flame ability targeting an ally. \n\nWhenever you roll to gain spark at the start of your turn, you can kindle (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, the Undermind accepts your offering. You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way, and you are enkindled.\n* If the roll is a 2, you are enkindled.\n* If the roll is a 3, you are enkindled and you gain 1 spark.\n\nWhile you are enkindled, your abilities granted by your Talisman Kit are empowered. You lose any remaining spark at the end of the encounter.\n",
 							"type": "Text",
 							"data": null
 						},
@@ -1082,7 +1082,7 @@
 								{
 									"id": "eidZoR9ptsDVAv6X",
 									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, before and after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
+									"description": "When you use your Stoke the Flame ability targeting yourself, before or after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
 									"type": "Package Content",
 									"data": {
 										"tag": "IF"
@@ -1912,7 +1912,7 @@
 							"sections": [
 								{
 									"type": "text",
-									"text": "You teleport up to 5 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage."
+									"text": "You teleport up to 4 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage."
 								},
 								{
 									"type": "field",
@@ -1926,7 +1926,7 @@
 									"name": "Spend",
 									"value": 1,
 									"repeatable": false,
-									"effect": "For each spark you spend, gain 1 surge and teleport 1 additional square."
+									"effect": "You teleport 1 additional square for each spark you spend."
 								}
 							]
 						}
@@ -2002,7 +2002,7 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies within 2 squares of enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |",
 					"type": "Text",
 					"data": null
 				}
@@ -2179,5 +2179,6 @@
 	"skills": [],
 	"languages": [],
 	"projects": [],
-	"terrain": []
+	"terrain": [],
+	"subclasses": []
 }

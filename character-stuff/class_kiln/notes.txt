@@ -39,15 +39,8 @@ Wicker Man - force move an enemy into the center of a 3x3 DTO, then they're rest
 Cataclysm - your epic resource!
 
 Ashbound & Infernal Totem - 
-	* choose an ally, make a talisman of them. Choose one of their
-	  signature abilities.
-	>> going to have to rework this >>
-		** while talisman is not flared, can use the signature ability yourself.
-		   If the ability can trigger one of the ally's triggered actions, they
-		   can use that triggered action on the ability for free.
-		** when you flare the talisman, you cannot use the signature anymore.
-		   The ally gains 3 Heroic Resource and until EoE, they gain all your
-		   flared talisman passive bonuses.
+	* Infernal Totem: Bonus turn after the totem's turn for a little something something, idk what
+				> also get all three subclass features to choose from
 
 
 
