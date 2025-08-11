@@ -214,7 +214,7 @@
 						{
 							"id": "7vZoBzC4hUudI9fI",
 							"name": "Controlled Burn",
-							"description": "You gain an edge on Presence tests made to interact with other creatures when you are near a visible flame that is larger than 1 square. Given 1 uninterrupted minute, you can reach out with magic to light any at-most size 1 pile of dry, flammable wood or torch that you can see and recognize, no matter the distance.",
+							"description": "You gain an edge on Presence tests made to interact with other creatures when you are near a visible flame that is larger than 1 square. Given 1 uninterrupted minute, you can reach out with magic to light any at-most size 1 pile of dry, flammable wood or torch that you can see and recognize, no matter the distance.\nAdditionally, you have fire immunity equal to 5 plus your level in this class.",
 							"type": "Damage Modifier",
 							"data": {
 								"modifiers": [
@@ -1102,6 +1102,13 @@
 									"data": null
 								},
 								{
+									"id": "Gxs8yJ8vd4YOA35Y",
+									"name": "Reflections of Ember",
+									"description": "You can swim, climb, or otherwise move along reflective surfaces, such as the surface of a river or up a wall of metal, at full speed.",
+									"type": "Text",
+									"data": null
+								},
+								{
 									"id": "A3HMgrcRcFRfxv1S",
 									"name": "2nd-Level Flameweaver Ability",
 									"description": "",
@@ -1277,7 +1284,7 @@
 								{
 									"id": "8WZni64Ku5UyuaSz",
 									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge, which can be used on the triggering ability.",
+									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge, which can be used on the triggering ability. Regain Stamina equal to the number of surges you use to increase the damage of the ability.",
 									"type": "Package Content",
 									"data": {
 										"tag": "IF"
@@ -1295,6 +1302,25 @@
 									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, when you take the Catch Breath maneuver, you can spend as many Recoveries as you like instead of just one, and you gain two surges per Recovery you spend.",
 									"type": "Text",
 									"data": null
+								},
+								{
+									"id": "1WASS1881UhkQY4e",
+									"name": "St. Elmo’s Fire",
+									"description": "You have lightning immunity 5. Additionally, during and shortly after a thunderstorm, you glow with a faint blue flame and you have an edge on tests that use the Navigate skill.",
+									"type": "Damage Modifier",
+									"data": {
+										"modifiers": [
+											{
+												"damageType": "Lightning",
+												"type": "Immunity",
+												"value": 5,
+												"valueCharacteristics": [],
+												"valueCharacteristicMultiplier": 1,
+												"valuePerLevel": 0,
+												"valuePerEchelon": 0
+											}
+										]
+									}
 								},
 								{
 									"id": "7kh47fRjTepke93l",
@@ -1504,6 +1530,13 @@
 									"id": "ErWk8f3OqP3RYNJn",
 									"name": "Backdraft",
 									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, when you pull a creature, you ignore their stability, and when you force move a creature, the distance of the move is increased by your Agility score.",
+									"type": "Text",
+									"data": null
+								},
+								{
+									"id": "Xyfrt3SQO1Lx52rl",
+									"name": "The Soul is in the Breath",
+									"description": "In combat, you can hold your breath for a number of rounds equal to twice your Reason score. Out of combat, you can hold your breath for a number of minutes equal to twice your Reason score, and while you hold your breath, you can turn your body to smoke. While in this form, you move through gaps as if you were size 1T.",
 									"type": "Text",
 									"data": null
 								},
@@ -1844,7 +1877,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy within 2 squares of one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, the target is bleeding (save ends). |\n| Thurisaz | If the target of the ability is bleeding or is killed by the ability, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy within 2 squares of one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, the target of the ability is bleeding or slowed (save ends). |\n| Thurisaz | After using the ability, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
@@ -1912,14 +1945,14 @@
 							"sections": [
 								{
 									"type": "text",
-									"text": "You teleport up to 4 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage."
+									"text": "You teleport up to 3 squares. In the square you teleport from, you leave an afterimage that lasts until the end of the round. All targets are taunted by the afterimage."
 								},
 								{
 									"type": "field",
 									"name": "Enkindled",
 									"value": 0,
 									"repeatable": false,
-									"effect": "Until the end of this round, as a free triggered action, after you use an ability, you can swap places with your afterimage."
+									"effect": "Until the end of the round, as a free triggered action, after you use an ability, you can swap places with your afterimage."
 								},
 								{
 									"type": "field",
@@ -2002,7 +2035,7 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | Sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is dazed, the ability has an edge on its power roll. All targets are **P < average** weakened (EoT).  |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | After the target uses the ability, sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is already dazed or slowed, the ability has an edge on its power roll. All enemies adjacent to the target are **P < average** weakened (EoT).  |",
 					"type": "Text",
 					"data": null
 				}
