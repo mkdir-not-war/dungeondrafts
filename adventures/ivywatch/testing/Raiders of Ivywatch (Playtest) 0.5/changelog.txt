@@ -45,3 +45,5 @@
 = Version 0.5 =
 * fixed P2S6 reference map
 * removed tactics on P1S1 that suggest giving minions temp stam (that's illegal)
+* fixed Oak Shield title Never Waver: only count ally heroes, not all allies.
+* added the ability to equip a Shield if you have a Kit as an Oak Shield Squire.
