@@ -31,7 +31,7 @@
 = Version 0.4 =
 * cracking the fort montage - horse only spots one hero
 * P2S2: movement/misc updated, reference map fixed
-* P1S3: fixed iron ball typo -> end of each Round** not encounter
+* P1S3: fixed iron ball typo -> end of each Round, not Encounter
 * Horror monster buffs
 * P1S4: removed a victory
 * clarity on wodewash baiter title
@@ -47,3 +47,10 @@
 * removed tactics on P1S1 that suggest giving minions temp stam (that's illegal)
 * fixed Oak Shield title Never Waver: only count ally heroes, not all allies.
 * added the ability to equip a Shield if you have a Kit as an Oak Shield Squire.
+* Player Rewards (Treasures): Whisper of a Shadow Potion
+* changed the negotiation results with Bleddyn a bit
+* heroes no longer start P2S9 hidden, the enemies are just surprised
+
+= Version 0.6 =
+* P2S5: adjusted demon count
+* P2S5: heroes pushed onto crevasse have a last-chance test
