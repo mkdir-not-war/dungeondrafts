@@ -54,3 +54,4 @@
 = Version 0.6 =
 * P2S5: adjusted demon count
 * P2S5: heroes pushed onto crevasse have a last-chance test
+* changed the Ghost Willow Berry effects to be more party-wide out of combat
