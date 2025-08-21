@@ -55,3 +55,6 @@
 * P2S5: adjusted demon count
 * P2S5: heroes pushed onto crevasse have a last-chance test
 * changed the Ghost Willow Berry effects to be more party-wide out of combat
+* P2S10: S1S2 and S1S3 maps swapped file names to match the design
+* P2S10: nerfed the enemy counts (-1 Myldorin) for party size 4+
+* very small visual updates to maps of P2S5 and P2S7

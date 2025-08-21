@@ -1,0 +1,58 @@
+I'm thinking maybe it could be a mixture of what it is now and Strain from the Talent: you can either 
+1) spend heroic resource to use a heroic ability like all other classes do, and 
+2) get an additional beneficial effect on the ability if you have a specific stance unlocked when you use it, and finally 
+3) use the ability for free (or at a discount) if you have ALL its required stances unlocked when you use it
+
+I also think the mobility of the class is pretty front loaded right now into the clear path trigger. 
+I think it could be spread between that, a maneuver, and maybe some Level 2 subclass features.
+
+==== MAJOR IDEA ======
+
+* abilities have a 1) base form 2) variation form 3) second variation form
+	> you have a number of combos based on your school that follow variations
+		e.g. 	Base -> Wrath -> Fool
+			Base -> Plow -> Wrath
+	> when you finish a combo, something cool happens
+
+* Stances:
+	Serpent, Boar, Ox, Hawk, Window, Long, Fool, Crown, Short
+
+Serpent
+Boar
+Hawk
+Ox
+
+Long
+Short
+
+Window
+Fool
+Wrath
+
+Crown
+
+
+	> standard stance: (based on school)
+	> 
+
+** instead of heroic abilities, you have combos
+** use 1 heroic resource per stance on your turn -> if you finish a combo, you do the combo ender
+	> opportunities to do multiple actions? How do you dump HR?
+
+
+======= TO DO ========
+
+* lean into forced movement options
+* what does this class do well?
+	DPS	Mob	Heal	Stam	Stick	Comm	Buff	Debuff	Control
+	-----------------------------------------------------------------------
+	High	High	Low	Med	High	Low	Low	Low	Low
+	^^^^	^^^^			^^^^	
+	** fury is low healing, despite temporary stamina, so we are low healing too
+	** conduit is low dps despite a couple hard hitting 5-HR abilities, so we are too
+
+
+
+
+
+
