@@ -1127,7 +1127,7 @@
 															"name": "See the Tapestry of Battle",
 															"description": "This section over here could use a patch.",
 															"type": {
-																"usage": "Action",
+																"usage": "Main Action",
 																"free": false,
 																"trigger": "",
 																"time": "",
@@ -1153,12 +1153,17 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Teleport to an unoccupied square adjacent the target. You can use a signature ability and a maneuver in either order, and the target can spend a Recovery.",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "text",
+																	"text": "Teleport to an unoccupied square adjacent the target. You can use a signature ability and a maneuver in either order, and the target can spend a Recovery."
+																}
+															]
 														}
 													}
 												},
@@ -1176,7 +1181,7 @@
 															"name": "Thread the Needle",
 															"description": "Connect the movements, just as you were trained.",
 															"type": {
-																"usage": "Action",
+																"usage": "Main Action",
 																"free": false,
 																"trigger": "",
 																"time": "",
@@ -1202,12 +1207,17 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Use a signature ability. After you use the ability, you can shift up to your speed and make a melee free strike. ",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "text",
+																	"text": "Use a signature ability. After you use the ability, you can shift up to your speed and make a melee free strike. "
+																}
+															]
 														}
 													}
 												},
@@ -1367,12 +1377,17 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Until the end of the encounter, your flames take on a color of your choosing:\n* Red: Once per round, when you use a fire damage-dealing ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n* Blue: Once per round, when you use a fire damage-dealing ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of the round. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n* White: Once per round, when you use a fire damage-dealing ability, you can end one effect that is ended by a saving throw or that ends at the end of your turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.\n\nChanging the color of your flames requires the use of this ability again.",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "text",
+																	"text": "Until the end of the encounter, your flames take on a color of your choosing:\n* Red: Once per round, when you use a fire damage-dealing ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n* Blue: Once per round, when you use a fire damage-dealing ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of the round. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n* White: Once per round, when you use a fire damage-dealing ability, you can end one effect that is ended by a saving throw or that ends at the end of your turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.\n\nChanging the color of your flames requires the use of this ability again."
+																}
+															]
 														}
 													}
 												},
@@ -1390,7 +1405,7 @@
 															"name": "Fuel the Engine",
 															"description": "Your heart burns hotter with each strike.",
 															"type": {
-																"usage": "Action",
+																"usage": "Main Action",
 																"free": false,
 																"trigger": "",
 																"time": "",
@@ -1415,29 +1430,38 @@
 															"repeatable": false,
 															"minLevel": 1,
 															"preEffect": "",
-															"powerRoll": {
-																"characteristic": [
-																	"Reason"
-																],
-																"bonus": 0,
-																"tier1": "2 fire damage; A < weak, slowed (save ends)",
-																"tier2": "4 fire damage; A < average, slowed (save ends)",
-																"tier3": "6 fire damage; A < strong, slowed (save ends)"
-															},
+															"powerRoll": null,
 															"test": null,
-															"effect": "For every 3 enemies this ability targets, you gain 1 surge and regain Stamina equal to your Reason score.",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
-															"spend": [
-																{
-																	"name": "",
-																	"effect": "The size of the burst is increased by 1 for every additional 2 spark you spend. ",
-																	"value": 2,
-																	"repeatable": false
-																}
-															],
+															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "roll",
+																	"roll": {
+																		"characteristic": [
+																			"Reason"
+																		],
+																		"bonus": 0,
+																		"tier1": "2 fire damage; A < weak, slowed (save ends)",
+																		"tier2": "4 fire damage; A < average, slowed (save ends)",
+																		"tier3": "6 fire damage; A < strong, slowed (save ends)"
+																	}
+																},
+																{
+																	"type": "text",
+																	"text": "For every 3 enemies this ability targets, you gain 1 surge and regain Stamina equal to your Reason score."
+																},
+																{
+																	"type": "field",
+																	"name": "Spend",
+																	"value": 2,
+																	"repeatable": false,
+																	"effect": "The size of the burst is increased by 1 for every additional 2 spark you spend. "
+																}
+															]
 														}
 													}
 												},
@@ -1559,7 +1583,7 @@
 															"name": "Choking Soot",
 															"description": "The blackened sky grants you a vision: your foes reduced to ash.",
 															"type": {
-																"usage": "Action",
+																"usage": "Main Action",
 																"free": false,
 																"trigger": "",
 																"time": "",
@@ -1585,12 +1609,17 @@
 															"preEffect": "",
 															"powerRoll": null,
 															"test": null,
-															"effect": "Until the end of the encounter, soot falls from the sky. You and each ally gain an edge on tests that use the Hide skill. Enemies have fire weakness 3. If an enemy is grabbed, they have fire weakness 7.",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
 															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "text",
+																	"text": "Until the end of the encounter, soot falls from the sky. You and each ally gain an edge on tests that use the Hide skill. Enemies have fire weakness 3. If an enemy is grabbed, they have fire weakness 7."
+																}
+															]
 														}
 													}
 												},
@@ -1608,7 +1637,7 @@
 															"name": "Vortex in the Smog",
 															"description": "Draw them in, then slip out.",
 															"type": {
-																"usage": "Action",
+																"usage": "Main Action",
 																"free": false,
 																"trigger": "",
 																"time": "",
@@ -1633,29 +1662,38 @@
 															"repeatable": false,
 															"minLevel": 1,
 															"preEffect": "",
-															"powerRoll": {
-																"characteristic": [
-																	"Agility"
-																],
-																"bonus": 0,
-																"tier1": "Pull 3; M < weak, restrained (EoT)",
-																"tier2": "Pull 5; M < average, restrained (EoT)",
-																"tier3": "Pull 7; M < strong, restrained (EoT)"
-															},
+															"powerRoll": null,
 															"test": null,
-															"effect": "You can shift up to your speed. If you end the movement with cover or concealment, you are hidden.",
+															"effect": "",
 															"strained": "",
 															"alternateEffects": [],
-															"spend": [
-																{
-																	"name": "",
-																	"effect": "The size of the burst is increased by 1 for every additional 2 spark you spend. ",
-																	"value": 2,
-																	"repeatable": false
-																}
-															],
+															"spend": [],
 															"persistence": [],
-															"sections": []
+															"sections": [
+																{
+																	"type": "roll",
+																	"roll": {
+																		"characteristic": [
+																			"Agility"
+																		],
+																		"bonus": 0,
+																		"tier1": "Pull 3; M < weak, restrained (EoT)",
+																		"tier2": "Pull 5; M < average, restrained (EoT)",
+																		"tier3": "Pull 7; M < strong, restrained (EoT)"
+																	}
+																},
+																{
+																	"type": "text",
+																	"text": "You can shift up to your speed. If you end the movement with cover or concealment, you are hidden."
+																},
+																{
+																	"type": "field",
+																	"name": "Spend",
+																	"value": 2,
+																	"repeatable": false,
+																	"effect": "The size of the burst is increased by 1 for every additional 2 spark you spend. "
+																}
+															]
 														}
 													}
 												},
@@ -2213,5 +2251,6 @@
 	"languages": [],
 	"projects": [],
 	"terrain": [],
-	"subclasses": []
+	"subclasses": [],
+	"imbuements": []
 }
