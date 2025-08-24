@@ -69,5 +69,7 @@
 * replaced minions in P2S9 with tonguers
 * P2S9 round count changed, Deathshedder events shuffled a bit
 * Prepping the Adventure section added
-* trimmed the complexity of map combinations for P1S3, and included a One-Image map with transparency
+* trimmed the complexity of map combinations for P1S3, and included a merged map with transparency
 * custom monster: excrucior interfectus
+* P2S6: remade map so the combat on entrance isn't just in a single tunnel
+* P2S6: reduced statue image size from 4x4 to 2x2
