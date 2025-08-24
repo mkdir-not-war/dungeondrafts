@@ -65,3 +65,9 @@
 * Rise Heroes Rise and players playtesting credit!
 * Skullbloom art by Jaspinplanet!
 * Skullbloom is a hammer, always has been
+* Thorned Gauntlet Squire - Draw Blood!: added a bonus to charge action movement
+* replaced minions in P2S9 with tonguers
+* P2S9 round count changed, Deathshedder events shuffled a bit
+* Prepping the Adventure section added
+* trimmed the complexity of map combinations for P1S3, and included a One-Image map with transparency
+* custom monster: excrucior interfectus
