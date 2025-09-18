@@ -36,7 +36,7 @@ SUBCLASSES: Hexdrinker (mistborn), Witch Hunter (witcher), Cryptokinetic (alucar
 
 Wicker Man - force move an enemy into the center of a 3x3 DTO, then they're restrained.
 	while they're restrained, you can control the wicker man as a retainer!
-	Or just free maneuvers on your turn *like* it's a retainer
+	^ where can you place the DTO? And when? And can you move it? How often and for what cost?
 
 Cataclysm - your epic resource!
 
