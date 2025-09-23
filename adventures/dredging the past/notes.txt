@@ -3,3 +3,24 @@ Ratfolk want the meat hallucinogenic honey - maybe you negotiate with one to fin
 
 Tone: spooky, dire, but the boggits are goofy and flippant about it. Should make you angry.
 	e.g. you arrive and the boggits are dismembering the corpses, but playing with them. Puppet shows with arms, etc.
+
+
+
+==== OUTLINE ======================================
+1) the quest giver/s (e.g. Butcher)
+	* describe where they're at
+	* why does the quest giver know about the quest? Are they part of the problem or the solution?
+
+	* example tests with the quest giver (e.g. press for truth, discern honesty)
+	* negotiation possible?
+
+2) Consequences for not taking the quest (e.g. Wraith Raid)
+	* small encounter, tie in to the quest giver
+
+3) Multi-approaches, each with a challenge (e.g. decoy raft, spiked logs, sneaking in, bluffing in)
+
+4) First encounter: Protect the idol while on the dais
+
+5) Second encounter: clear out the boggits from the tower surfaced
+
+=====================================================
