@@ -1,0 +1,40 @@
+= Dread Abbey =
+Death House adaptation, 4th level
+
+* start with a vignette of each adventurer, "someone is looking at a pamphlet... who?"
+	- just do the classic horror tropes, like Cabin in the Woods
+		> pass out the character card - has lines of dialogue!
+			* if you say a line at an appropriate moment, 
+				** the retainer gains 1 temp stamina which stacks
+				** the hero has a bane on their next power roll
+			* if the retainer already has 5+ temp stam, each extra temp stamina
+			  also grants the Director +1 Malice.
+			* the house can use Malice out of combat!?
+			* some lines are explicitly TRIGGERS of other lines!
+		> if your character dies, they have a Free Triggered Action that lets them
+		  haunt (help) the still-living heroes in a specific way! You cannot
+		  do this if your hero is only inert and not dead.
+
+* begin by protecting the retainer, horror when they get caught in traps, etc. 
+	Lots of traps and other dynamic terrain objects!
+
+* once the retainer dies, the genre shifts from horror to Doom-style Evil Dead
+	- slaughter the undead hordes!
+	- objective becomes much clearer, the floor gives out! We fall into the basement!
+
+
+
+==== OUTLINE =====
+
+1) intro
+2) encounter 1: protect the retainer while they move around the house
+
+X) encounter 2: fight Lorgoth the Consuming (solo) in the ritual chamber
+X+1) montage test to escape the malicious abbey imploding on itself
+	* wacky dimension folding bullshit
+	* cause and effect muddled
+	* flashbacks, ghosts, vignettes from the past that turn angry at the heroes
+X+2) end with a great final read-out; whomever survived is forever changed, for the worse.
+	* titles for each character archetype for continuing to play
+
+
