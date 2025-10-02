@@ -34,10 +34,17 @@ Death House adaptation, 4th level
 	5- the nerd
 	6- the hunter/badass
 	7- the hysteric/pawn/believer
- * the harbinger warns the heroes (victims) of impending doom
-2) encounter 1: protect the retainer while they move around the house
+
+* group test to introduce the idea of the patron getting into danger
+* old man on the hill (the harbinger!) warns the heroes of impending doom
+
+* big montage test thru rooms: protect the retainer while they move around the house
+	* find and sanctify the 3 broken spirit wards around the abbey
+	> success (very hard): end in the courtyard at the druid stone
+	> 
 
 X) encounter 2: fight Lorgoth the Consuming (solo) in the ritual chamber
+	* thorn dragon instead of shambling mound
 X+1) montage test to escape the malicious abbey imploding on itself
 	* wacky dimension folding bullshit
 	* cause and effect muddled

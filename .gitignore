@@ -1,5 +1,6 @@
-# ignore zip files
-adventures/ivywatch/testing/*.zip
-adventures/ivywatch/release/*.zip
-*/testing/*.zip
-*/release/*/zip
+# ignore raiders, it's done!
+adventures/raiders-of-ivywatch/*
+
+# ignore all zip and rar files
+*.zip
+*.rar
