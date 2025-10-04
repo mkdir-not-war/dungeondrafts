@@ -1,32 +1,9 @@
 = Dread Abbey =
 Death House adaptation, 4th level
 
-* start with a vignette of each adventurer, "someone is looking at a pamphlet... who?"
-	- just do the classic horror tropes, like Cabin in the Woods
-		> pass out the character card - has lines of dialogue!
-			* if you say a line at an appropriate moment, 
-				** the retainer gains 1 temp stamina which stacks
-				** the hero has a bane on their next power roll
-			* if the retainer already has 5+ temp stam, each extra temp stamina
-			  also grants the Director +1 Malice.
-			* the house can use Malice out of combat!?
-			* some lines are explicitly TRIGGERS of other lines!
-		> if your character dies, they have a Free Triggered Action that lets them
-		  haunt (help) the still-living heroes in a specific way! You cannot
-		  do this if your hero is only inert and not dead.
-
-* begin by protecting the retainer, horror when they get caught in traps, etc. 
-	Lots of traps and other dynamic terrain objects!
-
-* once the retainer dies, the genre shifts from horror to Doom-style Evil Dead
-	- slaughter the undead hordes!
-	- objective becomes much clearer, the floor gives out! We fall into the basement!
-
-
-
 ==== OUTLINE =====
 
-1) intro
+* intro
 	1- the jock
 	2- the cheerleader
 	3- the useless cop/skeptic
@@ -35,21 +12,43 @@ Death House adaptation, 4th level
 	6- the hunter/badass
 	7- the hysteric/pawn/believer
 
-* group test to introduce the idea of the patron getting into danger
 * old man on the hill (the harbinger!) warns the heroes of impending doom
+	** RP opportunity! Learn about Bertrand (some mistake from his past, something he knows he won't tell)
 
-* big montage test thru rooms: protect the retainer while they move around the house
-	* find and sanctify the 3 broken spirit wards around the abbey
+* big MONTAGE TEST thru rooms: protect the retainer while they move around the house
+	* find and sanctify the various rooms/buildings around the abbey
 	> success (very hard): end in the courtyard at the druid stone
-	> 
+	> partial:
+	> failure/death: 
 
-X) encounter 2: fight Lorgoth the Consuming (solo) in the ritual chamber
-	* thorn dragon instead of shambling mound
-X+1) montage test to escape the malicious abbey imploding on itself
+	** spiders! on the ceiling, fishing with net!
+	** gelatinous cube (or whatever is in the delian tomb)
+	** two lanky pale bare humanoids, big black pool eyes, interrupted, teleport away (bertrand memory loss)
+	** gore, blood in various places - all over, really
+	** statues coming to life, scratching noises & muffled screams from within
+	** ghosts and ghouls - ghosts of nurses in surgery during a war (abbey was used as field hospital)
+	** wildman throwing rocks at/through windows and disappearing into forest
+	** paintings watching from the wall, paintings changing, smiling
+	** odd, unknown religious idols in the chapels, crying blood - sacrificial table with small bones
+
+Death of Bertrand:
+1) ENCOUNTER 1: fight hordes of undead in the abbey, get to the center stone!
+
+** bertrund explodes into a meat mass - slowly trudges toward the courtyard (cannot be killed)
+** meat mass grows arms and a MAW and TEETH and CLAWS and TENDRIL, becomes a flesh dragon!
+
+Bertrand Lives, or after Encounter 1:
+2) ENCOUNTER 2: fight the Meat Dragon in the courtyard
+	* thorn dragon
+	* stone walls begin to turn to flesh!
+	* river turns to blood!
+
+3) 2nd MONTAGE TEST to escape the malicious abbey imploding on itself
 	* wacky dimension folding bullshit
 	* cause and effect muddled
 	* flashbacks, ghosts, vignettes from the past that turn angry at the heroes
-X+2) end with a great final read-out; whomever survived is forever changed, for the worse.
+
+4) end with a great final read-out; whomever survived is forever changed, for the worse.
 	* titles for each character archetype for continuing to play
 
 
