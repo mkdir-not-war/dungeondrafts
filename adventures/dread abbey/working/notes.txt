@@ -3,14 +3,16 @@ Death House adaptation, 4th level
 
 ==== OUTLINE =====
 
+[[ WARNING: ask your players about phobias and red lines. 
+This adventure tries to fit as many fears in as possible. ]]
+
 * intro
 	1- the jock
 	2- the cheerleader
-	3- the useless cop/skeptic
-	4- the stoner/fool
-	5- the nerd
-	6- the hunter/badass
-	7- the hysteric/pawn/believer
+	3- the stoner/fool
+	4- the nerd
+	5- the hunter/badass
+	6- the hysteric/pawn/believer
 
 * old man on the hill (the harbinger!) warns the heroes of impending doom
 	** RP opportunity! Learn about Bertrand (some mistake from his past, something he knows he won't tell)
