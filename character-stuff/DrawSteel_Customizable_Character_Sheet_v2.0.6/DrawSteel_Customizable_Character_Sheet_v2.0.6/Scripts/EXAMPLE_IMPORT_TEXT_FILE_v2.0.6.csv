@@ -1,0 +1,182 @@
+OriginalText,TranslatedText
+TITLES,TÍTULOS
+Goal Points,Puntos Objetivo
+Characteristic,Característica
+Assigned Hero / Follower,Héroe / Seguidor asignado
+Project Name,Nombre del Proyecto
+PROJECTS,PROYECTOS
+TRINKETS,ABALORIOS
+LEVELED TREASURES,TESOROS NIVELADOS
+CARRY THREE SAFELY,LLEVA TRES DE FORMA SEGURA
+CONSUMABLES,CONSUMIBLES
+XP / EPIC,EXP / RECURSO ÉPICO
+RENOWN,REPUTACIÓN
+WEALTH,RIQUEZA
+LEVEL,NIVEL
+VICTORIES:,VICTORIAS:
+Subclass,Subclase
+Class,Clase
+Ancestry,Ascendencia
+Character Name,Nombre del personaje
+Career,Carrera
+STAMINA,VITALIDAD
+Max,Máx
+Temporary,Temporal
+Current,Actual
+0 to,0 a
+Dying,Moribunda
+Winded,Fatigada
+HEROIC RESOURCE,RECURSO HEROICO
+Name,Nombre
+RECOVERIES,RECUPERACIONES
+Stamina,Vitalidad
+SURGES,IMPULSOS
+2 Surges = Potency + 1,2 Impulsos = Potencia + 1
+1 Surge = Damage,1 Impulso = Daño
+PRESENCE,PRESENCIA
+INTUITION,INTUICIÓN
+REASON,RAZÓN
+AGILITY,AGILIDAD
+MIGHT,MÚSCULO
+Stability,Estabilidad
+Disengage,Zafarse
+Speed,Velocidad
+Size,Tamaño
+"2 Tokens: On your turn/when you take damage, regain Stamina equal to your Recovery value without spending a Recovery.","2 Fichas: En tu turno o cuando recibas daño, gana Vitalidad igual a tu Valor de recuperación sin gastar una Recuperación."
+1 Token: Reroll a test and use the new result.,1 Ficha: Repite una prueba y usa el resultado nuevo.
+1 Token: Succeed on a saving throw instead of failing.,1 Ficha: Ten éxito en una tirada de salvación.
+1 Token: Gain 2 surges.,1 Ficha: Gana 2 impulsos.
+SPENDING HERO TOKENS,GASTAR FICHAS DE HÉROE
+Use Consumable,Usar Consumible
+Stand Up,Levantarse
+Search for Hidden Creatures,Buscar criaturas escondidas
+Make or Assist a test,Hacer o asistir prueba
+Knockback,Empujar
+Hide,Esconderse
+Grab,Agarrar
+Escape Grab,Escapar agarre
+Catch Breath,Tomar aliento
+Aid Attack,Asitir ataque
+Trade for Move,Cambiar por Movimiento
+Trade for Maneuver,Cambiar por Maniobra
+Heal,Curar
+Free Strike,G. Básico
+Defend,Defender
+Charge,Cargar
+Advance,Avanzar
+Ride,Montar
+"Each creature can take a move action, a maneuver, and a main action on their turn, in any order.","Cada criatura puede realizar una acción de movimiento, una maniobra y una acción principal en su turno, en cualquier orden."
+Maneuvers,Maniobras
+Main Actions,Acciones Principales
+Move Actions,Acciones de Movimiento
+YOUR TURN,TU TURNO
+STRONG,FUERTE
+AVERAGE,MEDIA
+WEAK,DÉBIL
+POTENCY,POTENCIA
+* Save Ends =,* Salvación =
+"                                    or higher on 1d10 at the end of your turn removes this effect.","                                    o más en 1d10 al final de tu turno elimina el efecto."
+Save Ends*,Salvación Termina*
+End of Turn,Fin de Turno
+Weakened,Debilitada
+Taunted,Provocada
+Slowed,Ralentizada
+Restrained,Inmovilizada
+Prone,Derribada
+Grabbed,Agarrada
+Frightened,Asustada
+Dazed,Aturdida
+Bleeding,Sangrando
+Condition,Condición
+CONDITIONS,CONDICIONES
+Effects,Efectos
+Kit,Kit
+EQUIPMENT AND MODIFIERS,EQUIPAMIENTO Y MODIFICADORES
+Ranged Damage Bonus,Bonif. daño a distancia
+17+,17+
+12-16,12-16
+Melee Damange Bonus,Bonif. daño cuerpo a cuerpo
+Ranged Dist.,Rango a dist.
+Melee Dist.,Rango CaC
+Armor / Ward,Armadura / Guarda
+Weapon / Implement,Arma / Implemento
+CLASS FEATURES,APTITUDES DE CLASE
+SKILLS,COMPETENCIAS
+Crafting,Artesanía
+Cooking,Cocina
+Carpentry,Carpintería
+Blacksmithing,Forja
+Architecture,Arquitectura
+Tailoring,Sastrería
+Mechanics,Mecánica
+Jewelry,Joyería
+Forgery,Forja
+Fletching,Flechería
+Alchemy,Alquimia
+Exploration,Exploración
+Gymnastics,Gimnasia
+Endurance,Resistencia
+Drive,Conducir
+Swim,Nadar
+Navigate,Navegar
+Lift,Levantar
+Jump,Saltar
+Climb,Escalar
+Interpersonal,Interpersonal
+Intimidate,Intimidar
+Interrogate,Interrogar
+Handle Animals,Trato con animales
+Gamble,Apostar
+Flirt,Coquetear
+Empathize,Empatizar
+Read Person,Leer persona
+Persuade,Persuadir
+Perform,Interpretar
+Music,Música
+Lie,Mentir
+Lead,Liderar
+Brag,Presumir
+Intrigue,Intriga
+Escape Artist,Escapista
+Eavesdrop,Escuchar escondido
+Disguise,Disfrazarse
+Conceal Object,Ocultar objeto
+Track,Rastrear
+Sneak,Sigilo
+Search,Buscar
+Sabotage,Sabotear
+Pick Pocket,Robar
+Pick Lock,Forzar cerradura
+Alertness,Alerta
+Lore,Trasfondo
+Nature,Naturaleza
+Monsters,Monstruos
+Magic,Magia
+History,Historia
+Criminal Und.,Mundo criminal
+Timescape,Timescape
+Strategy,Estrategia
+Society,Sociedad
+Rumors,Rumores
+Religion,Religión
+Psionics,Psiónica
+Culture,Cultura
+LANGUAGES,IDIOMAS
+UPBRINGING,EDUCACIÓN
+ORGANIZATION,ORGANIZACIÓN
+ENVIRONMENT,ENTORNO
+CULTURE,Cultura
+DETAILS,DETALLES
+COMPLICATION,COMPLICACIÓN
+INCITING INCIDENT,INCIDENTE INCITADOR
+BENEFITS,BENEFICIOS
+CAREER,CARRERA
+ANCESTRY TRAITS AND PERKS,RASGOS Y MEJORAS DE ASCENDENCIA
+Cost,Coste
+Signature,Distintiva
+Heroic,Heroica
+Other,Otra
+Action,Acción
+Keywords,Palabras Clave
+Distance,Rango
+Target,Objetivo

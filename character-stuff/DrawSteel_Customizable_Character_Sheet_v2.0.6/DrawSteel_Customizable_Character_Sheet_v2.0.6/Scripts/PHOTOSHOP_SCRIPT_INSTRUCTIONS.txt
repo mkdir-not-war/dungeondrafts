@@ -1,0 +1,64 @@
+PHOTOSHOP TEXT LAYER EXPORT/IMPORT SCRIPTS
+============================================
+
+OVERVIEW
+--------
+These scripts allow you to export all text layers from Photoshop documents to a CSV file for translation, then import the translated text back into your documents.
+
+REQUIRED FILES
+--------------
+- ExportTextLayers.jsx (Export script)
+- ImportTextLayers.jsx (Import script)
+
+HOW TO USE
+----------
+
+STEP 1: EXPORT TEXT LAYERS (Optional, do if you don't have the file with the original terms used in the Character Sheet)
+--------------------------
+1. Open your Photoshop document(s) that contain text layers
+2. In Photoshop, go to File > Scripts > Browse...
+3. Navigate to and select "ExportTextLayers.jsx"
+4. Click "Open" to run the script
+5. Choose where to save your CSV file (e.g., "text_export.csv")
+6. The script will create a CSV with two columns:  (See example of file format in ORIGINAL_TEXT_FILE.csv)
+   - OriginalText: The text from your layers
+   - TranslatedText: Empty column for you to fill in
+
+STEP 2: TRANSLATE THE TEXT
+--------------------------
+1. Open the exported CSV file in Excel, Google Sheets, or any text editor
+2. Fill in the "TranslatedText" column with your translations
+3. Save the file (keep the same format)
+
+STEP 3: IMPORT TRANSLATED TEXT
+------------------------------
+1. Make sure your original Photoshop document(s) are still open
+2. In Photoshop, go to File > Scripts > Browse...
+3. Navigate to and select "ImportTextLayers.jsx"
+4. Click "Open" to run the script
+5. Select your translated CSV file (See example of file format in EXAMPLE_IMPORT_TEXT_FILE.csv)
+6. The script will automatically replace all matching text in your documents
+
+IMPORTANT NOTES
+---------------
+- The scripts work with ALL open documents at once
+- Only unique text content is exported (duplicates are ignored)
+- Text matching is based on content, not layer names or IDs
+- The scripts handle text in both regular layers and layer groups
+- Make sure to keep your original documents open when importing
+
+TROUBLESHOOTING
+---------------
+- If no translations are applied, check that your CSV has the correct format
+- Make sure the "TranslatedText" column has actual content (not empty)
+- Verify that the text in your Photoshop layers exactly matches the "OriginalText" column
+- The scripts are case-sensitive, so "Hello" and "hello" are treated as different
+
+CSV FORMAT EXAMPLE
+------------------
+OriginalText,TranslatedText
+"Hello World","Hola Mundo"
+"Welcome","Bienvenido"
+"Click here","Haz clic aquí"
+
+That's it! Your text layers should now be translated in your Photoshop documents.
