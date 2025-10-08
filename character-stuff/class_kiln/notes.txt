@@ -16,8 +16,8 @@
 * what does this class do well?
 	DPS	Mob	Heal	Stam	Stick	Comm	Buff	Debuff	Control
 	-----------------------------------------------------------------------
-	Low	Med	Low	Med	Med	Low	High	High	High
-							^^^^	^^^^	^^^^
+	Med	High	Low	Low	Low 	Med	High	High	Med
+		^^^^					^^^^	^^^^	
 	** fury is low healing, despite temporary stamina, so we are low healing too
 	** conduit is low dps despite a couple hard hitting 5-HR abilities, so we are too
 
