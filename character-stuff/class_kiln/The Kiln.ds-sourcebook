@@ -1,5 +1,5 @@
 {
-	"id": "dUtVfuZUbkLrM501",
+	"id": "YosTnlUzufunC1EI",
 	"name": "The Kiln",
 	"description": "",
 	"isHomebrew": true,
@@ -31,7 +31,7 @@
 								"field": "Stamina",
 								"value": 21,
 								"valueCharacteristics": [],
-								"valuePerLevel": 12,
+								"valuePerLevel": 9,
 								"valuePerEchelon": 0
 							}
 						},
@@ -52,18 +52,32 @@
 							"id": "40EUJLeDYXVn2fjh",
 							"name": "Magic",
 							"description": "",
-							"type": "Skill",
+							"type": "Skill Choice",
 							"data": {
-								"skill": "Magic"
+								"options": [
+									"Magic"
+								],
+								"listOptions": [],
+								"count": 1,
+								"selected": [
+									"Magic"
+								]
 							}
 						},
 						{
 							"id": "1D5vcoaQjS4bxAfB",
 							"name": "Carpentry",
 							"description": "",
-							"type": "Skill",
+							"type": "Skill Choice",
 							"data": {
-								"skill": "Carpentry"
+								"options": [
+									"Carpentry"
+								],
+								"listOptions": [],
+								"count": 1,
+								"selected": [
+									"Carpentry"
+								]
 							}
 						},
 						{
@@ -84,7 +98,7 @@
 						{
 							"id": "pVGsG9NfxCcT1pfc",
 							"name": "Spark",
-							"description": "At the start of each of your turns during combat, you gain 1d3 spark. \n\nYou gain 1 spark when you use the Stoke the Flame ability targeting an ally. \n\nWhenever you roll to gain spark at the start of your turn, you can kindle (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, the Undermind accepts your offering. You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way, and you are enkindled.\n* If the roll is a 2, you are enkindled.\n* If the roll is a 3, you are enkindled and you gain 1 spark.\n\nWhile you are enkindled, your abilities granted by your Talisman Kit are empowered. You lose any remaining spark at the end of the encounter.\n",
+							"description": "At the start of each of your turns during combat, you gain 1d3 spark. \n\nYou gain 1 spark when you use the Stoke the Flame ability targeting an ally. \n\nWhenever you roll to gain spark at the start of your turn, you can kindle (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, the Undermind accepts your offering. You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way. You are enkindled.\n* If the roll is a 2, you are enkindled.\n* If the roll is a 3, you are enkindled and you gain 1 extra spark.\n\nWhile you are enkindled, your abilities granted by your Talisman Kit are empowered. \n\nYou lose any remaining spark at the end of the encounter.\n",
 							"type": "Text",
 							"data": null
 						},
@@ -103,7 +117,8 @@
 										"free": false,
 										"trigger": "The target makes an ability roll for a damage-dealing ability. ",
 										"time": "",
-										"qualifiers": []
+										"qualifiers": [],
+										"freeStrike": false
 									},
 									"keywords": [
 										"Magic",
@@ -141,7 +156,11 @@
 											"name": "Inner Flame",
 											"value": 0,
 											"repeatable": false,
-											"effect": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself as a free triggered action."
+											"effect": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself instead of an ally as a free triggered action. You can use Stoke the Flame this way even if you are dazed."
+										},
+										{
+											"type": "package",
+											"tag": "IF"
 										}
 									]
 								}
@@ -150,7 +169,7 @@
 						{
 							"id": "7PLQZwqlWXWAI7Pp",
 							"name": "Inner Flame",
-							"description": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself instead of an ally as a free triggered action.",
+							"description": "Once per round, you can spend 1 spark to use Stoke the Flame targeting yourself instead of an ally as a free triggered action. You can use Stoke the Flame this way even if you are dazed.",
 							"type": "Package",
 							"data": {
 								"tag": "IF"
@@ -212,25 +231,6 @@
 					"level": 2,
 					"features": [
 						{
-							"id": "7vZoBzC4hUudI9fI",
-							"name": "Controlled Burn",
-							"description": "You gain an edge on Presence tests made to interact with other creatures when you are near a visible flame that is larger than 1 square. Given 1 uninterrupted minute, you can reach out with magic to light any at-most size 1 pile of dry, flammable wood or torch that you can see and recognize, no matter the distance.\nAdditionally, you have fire immunity equal to 5 plus your level in this class.",
-							"type": "Damage Modifier",
-							"data": {
-								"modifiers": [
-									{
-										"damageType": "Fire",
-										"type": "Immunity",
-										"value": 6,
-										"valueCharacteristics": [],
-										"valueCharacteristicMultiplier": 1,
-										"valuePerLevel": 1,
-										"valuePerEchelon": 0
-									}
-								]
-							}
-						},
-						{
 							"id": "HmIp8TIc3VCF2ZSV",
 							"name": "Perk",
 							"description": "You gain a crafting, lore, or supernatural perk of your choice.",
@@ -251,6 +251,26 @@
 					"level": 3,
 					"features": [
 						{
+							"id": "ss3x5Aky77xMctKf",
+							"name": "Controlled Burn",
+							"description": "You gain an edge on Presence tests made to interact with other creatures when you are near a visible flame that is larger than 1 square. Given 1 uninterrupted minute, you can reach out with magic to light any at-most size 1 pile of dry, flammable wood or torch that you can see and recognize, no matter the distance.\nAdditionally, you have fire immunity equal to 5 plus your level in this class.",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Immunity",
+										"value": 6,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 1,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						},
+						{
 							"id": "E2raMbcCfFVjTSL9",
 							"name": "Tendrils of the Undermind",
 							"description": "Your connection with the Undermind lets you share senses with it. You can search for hidden creatures as a free maneuver once on each of your turns. Creatures within distance of your Stoke the Flame ability are automatically found when you search. Additionally, you gain the following ability.",
@@ -265,7 +285,8 @@
 										"free": false,
 										"trigger": "",
 										"time": "",
-										"qualifiers": []
+										"qualifiers": [],
+										"freeStrike": false
 									},
 									"keywords": [
 										"Magic"
@@ -481,7 +502,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic"
@@ -524,7 +546,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Area",
@@ -561,8 +584,8 @@
 								],
 								"bonus": 0,
 								"tier1": "3 fire damage",
-								"tier2": "5 fire damage; push 1",
-								"tier3": "8 fire damage; push 2"
+								"tier2": "4 fire damage; push 1",
+								"tier3": "6 fire damage; push 2"
 							}
 						}
 					]
@@ -576,7 +599,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic"
@@ -619,7 +643,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Melee",
@@ -665,9 +690,9 @@
 									"Agility"
 								],
 								"bonus": 0,
-								"tier1": "4 damage",
-								"tier2": "5 damage; R < average, dazed (EoT)",
-								"tier3": "7 damage; R < strong, dazed (EoT)"
+								"tier1": "2 damage; R < weak, dazed (EoT)",
+								"tier2": "4 damage; R < average, dazed (EoT)",
+								"tier3": "6 damage; R < strong, dazed (EoT)"
 							}
 						}
 					]
@@ -681,7 +706,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Melee",
@@ -724,8 +750,8 @@
 								],
 								"bonus": 0,
 								"tier1": "4 + A fire damage; burning (EoT) and grabbed",
-								"tier2": "6 + A fire damage; burning (EoT) and grabbed",
-								"tier3": "10 + A fire damage; burning (EoT) and grabbed"
+								"tier2": "5 + A fire damage; burning (EoT) and grabbed",
+								"tier3": "7 + A fire damage; burning (EoT) and grabbed"
 							}
 						}
 					]
@@ -739,7 +765,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Melee",
@@ -777,8 +804,8 @@
 								],
 								"bonus": 0,
 								"tier1": "Push 3",
-								"tier2": "Push 5",
-								"tier3": "Push 7"
+								"tier2": "Push 4",
+								"tier3": "Push 5"
 							}
 						},
 						{
@@ -796,7 +823,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Melee",
@@ -833,9 +861,9 @@
 									"Agility"
 								],
 								"bonus": 0,
-								"tier1": "5 + A damage; M < weak, the target has fire weakness 5 (save ends)",
-								"tier2": "8 + A damage; M < average, the target has fire weakness 5 (save ends)",
-								"tier3": "12 + A damage; M < strong, the target has fire weakness 5 (save ends)"
+								"tier1": "4 + A damage; M < weak, the target has fire weakness 5 (save ends)",
+								"tier2": "6 + A damage; M < average, the target has fire weakness 5 (save ends)",
+								"tier3": "10 + A damage; M < strong, the target has fire weakness 5 (save ends)"
 							}
 						},
 						{
@@ -853,7 +881,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic",
@@ -889,49 +918,6 @@
 					]
 				},
 				{
-					"id": "dfxNUT4lp8fTkmDR",
-					"name": "Invigorating Incense",
-					"description": "Your talismans burn with a sweet smell that affirms and empowers.",
-					"type": {
-						"usage": "Maneuver",
-						"free": false,
-						"trigger": "",
-						"time": "",
-						"qualifiers": []
-					},
-					"keywords": [
-						"Magic"
-					],
-					"distance": [
-						{
-							"type": "Self",
-							"value": 0,
-							"value2": 0,
-							"within": 0,
-							"special": "",
-							"qualifier": ""
-						}
-					],
-					"target": "Self and all allies",
-					"cost": 7,
-					"repeatable": false,
-					"minLevel": 1,
-					"preEffect": "",
-					"powerRoll": null,
-					"test": null,
-					"effect": "",
-					"strained": "",
-					"alternateEffects": [],
-					"spend": [],
-					"persistence": [],
-					"sections": [
-						{
-							"type": "text",
-							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura gain one surge and can make a melee free strike as a free triggered action."
-						}
-					]
-				},
-				{
 					"id": "Cb2gcWe4lmscq3mO",
 					"name": "Demoralizing Incense",
 					"description": "Your talismans burn with an acrid smell that distracts and sows doubt.",
@@ -940,7 +926,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic"
@@ -983,7 +970,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic"
@@ -1018,6 +1006,50 @@
 					]
 				},
 				{
+					"id": "dfxNUT4lp8fTkmDR",
+					"name": "Invigorating Incense",
+					"description": "Your talismans burn with a sweet smell that affirms and empowers.",
+					"type": {
+						"usage": "Maneuver",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [
+						"Magic"
+					],
+					"distance": [
+						{
+							"type": "Self",
+							"value": 0,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Self and all allies",
+					"cost": 7,
+					"repeatable": false,
+					"minLevel": 1,
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Until the end of the encounter, targets of your Stoke the Flame ability gain a 1 aura until the end of the round. Targets of this ability who end their turn within the aura gain one surge and can make a melee free strike as a free triggered action."
+						}
+					]
+				},
+				{
 					"id": "gzgbDNJYvg7VgOb2",
 					"name": "Revitalizing Incense",
 					"description": "Your talismans burn with a floral smell that heals and reinvigorates.",
@@ -1026,7 +1058,8 @@
 						"free": false,
 						"trigger": "",
 						"time": "",
-						"qualifiers": []
+						"qualifiers": [],
+						"freeStrike": false
 					},
 					"keywords": [
 						"Magic"
@@ -1074,19 +1107,24 @@
 									"id": "j0NHyyP7a0NF1TnH",
 									"name": "Navigate",
 									"description": "",
-									"type": "Skill",
+									"type": "Skill Choice",
 									"data": {
-										"skill": "Navigate"
+										"options": [
+											"Navigate"
+										],
+										"listOptions": [],
+										"count": 1,
+										"selected": [
+											"Navigate"
+										]
 									}
 								},
 								{
-									"id": "eidZoR9ptsDVAv6X",
-									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, before or after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
-									"type": "Package Content",
-									"data": {
-										"tag": "IF"
-									}
+									"id": "P6VcK01mJc1PkCfH",
+									"name": "Wildfire",
+									"description": "While you are enkindled, you can shift into difficult terrain, and if the difficult terrain is caused by an object, you can deal fire damage to the object equal to your Agility score.",
+									"type": "Text",
+									"data": null
 								}
 							],
 							"optionalFeatures": []
@@ -1095,11 +1133,13 @@
 							"level": 2,
 							"features": [
 								{
-									"id": "wsSWrpjvXCLqk3qy",
-									"name": "Wildfire",
-									"description": "Each turn, if the result of your roll to gain spark is 3, you can shift into difficult terrain, and if the difficult terrain is caused by an object, you can deal fire damage to the object equal to your Agility score.",
-									"type": "Text",
-									"data": null
+									"id": "LQ4PI2s7XVdH6Acz",
+									"name": "Inner Flame (Flameweaver)",
+									"description": "Before or after the triggering ability, you can shift a number of squares equal to your Agility score. This movement ends the grabbed and restrained conditions.",
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								},
 								{
 									"id": "Gxs8yJ8vd4YOA35Y",
@@ -1131,7 +1171,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Magic"
@@ -1185,7 +1226,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Magic"
@@ -1286,19 +1328,24 @@
 									"id": "K2orXNVgQlytsh8Q",
 									"name": "Endurance",
 									"description": "",
-									"type": "Skill",
+									"type": "Skill Choice",
 									"data": {
-										"skill": "Endurance"
+										"options": [
+											"Endurance"
+										],
+										"listOptions": [],
+										"count": 1,
+										"selected": [
+											"Endurance"
+										]
 									}
 								},
 								{
-									"id": "8WZni64Ku5UyuaSz",
-									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, you gain one surge, which can be used on the triggering ability. Regain Stamina equal to the number of surges you use to increase the damage of the ability.",
-									"type": "Package Content",
-									"data": {
-										"tag": "IF"
-									}
+									"id": "QFwqnEtHE9TZFhXd",
+									"name": "Fan the Flame",
+									"description": "While you are enkindled, when you take the Catch Breath maneuver, you can spend as many Recoveries as you like instead of just one, and you gain two surges per Recovery you spend.",
+									"type": "Text",
+									"data": null
 								}
 							],
 							"optionalFeatures": []
@@ -1307,11 +1354,13 @@
 							"level": 2,
 							"features": [
 								{
-									"id": "QFwqnEtHE9TZFhXd",
-									"name": "Fan the Flame",
-									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, when you take the Catch Breath maneuver, you can spend as many Recoveries as you like instead of just one, and you gain two surges per Recovery you spend.",
-									"type": "Text",
-									"data": null
+									"id": "8WZni64Ku5UyuaSz",
+									"name": "Inner Flame (Hexblaze)",
+									"description": "You gain one surge that must be used with the triggering ability. Regain Stamina equal to the number of non-minion creatures the triggering ability kills times twice the number of surges you used with the ability.",
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								},
 								{
 									"id": "1WASS1881UhkQY4e",
@@ -1355,7 +1404,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Magic"
@@ -1385,7 +1435,7 @@
 															"sections": [
 																{
 																	"type": "text",
-																	"text": "Until the end of the encounter, your flames take on a color of your choosing:\n* Red: Once per round, when you use a fire damage-dealing ability, you can make a melee free strike against one of the targets of the ability. If any creature is reduced to 0 Stamina by the ability or the free strike, you regain Stamina equal to 5 + your Agility score.\n* Blue: Once per round, when you use a fire damage-dealing ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of the round. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n* White: Once per round, when you use a fire damage-dealing ability, you can end one effect that is ended by a saving throw or that ends at the end of your turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.\n\nChanging the color of your flames requires the use of this ability again."
+																	"text": "Until the end of the encounter, your flames take on a color of your choosing:\n* Red: Once per round, when you use a fire damage-dealing ability, you can make a melee free strike against one of the targets of the ability. For each creature that is killed by the ability and the free strike, you regain Stamina equal to your Agility score.\n* Blue: Once per round, when you use a fire damage-dealing ability, all targets of the ability are burning (EoT). For each target that was already burning, your speed increases by 1 until the end of the round. A burning creature takes 1d6 fire damage at the start of each of their turns until the condition ends.\n* White: Once per round, when you use a fire damage-dealing ability, you can end one effect that is ended by a saving throw or that ends at the end of your turn. Additionally, for each target of the ability, your stability increases by 1 until the end of the round.\n\nChanging the color of your flames requires the use of this ability again.\n"
 																}
 															]
 														}
@@ -1409,7 +1459,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Area",
@@ -1446,13 +1497,13 @@
 																		],
 																		"bonus": 0,
 																		"tier1": "2 fire damage; A < weak, slowed (save ends)",
-																		"tier2": "4 fire damage; A < average, slowed (save ends)",
-																		"tier3": "6 fire damage; A < strong, slowed (save ends)"
+																		"tier2": "3 fire damage; A < average, slowed (save ends)",
+																		"tier3": "5 fire damage; A < strong, slowed (save ends)"
 																	}
 																},
 																{
 																	"type": "text",
-																	"text": "For every 3 enemies this ability targets, you gain 1 surge and regain Stamina equal to your Reason score."
+																	"text": "For every 2 enemies this ability targets, you gain 1 surge that you can use immediately. Regain Stamina equal to the number of targets killed by this ability times your Reason score."
 																},
 																{
 																	"type": "field",
@@ -1530,19 +1581,24 @@
 									"id": "Jx8AcVTauHPBKCxS",
 									"name": "Escape Artist",
 									"description": "",
-									"type": "Skill",
+									"type": "Skill Choice",
 									"data": {
-										"skill": "Escape Artist"
+										"options": [
+											"Escape Artist"
+										],
+										"listOptions": [],
+										"count": 1,
+										"selected": [
+											"Escape Artist"
+										]
 									}
 								},
 								{
-									"id": "X4oQbGOONdBQkZzi",
-									"name": "Inner Flame Cadre Benefit",
-									"description": "When you use your Stoke the Flame ability targeting yourself, you gain temporary Stamina equal to twice your Reason score.",
-									"type": "Package Content",
-									"data": {
-										"tag": "IF"
-									}
+									"id": "ErWk8f3OqP3RYNJn",
+									"name": "Backdraft",
+									"description": "While you are enkindled, when you pull a creature, you ignore their stability, and when you force move a creature, the distance of the move is increased by your Agility score.",
+									"type": "Text",
+									"data": null
 								}
 							],
 							"optionalFeatures": []
@@ -1551,11 +1607,13 @@
 							"level": 2,
 							"features": [
 								{
-									"id": "ErWk8f3OqP3RYNJn",
-									"name": "Backdraft",
-									"description": "Each turn, if the result of your roll to gain spark is 3, until the end of the round, when you pull a creature, you ignore their stability, and when you force move a creature, the distance of the move is increased by your Agility score.",
-									"type": "Text",
-									"data": null
+									"id": "X4oQbGOONdBQkZzi",
+									"name": "Inner Flame (Smokewight)",
+									"description": "You can either gain temporary Stamina equal to twice your Reason score or you can end one effect on you that is ended by a saving throw or that ends at the end of your turn.",
+									"type": "Package Content",
+									"data": {
+										"tag": "IF"
+									}
 								},
 								{
 									"id": "Xyfrt3SQO1Lx52rl",
@@ -1587,7 +1645,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Magic"
@@ -1617,7 +1676,7 @@
 															"sections": [
 																{
 																	"type": "text",
-																	"text": "Until the end of the encounter, soot falls from the sky. You and each ally gain an edge on tests that use the Hide skill. Enemies have fire weakness 3. If an enemy is grabbed, they have fire weakness 7."
+																	"text": "Until the end of the encounter, soot falls from the sky. You and each ally gain an edge on tests that use the Hide skill. Enemies have fire weakness 3. If an enemy is grabbed, they have fire weakness 6."
 																}
 															]
 														}
@@ -1641,7 +1700,8 @@
 																"free": false,
 																"trigger": "",
 																"time": "",
-																"qualifiers": []
+																"qualifiers": [],
+																"freeStrike": false
 															},
 															"keywords": [
 																"Area",
@@ -1758,7 +1818,8 @@
 					"Agility",
 					"Reason"
 				]
-			]
+			],
+			"type": "standard"
 		}
 	],
 	"domains": [],
@@ -1794,7 +1855,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Magic",
@@ -1839,7 +1901,7 @@
 									"name": "Spend",
 									"value": 1,
 									"repeatable": false,
-									"effect": "For each spark you spend, the burst’s size is increased by 1 and your stability is further increased by 1 until the start of your next turn."
+									"effect": "For each spark you spend, the burst’s size is increased by 1, your stability is further increased by 1 until the start of your next turn, and affected allies gain an additional 2 temporary Stamina."
 								}
 							]
 						}
@@ -1860,7 +1922,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Area",
@@ -1898,7 +1961,7 @@
 										"bonus": 0,
 										"tier1": "2 poison damage",
 										"tier2": "3 poison damage; pull 1",
-										"tier3": "5 poison damage; pull 1; restrained (EoT)"
+										"tier3": "4 poison damage; pull 1; restrained (EoT)"
 									}
 								},
 								{
@@ -1915,7 +1978,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hawthorn Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy within 2 squares of one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, the target of the ability is bleeding or slowed (save ends). |\n| Thurisaz | After using the ability, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Berkanan | An enemy within 2 squares of one of the targets of the ability is grabbed by a target of the ability. The grab cannot be ended by the grabber. |\n| Eihwaz | The target gains a surge. If the target uses 3 or more surges to increase the damage of the ability, the target of the ability is bleeding or slowed (save ends). |\n| Thurisaz | After using the ability, the target can end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn. |\n",
 					"type": "Text",
 					"data": null
 				}
@@ -1952,7 +2015,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Magic",
@@ -2018,7 +2082,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Area",
@@ -2056,7 +2121,7 @@
 										"bonus": 0,
 										"tier1": "2 sonic damage; R < weak, slowed (save ends)",
 										"tier2": "3 sonic damage; R < average, slowed (save ends)",
-										"tier3": "5 sonic damage; R < strong, slowed (save ends)"
+										"tier3": "4 sonic damage; R < strong, slowed (save ends)"
 									}
 								},
 								{
@@ -2073,7 +2138,7 @@
 				{
 					"id": "vjgm8AHumnc3qfdG",
 					"name": "Rosewood Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | After the target uses the ability, sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is already dazed or slowed, the ability has an edge on its power roll. All enemies adjacent to the target are **P < average** weakened (EoT).  |",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Fehu | After the target uses the ability, sound damage equal to your Reason score is dealt to all targets of the ability and all enemies adjacent to enemies who take damage from this effect. |\n| Othalan | The target gains a surge. If the target uses 3 or more surges to increase the damage of the ability, they can additionally make a free strike after the ability. |\n| Uruz | If a target of the ability is already dazed or slowed, the ability has an edge on its power roll. All enemies adjacent to the target are **P < average** weakened (EoT).   |",
 					"type": "Text",
 					"data": null
 				}
@@ -2110,7 +2175,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Magic",
@@ -2176,7 +2242,8 @@
 								"free": false,
 								"trigger": "",
 								"time": "",
-								"qualifiers": []
+								"qualifiers": [],
+								"freeStrike": false
 							},
 							"keywords": [
 								"Area",
@@ -2218,7 +2285,7 @@
 										"bonus": 0,
 										"tier1": "2 psychic damage",
 										"tier2": "3 psychic damage",
-										"tier3": "5 psychic damage"
+										"tier3": "4 psychic damage"
 									}
 								},
 								{
@@ -2235,7 +2302,7 @@
 				{
 					"id": "Rh3THhEfz7wQfVYR",
 					"name": "Hazel Stoke the Flame Effects",
-					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Dagaz | All targets of the ability are **R < average** frightened of the target. If the target is concealed, the ability deals extra psychic damage equal to your Reason score. |\n| Laguz | The target gains a surge. If the target uses 3 surges to increase the damage of the ability, they can teleport a number of squares equal to your Reason score. |\n| Kaunan | If any target of the ability is frightened or weakened, and the ability was made with an edge or double edge on it, then the target gains 1 Heroic Resource. |\n",
+					"description": "| Talisman | Stoke the Flame Effect |\n| :--- | :--- |\n| Dagaz | All targets of the ability are **R < average** frightened of the target. If the target is concealed, the ability deals extra psychic damage equal to your Reason score. |\n| Laguz | The target gains a surge. If the target uses 3 or more surges to increase the damage of the ability, they can teleport a number of squares equal to your Reason score. |\n| Kaunan | If the ability is made with an edge or double edge against a creature that is frightened or weakened, then the target gains 1 Heroic Resource. |\n",
 					"type": "Text",
 					"data": null
 				}
