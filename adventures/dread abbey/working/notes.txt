@@ -15,7 +15,8 @@ This adventure tries to fit as many fears in as possible. ]]
 	5- the hunter/badass
 	6- the hysteric/pawn/believer
 
-* old man on the hill (the harbinger!) warns the heroes of impending doom
+* old man on the hill NEGOTIATION warns the heroes of impending doom
+	* negotiation!
 	** RP opportunity! Learn about Bertrand (some mistake from his past, something he knows he won't tell)
 
 * big MONTAGE TEST thru rooms: protect the retainer while they move around the house
@@ -57,5 +58,6 @@ Bertrand Lives, or after Encounter 1:
 	* titles for each character archetype for continuing to play
 
 5) What happens if EVERYONE DIES? End with a great final read-out in the bad case!
+	** end with another letter to the priest's sister - this time asking her to come visit the abbey
 
 
