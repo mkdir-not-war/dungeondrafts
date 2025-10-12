@@ -805,12 +805,12 @@
 								"bonus": 0,
 								"tier1": "Push 3",
 								"tier2": "Push 4",
-								"tier3": "Push 5"
+								"tier3": "Push 6"
 							}
 						},
 						{
 							"type": "text",
-							"text": "An object you target must be your size or smaller. For each square you push the target, they take 1 fire damage. Squares the target is forced from as part of this ability become difficult terrain for enemies."
+							"text": "An object you target must be your size or smaller. The target takes fire damage equal to the number of squares they are pushed. Squares the target is forced from as part of this ability become difficult terrain for enemies."
 						}
 					]
 				},

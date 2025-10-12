@@ -30,19 +30,21 @@ This adventure tries to fit as many fears in as possible. ]]
 	** gore, blood in various places - all over, really
 	** statues coming to life, scratching noises & muffled screams from within
 	** ghosts and ghouls - ghosts of nurses in surgery during a war (abbey was used as field hospital)
-	** wildman throwing rocks at/through windows and disappearing into forest
+	-* wildman throwing rocks at/through windows and disappearing into forest
+	** room without a floor, swimming through, ghost sharks swimming through walls
 	** paintings watching from the wall, paintings changing, smiling
 	** odd, unknown religious idols in the chapels, crying blood - sacrificial table with small bones
 
 Death of Bertrand:
 1) ENCOUNTER 1: fight hordes of undead in the abbey, get to the center stone!
+	* gloom dragon domain! (pg 103/96)
 
 ** bertrund explodes into a meat mass - slowly trudges toward the courtyard (cannot be killed)
 ** meat mass grows arms and a MAW and TEETH and CLAWS and TENDRIL, becomes a flesh dragon!
 
 Bertrand Lives, or after Encounter 1:
 2) ENCOUNTER 2: fight the Meat Dragon in the courtyard
-	* thorn dragon
+	* gloom dragon (lv 4! reduce to 250 stamina)
 	* stone walls begin to turn to flesh!
 	* river turns to blood!
 
@@ -53,5 +55,7 @@ Bertrand Lives, or after Encounter 1:
 
 4) end with a great final read-out; whomever survived is forever changed, for the worse.
 	* titles for each character archetype for continuing to play
+
+5) What happens if EVERYONE DIES? End with a great final read-out in the bad case!
 
 
