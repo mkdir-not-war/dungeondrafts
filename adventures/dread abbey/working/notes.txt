@@ -7,57 +7,31 @@ marlutte's artist: https://ko-fi.com/godofallthings
 [[ WARNING: ask your players about phobias and red lines. 
 This adventure tries to fit as many fears in as possible. ]]
 
-* intro
-	1- the jock
-	2- the cheerleader
-	3- the stoner/fool
-	4- the nerd
-	5- the hunter/badass
-	6- the hysteric/pawn/believer
 
-* old man on the hill NEGOTIATION, warns the heroes of impending doom
-	* negotiation!
-	** RP opportunity! Learn about Bertrand (some mistake from his past, something he knows he won't tell)
-
-* big MONTAGE TEST thru rooms: protect the retainer while they move around the house
-	* find and sanctify the various rooms/buildings around the abbey
-	> success (very hard): end in the courtyard at the druid stone
-	> partial:
-	> failure/death: 
-
-	** spiders! on the ceiling, fishing with net!
-	** gelatinous cube (or whatever is in the delian tomb)
-	** two lanky pale bare humanoids, big black pool eyes, interrupted, teleport away (bertrand memory loss)
-	** gore, blood in various places - all over, really
-	** statues coming to life, scratching noises & muffled screams from within
-	** ghosts and ghouls - ghosts of nurses in surgery during a war (abbey was used as field hospital)
-	-* wildman throwing rocks at/through windows and disappearing into forest
-	** room without a floor, swimming through, ghost sharks swimming through walls
-	** paintings watching from the wall, paintings changing, smiling
-	** odd, unknown religious idols in the chapels, crying blood - sacrificial table with small bones
-
-Death of Bertrand:
-1) ENCOUNTER 1: fight hordes of undead in the abbey, get to the center stone!
-	* gloom dragon domain! (pg 103/96)
-
-** bertrund explodes into a meat mass - slowly trudges toward the courtyard (cannot be killed)
-** meat mass grows arms and a MAW and TEETH and CLAWS and TENDRIL, becomes a flesh dragon!
-
-Bertrand Lives, or after Encounter 1:
-2) ENCOUNTER 2: fight the Meat Dragon in the courtyard
-	* gloom dragon (lv 4! reduce to 250 stamina)
-	* stone walls begin to turn to flesh!
-	* river turns to blood!
-
-3) 2nd MONTAGE TEST to escape the malicious abbey imploding on itself
-	* wacky dimension folding bullshit
-	* cause and effect muddled
-	* flashbacks, ghosts, vignettes from the past that turn angry at the heroes
-
-4) end with a great final read-out; whomever survived is forever changed, for the worse.
-	* titles for each character archetype for continuing to play
-
-5) What happens if EVERYONE DIES? End with a great final read-out in the bad case!
-	** end with another letter to the priest's sister - this time asking her to come visit the abbey
+	1** spiders! on the ceiling, fishing with net! 
+		x east chapel
+	2** gelatinous cube (or whatever is in the delian tomb)
+		x reredorter
+	3** two lanky pale bare humanoids, big black pool eyes, interrupted, teleport away (bertrand memory loss)
+		x monks frater
+	4** gore, blood in various places - all over, really - sacrificial table with small bones
+		Xx amartolery
+	5** statues coming to life, scratching noises & muffled screams from within
+		x parlour
+	6** ghosts and ghouls - ghosts of nurses in surgery during a war (abbey was used as field hospital)
+		x infirmary hall
+	7** wildman throwing rocks at/through windows and disappearing into forest
+		Xx calefactory
+	8** room without a floor, swimming through, ghost sharks swimming through walls
+		x kitchen & refectory
+	9** paintings watching from the wall, paintings changing, smiling - animated armor!
+		x chapter house
+	10* odd, unknown religious idols in the chapels, crying blood. Flesh room! Big flies! 
+		x transepts
+	11* dolls lined along the walls, and drawn in the wallpaper, giggling, staring from behind
+	  * centipedes and other crawlies spew from their eyes and mouths!
+		Xx chapel of st. anthony
+	12* rooms that change size, something in the distance moving between beds
+		x monks dorter
 
 

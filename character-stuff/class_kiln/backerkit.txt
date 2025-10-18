@@ -1,0 +1,91 @@
+==== BACKERKIT ====
+
+**** Preview Content ****
+1) The Kiln - compact level 1 pregen
+	* get this for free without paying
+2) The Kiln DT - tutorial Delain Tomb pregen, levels 1-3
+	* get this immediately after paying at any pledge level
+
+**** Pledge Levels ****
+1) The Kiln: 			$20 for the kiln + stretch goals (class is $24; goal 2->$42; goal 3->$92)
+2) Superbacker:			$32 for the kiln + stretch goals + kiln quest + superbacker credits
+3) Patron of the Arts:		$80 for the kiln + stretch goals + kiln quest + patron of the arts credits
+					(you can pick an art piece to put your name on)
+
+**** Ad-Ons ****
+1) Payment-Helper $2, $3, $8
+2) Rival Kiln Quest $5
+3) Back Catalogue (Dread Abbey + Raiders + Echoes + Beaches) $20
+
+==========================
+== GOAL & STRETCH GOALS ==
+
+1. The Kiln - $1900
+2. Kiln-related adventure! - $3200
+	* DETAILS! Give a full-ass outline in the campaign! Directors want to imagine running it!
+
+==========================
+
+* lv 1 compact pregen is free
+* Delian Tomb 1-3 pregen comes immediately upon paying
+
+* The Kiln Class
+	> $18 (->22)
+	* includes the PDF and Forge Steel sourcebook
+
+Add-On to make
+* Rival Kiln Quest 
+	> (->5)
+	* plug and play, setting agnostic, meet/fight/recruit a kiln Rival! Comes with rival/retainer stat blocks
+			  ^^ in a city! urban adventure!
+
+Free if the stretch goal is met!
+* 3rd-Level 20-Victory Adventure: full-level railroad like Raiders
+	> (->18)
+	* wode stuff? not sure, something to do with the undermind
+
+
+== ART BREAKDOWN ==
+Kiln Class 		(layout, 1 full page/cover, 4 1/4 page char art, 1 1/2 page char art, testing)
+R-Kiln Quest		(layout, 1 full page/cover)
+			
+			full page 	400
+			half page 	200
+			1/4 page  	100
+			sketched filler	50
+			layout		20 per 4 pages
+			testing		600
+
+			Kiln total = 	400+4(100)+200+4(50)+20(24/4)+600 = $1920
+			R-Kiln quest = 	400+20(6/4) = $430
+
+	== Actual Costs ==
+	* kiln cover and pregens 		= 500 (Jaspin)
+	
+	? rival quest cover 			= 80 (GOAT)
+	? testing 				= 600 (Pesto)
+	? at least 3 subclass arts = 3(200) 	= 600 (Jaspin/Jacq?)
+	? probably 2+ fillers 			= 150 (Jaspin/Jacq?)
+						= 1930 total, minimum
+
+
+========= CODE ESTIMATE =============
+>>> 18.2*0.8
+14.56
+>>> 40.5*0.16
+6.48
+>>> 101*0.04
+4.04
+>>> spread = [0.4, 0.5, 0.1]
+spend = [21, 35, 88]
+avg = sum([spread[i]*spend[i] for i in range(3)])
+def run(goal):
+     backers = 0
+     total = 0
+     while (total < goal):
+             total = total + avg 
+             backers = backers + 1
+     return (backers, total)
+
+>>> run(1930)
+(56, 1943.2000000000016)	# 56 backers to fund the Kiln at 1930
